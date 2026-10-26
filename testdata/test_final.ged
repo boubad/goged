@@ -1,0 +1,5965 @@
+﻿0 HEAD
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 SOUR ANCESTRIS
+2 VERS 14.0.14393
+2 NAME Ancestris
+2 CORP Ancestris Team
+3 ADDR https://www.ancestris.org
+1 DEST ANY
+1 DATE 14 OCT 2026
+2 TIME 18:22:17
+1 SUBM @SUBM@
+1 FILE test_go_ancestris.ged
+1 CHAR UTF-8
+1 PLAC
+2 FORM Lieudit, Commune, Code_INSEE, Code_Postal, Département, Région, Pays
+1 NOTE Ce fichier a été modifié par le module d'import Ahnenblatt d'Ancestris .
+0 @I1@ INDI
+1 NAME Papa /Diallo/
+2 GIVN Papa
+2 SURN Diallo
+1 SEX M
+1 FAMC @F0102@
+2 PEDI BIRTH
+1 OBJE @M83@
+0 @I2@ INDI
+1 NAME Cheick /Diallo/
+2 GIVN Cheick
+2 SURN Diallo
+1 SEX M
+1 FAMC @F0102@
+2 PEDI BIRTH
+1 OBJE @M84@
+1 FAMS @F6@
+0 @I3@ INDI
+1 NAME Mouye /Diallo/
+2 NPFX Mouye
+2 SURN Diallo
+1 SEX F
+1 FAMC @F0102@
+2 PEDI BIRTH
+1 OBJE @M85@
+0 @I4@ INDI
+1 NAME MereHawa
+2 GIVN MereHawa
+1 SEX F
+1 FAMS @F1@
+0 @I5@ INDI
+1 NAME MereAurelie
+2 GIVN MereAurelie
+1 SEX F
+1 FAMS @F2@
+0 @I6@ INDI
+1 NAME Aurélie /Diarra/
+2 GIVN Aurélie
+2 SURN Diarra
+1 SEX F
+1 FAMC @F2@
+2 PEDI BIRTH
+1 OBJE @M27@
+0 @I7@ INDI
+1 NAME Bienvenu /Moulongui/
+2 GIVN Bienvenu
+2 SURN Moulongui
+1 SEX M
+1 FAMS @F3@
+0 @I8@ INDI
+1 NAME FilleBaissé /Moulongui/
+2 GIVN FilleBaissé
+2 SURN Moulongui
+1 SEX F
+1 FAMC @F3@
+0 @I9@ INDI
+1 NAME Hélène /Cecille/
+2 GIVN Hélène
+2 SURN Cecille
+1 SEX F
+1 FAMS @F4@
+1 OBJE @M68@
+1 BIRT
+2 DATE 24 JUL 1981
+0 @X1@ INDI
+1 FAMC @F0065@
+1 SEX F
+1 NAME Aminata /Diarra/
+2 TYPE BIRTH
+2 GIVN Aminata
+2 SURN Diarra
+1 BIRT
+2 DATE 3 APR 2004
+0 @X2@ INDI
+1 FAMC @F0026@
+1 SEX F
+1 NAME Fanta /Diarra/
+2 TYPE BIRTH
+2 GIVN Fanta
+2 SURN Diarra
+1 BIRT
+2 DATE 21 FEB 1988
+2 NOTE Décédée avant date baptème
+1 DEAT
+2 DATE 21 FEB 1988
+0 @X3@ INDI
+1 SEX M
+1 NAME Ismael /Coulibaly/
+2 TYPE BIRTH
+2 GIVN Ismael
+2 SURN Coulibaly
+1 FAMS @X4@
+1 DEAT Y
+0 @X5@ INDI
+1 FAMC @X4@
+1 SEX F
+1 NAME Sarah Sadio /Coulibaly/
+2 TYPE BIRTH
+2 GIVN Sarah, Sadio
+2 SURN Coulibaly
+1 BIRT
+2 DATE 1 MAR 2011
+0 @X6@ INDI
+1 SEX M
+1 FAMS @X7@
+0 @X8@ INDI
+1 FAMC @X7@
+1 SEX F
+1 NAME Awa /Kone/
+2 TYPE BIRTH
+2 GIVN Awa
+2 SURN Kone
+1 BIRT
+2 DATE 19 FEB 2013
+0 @X9@ INDI
+1 FAMC @F0137@
+1 SEX F
+1 NAME Aguène Fatoumata /SAMBOU/
+2 TYPE BIRTH
+2 GIVN Aguène, Fatoumata
+2 SURN SAMBOU
+1 BIRT
+2 DATE 4 DEC 2023
+2 PLAC Clinique Belvédère, , , , , , 
+2 ADDR Mont-Saint-Aignan
+1 OBJE @X41@
+0 @I10@ INDI
+1 NAME Ella Gioia /Merlo/
+2 GIVN Ella, Gioia
+2 SURN Merlo
+1 SEX M
+1 FAMC @F0138@
+1 BIRT
+2 DATE 7 OCT 2017
+0 @I11@ INDI
+1 NAME Natacha
+2 GIVN Natacha
+1 SEX F
+1 FAMS @F5@
+1 OBJE @M73@
+0 @I12@ INDI
+1 NAME EpouseCheick
+2 GIVN EpouseCheick
+1 SEX F
+1 FAMS @F6@
+1 OBJE @M87@
+0 @I13@ INDI
+1 NAME Arnaud
+2 GIVN Arnaud
+1 SEX M
+1 FAMS @F7@
+1 OBJE @M92@
+0 @X10@ INDI
+1 FAMC @F4@
+1 SEX F
+1 NAME Eléonore /Diarra/
+2 TYPE BIRTH
+2 GIVN Eléonore
+2 SURN Diarra
+1 BIRT
+2 DATE 15 DEC 2023
+1 OBJE @X39@
+0 @X11@ INDI
+1 FAMC @F4@
+1 SEX M
+1 NAME Sasha /Diarra/
+2 TYPE BIRTH
+2 GIVN Sasha
+2 SURN Diarra
+1 BIRT
+2 DATE 15 DEC 2023
+1 OBJE @X40@
+0 @X12@ INDI
+1 FAMC @F0049@
+1 SEX M
+1 NAME Oumar /Diarra/
+2 TYPE BIRTH
+2 GIVN Oumar
+2 SURN Diarra
+1 BIRT
+2 DATE 19 SEP 1944
+1 FAMS @X17@
+0 @X13@ INDI
+1 FAMC @F0049@
+1 SEX M
+1 NAME Abdoulaye /Diarra/
+2 TYPE BIRTH
+2 GIVN Abdoulaye
+2 SURN Diarra
+0 @X14@ INDI
+1 FAMC @F0049@
+1 SEX F
+1 NAME Saran /Diarra/
+2 TYPE BIRTH
+2 GIVN Saran
+2 SURN Diarra
+0 @X15@ INDI
+1 FAMC @F0049@
+1 SEX F
+1 NAME Fatoumata /Diarra/
+2 TYPE BIRTH
+2 GIVN Fatoumata
+2 SURN Diarra
+0 @X16@ INDI
+1 SEX F
+1 NAME Habibatou /Gueye/
+2 TYPE BIRTH
+2 GIVN Habibatou
+2 SURN Gueye
+1 NAME /Diarra/
+2 TYPE MARRIED
+2 SURN Diarra
+1 BIRT
+2 DATE 8 FEB 1951
+1 FAMS @X17@
+0 @X18@ INDI
+1 FAMC @X17@
+1 SEX F
+1 NAME Aminata /Diarra/
+2 TYPE BIRTH
+2 GIVN Aminata
+2 SURN Diarra
+2 NICK Ami Fitini
+1 BIRT
+2 DATE 26 SEP 1973
+2 PLAC DAKAr, , , , , , 
+0 @X19@ INDI
+1 FAMC @X17@
+1 SEX F
+1 NAME Saran /Diarra/
+2 TYPE BIRTH
+2 GIVN Saran
+2 SURN Diarra
+1 BIRT
+2 DATE 21 JUL 1975
+2 PLAC DAKAr, , , , , , 
+0 @X20@ INDI
+1 FAMC @X17@
+1 SEX M
+1 NAME Diery /Diarra/
+2 TYPE BIRTH
+2 GIVN Diery
+2 SURN Diarra
+2 NICK Papy
+1 BIRT
+2 DATE 11 SEP 1977
+2 PLAC DAKAr, , , , , , 
+0 @X21@ INDI
+1 SEX F
+1 NAME Mary /Berthé/
+2 TYPE BIRTH
+2 GIVN Mary
+2 SURN Berthé
+1 NAME /Diarra/
+2 TYPE MARRIED
+2 SURN Diarra
+1 BIRT
+2 DATE 4 MAY 1939
+1 FAMS @X22@
+0 @X23@ INDI
+1 FAMC @X22@
+1 SEX M
+1 NAME Nouhoun /Diarra/
+2 TYPE BIRTH
+2 GIVN Nouhoun
+2 SURN Diarra
+1 BIRT
+2 DATE 2 MAY 1959
+2 PLAC Bamako, , , , , , 
+0 @X24@ INDI
+1 FAMC @X22@
+1 SEX M
+1 NAME Salif /Diarra/
+2 TYPE BIRTH
+2 GIVN Salif
+2 SURN Diarra
+1 BIRT
+2 DATE 2 MAY 1964
+0 @X25@ INDI
+1 FAMC @X22@
+1 SEX F
+1 NAME Mariam /Diarra/
+2 TYPE BIRTH
+2 GIVN Mariam
+2 SURN Diarra
+2 NICK Mamou
+1 BIRT
+2 DATE 2 MAY 1967
+0 @X26@ INDI
+1 FAMC @X22@
+1 SEX F
+1 NAME Khadi /Diarra/
+2 TYPE BIRTH
+2 GIVN Khadi
+2 SURN Diarra
+1 BIRT
+2 DATE 29 AUG 1968
+0 @X27@ INDI
+1 FAMC @X22@
+1 SEX M
+1 NAME Aliou /Diarra/
+2 TYPE BIRTH
+2 GIVN Aliou
+2 SURN Diarra
+1 BIRT
+2 DATE 4 SEP 1969
+0 @X28@ INDI
+1 FAMC @X22@
+1 SEX F
+1 NAME Nana /Diarra/
+2 TYPE BIRTH
+2 GIVN Nana
+2 SURN Diarra
+2 NICK Nanette (Lagare mondiale)
+1 BIRT
+2 DATE 29 AUG 1971
+0 @X29@ INDI
+1 SEX F
+1 NAME Mamou /Sangaré/
+2 TYPE BIRTH
+2 GIVN Mamou
+2 SURN Sangaré
+1 NAME /Diarra/
+2 TYPE MARRIED
+2 SURN Diarra
+1 FAMS @X30@
+0 @X31@ INDI
+1 FAMC @X30@
+1 SEX F
+1 NAME Fatoumata /Diarra/
+2 TYPE BIRTH
+2 GIVN Fatoumata
+2 SURN Diarra
+1 BIRT
+2 DATE 1992
+0 @X32@ INDI
+1 FAMC @X30@
+1 SEX F
+1 NAME Mariétou /Diarra/
+2 TYPE BIRTH
+2 GIVN Mariétou
+2 SURN Diarra
+0 @X33@ INDI
+1 SEX M
+1 NAME Nelson /Shezi/
+2 TYPE BIRTH
+2 GIVN Nelson
+2 SURN Shezi
+1 BIRT
+2 DATE 11 NOV 1988
+1 FAMS @X34@
+0 @X35@ INDI
+1 SEX M
+1 NAME Jonathan /Walton/
+2 TYPE BIRTH
+2 GIVN Jonathan
+2 SURN Walton
+1 BIRT
+2 DATE 21 JAN 1994
+1 FAMS @X36@
+0 @X37@ INDI
+1 FAMC @X34@
+1 SEX M
+1 NAME Ryan /Shezi/
+2 TYPE BIRTH
+2 GIVN Ryan
+2 SURN Shezi
+1 BIRT
+2 DATE 3 DEC 2018
+0 @X38@ INDI
+1 FAMC @X36@
+1 SEX F
+1 NAME Tahani Eliana /Walton/
+2 TYPE BIRTH
+2 GIVN Tahani, Eliana
+2 SURN Walton
+1 BIRT
+2 DATE 15 SEP 2024
+0 @X42@ INDI
+1 FAMC @F0103@
+1 SEX M
+1 NAME Ludovic /Attingli/
+2 TYPE BIRTH
+2 GIVN Ludovic
+2 SURN Attingli
+1 DEAT Y
+0 @X43@ INDI
+1 FAMC @F0057@
+1 SEX F
+1 NAME Aïda Leyla /Touré/
+2 TYPE BIRTH
+2 GIVN Aïda, Leyla
+2 SURN Touré
+1 BIRT
+2 DATE 1 NOV 1990
+1 DEAT
+2 DATE 1 NOV 1990
+0 @X44@ INDI
+1 SEX M
+1 NAME Bilane Thékano /Traoré/
+2 TYPE BIRTH
+2 GIVN Bilane, Thékano
+2 SURN Traoré
+1 FAMS @X45@
+0 @X46@ INDI
+1 FAMS @X45@
+1 SEX F
+1 NAME Fadimata /TALFI/
+2 TYPE BIRTH
+2 GIVN Fadimata
+2 SURN TALFI
+1 NAME /Traoré/
+2 TYPE MARRIED
+2 SURN Traoré
+0 @X47@ INDI
+1 FAMC @F0058@
+1 SEX M
+1 NAME Broulaye /Kouma/
+2 TYPE BIRTH
+2 GIVN Broulaye
+2 SURN Kouma
+2 NICK Papy
+1 BIRT
+2 PLAC Washington DC, , , , , , 
+0 @X48@ INDI
+1 SEX M
+1 NAME Randy /Bekalé/
+2 TYPE BIRTH
+2 GIVN Randy
+2 SURN Bekalé
+1 BIRT
+2 DATE 13 MAR 1987
+1 FAMS @X49@
+0 @X50@ INDI
+1 FAMC @X49@
+1 SEX F
+1 NAME Madyna /Bekalé/
+2 TYPE BIRTH
+2 GIVN Madyna
+2 SURN Bekalé
+1 BIRT
+2 DATE 15 JUL 2017
+0 @X51@ INDI
+1 FAMC @X49@
+1 SEX F
+1 NAME Aïda /Bekalé/
+2 TYPE BIRTH
+2 GIVN Aïda
+2 SURN Bekalé
+1 BIRT
+2 DATE 16 NOV 2020
+0 @I0000@ INDI
+1 SEX M
+1 FAMS @F0133@
+0 @I0001@ INDI
+1 NAME Brigitte /Dobigeon/
+2 GIVN Brigitte
+2 SURN Dobigeon
+1 SEX F
+1 BIRT
+2 DATE 22 FEB 1960
+2 PLAC France, Ile-de-France, Paris, 75020, Paris, , 
+3 MAP
+4 LATI N48.881086
+4 LONG E2.354336
+1 CHR
+2 DATE 5 JUN 1960
+2 PLAC France, , , , Vincennes, , 
+3 MAP
+4 LATI N48.873522
+4 LONG E2.398624
+1 EVEN
+2 NOTE Description: ?(33)? 02 35 76 39 68
+1 EVEN
+2 TYPE Voyage
+2 DATE NOV 1983
+2 PLAC Burkhina-Faso, Ougadougou, Ougadougou, , Ougadougou, , 
+3 MAP
+4 LATI N12.385946
+4 LONG W1.529846
+1 EVEN
+2 TYPE Voyage
+2 DATE NOV 1983
+2 PLAC Burkhina-Faso, , , , , , 
+3 MAP
+4 LATI N11.18918
+4 LONG W4.29187
+1 EVEN
+2 TYPE Voyage
+2 DATE NOV 1983
+2 PLAC Mali, , , , Bamako, , 
+3 MAP
+4 LATI N12.666132
+4 LONG W7.99015
+1 EVEN
+2 TYPE Voyage
+2 DATE JAN 1984
+2 PLAC Mali, , Mopti, , Hombori, , 
+3 MAP
+4 LATI N15.29412
+4 LONG W1.700134
+1 EVEN
+2 TYPE Voyage
+2 DATE MAR 1984
+2 PLAC Mali, Gao, Gao, , Gao, , 
+3 MAP
+4 LATI N16.28587
+4 LONG W0.050124
+1 EVEN
+2 TYPE Voyage
+2 DATE JAN 1984
+2 PLAC Mali, Gao, Gao, , Gao, , 
+3 MAP
+4 LATI N16.28587
+4 LONG W0.050124
+1 EVEN
+2 TYPE Voyage
+2 DATE JUL 1981
+2 PLAC Grèce, , , , Athènes, , 
+3 MAP
+4 LATI N37.952861
+4 LONG E23.652878
+1 EVEN
+2 TYPE Voyage
+2 DATE 1963
+2 PLAC Maroc, , , , Khouribga, , 
+1 RESI
+2 PLAC France, Normandie, Seine-Maritime, 76130, Mont-Saint-Aignan, Parc des 2 bois, 2
+1 FAMC @F0002@
+1 FAMS @F0001@
+1 OBJE @M166@
+1 NOTE @N0001@
+0 @I0002@ INDI
+1 NAME Boubacar /Diarra/
+2 GIVN Boubacar
+2 SURN Diarra
+1 SEX M
+1 BIRT
+2 DATE 24 DEC 1954
+2 PLAC Niger, , , , Niamey, , 
+1 RESI
+2 PLAC France, Normandie, Seine-Maritime, 76130, Mont-Saint-Aignan, Parc des 2 bois, 2
+1 FAMC @F0028@
+1 FAMS @F0001@
+1 OBJE @M174@
+0 @I0003@ INDI
+1 NAME Claude /Diarra/
+2 GIVN Claude
+2 SURN Diarra
+1 SEX M
+1 BIRT
+2 DATE 29 SEP 1987
+2 PLAC France, Normandie, Haute-Normandie, 76130, Mont-Saint-Aignan, Rue Pasteur, Clinique Belvédère
+3 MAP
+4 LATI N49.461068
+4 LONG E1.080608
+1 EVEN
+2 NOTE Description: 02 35 76 39 68
+1 RESI
+2 PLAC France, Normandie, Seine-Maritime, 76130, Mont-Saint-Aignan, Parc des 2 bois, 2
+1 RESI Y
+1 FAMC @F0001@
+1 NOTE @N0001@
+1 FAMS @F4@
+1 OBJE @M66@
+0 @I0004@ INDI
+1 NAME Serge /Diarra/
+2 GIVN Serge
+2 SURN Diarra
+1 SEX M
+1 BIRT
+2 DATE 27 MAR 1992
+2 PLAC Mont-Saint-Aignan, Seine-Maritime, Haute-Normandie, FRA, , , 
+3 MAP
+4 LATI N49.461068
+4 LONG E1.080608
+1 EVEN
+2 NOTE Description: ?(33)? 02 35 76 39 68
+1 RESI
+2 PLAC 2, Parc des 2 bois, 76130 MONT-SAINT-AIGNAN, FRANCE, , , 
+1 RESI Y
+1 FAMC @F0001@
+1 OBJE @M67@
+0 @I0005@ INDI
+1 NAME Claude /Dobigeon/
+2 GIVN Claude
+2 SURN Dobigeon
+1 SEX M
+1 BIRT
+2 DATE 9 FEB 1921
+2 PLAC Saint Sébastien sur Loire, Loire-Atlantique, Pays de la Loire, FRA, , , 
+1 DEAT
+2 DATE 15 SEP 1989
+2 PLAC Bernay, Eure, Haute-Normandie, FRA, , , 
+3 MAP
+4 LATI N49.123321
+4 LONG E0.593262
+1 BURI
+2 PLAC Aclou, FR, , , , , 
+1 DSCR 1,68 m
+1 FAMC @F0003@
+1 FAMS @F0002@
+1 OBJE @M189@
+1 NOTE @N0006@
+0 @I0006@ INDI
+1 NAME Lucienne /Geisen/
+2 GIVN Lucienne
+2 SURN Geisen
+1 SEX F
+1 BIRT
+2 DATE 23 JAN 1928
+2 PLAC Paris, FRA, , , , , 
+3 MAP
+4 LATI N48.881086
+4 LONG E2.354336
+1 RESI
+2 PLAC Aclou, FR, , , , , 
+1 RESI Y
+1 DSCR 1,58 m
+1 FAMC @F0007@
+1 FAMS @F0002@
+1 OBJE @M195@
+0 @I0007@ INDI
+1 NAME Pascal /Dobigeon/
+2 GIVN Pascal
+2 SURN Dobigeon
+1 SEX M
+1 BIRT
+2 DATE 20 APR 1965
+2 PLAC Bernay, Eure, Haute-Normandie, FRA, , , 
+3 MAP
+4 LATI N49.123321
+4 LONG E0.593262
+1 CHR
+2 DATE 10 OCT 1965
+2 PLAC Fontaine-la-Soret, Eure, Haute-Normandie, FRA, , , 
+3 MAP
+4 LATI N49.150528
+4 LONG E0.716043
+1 RESI
+2 PLAC Aclou, FR, , , , , 
+1 RESI Y
+1 DSCR 1,95
+1 FAMC @F0002@
+1 OBJE @M201@
+1 OBJE @M185@
+1 NOTE @N0009@
+0 @I0008@ INDI
+1 NAME Marcel Auguste Valentin /Dobigeon/
+2 GIVN Marcel, Auguste, Valentin
+2 SURN Dobigeon
+1 SEX M
+1 BIRT
+2 DATE 24 FEB 1895
+2 PLAC Nantes, Loire-Atlantique, Pays de la Loire, FRA, , , 
+1 DEAT
+2 DATE 27 FEB 1974
+2 PLAC Nantes, Loire-Atlantique, Pays de la Loire, FRA, , , 
+1 FAMC @F0016@
+1 FAMS @F0003@
+1 OBJE @M202@
+1 NOTE @N0011@
+0 @I0009@ INDI
+1 NAME Louise /Chevalier/
+2 GIVN Louise
+2 SURN Chevalier
+1 SEX F
+1 BIRT
+2 DATE 24 NOV 1887
+2 PLAC Nantes, Loire-Atlantique, Pays de la Loire, FRA, , , 
+1 DEAT
+2 DATE 21 APR 1953
+2 PLAC Nantes, Loire-Atlantique, Pays de la Loire, FRA, , , 
+1 FAMC @F0018@
+1 FAMS @F0003@
+1 OBJE @M203@
+1 NOTE @N0013@
+0 @I0010@ INDI
+1 NAME Serge /Dobigeon/
+2 GIVN Serge
+2 SURN Dobigeon
+1 SEX M
+1 BIRT
+2 DATE 6 JUL 1922
+2 PLAC Saint Sébastien sur Loire, Loire-Atlantique, Pays de la Loire, FRA, , , 
+1 DEAT
+2 DATE AUG 1954
+2 PLAC Pornic, Loire-Atlantique, Pays de la Loire, FRA, , , 
+2 CAUS noyade
+1 FAMC @F0003@
+1 FAMS @F0004@
+1 OBJE @M207@
+1 NOTE @N0015@
+0 @I0011@ INDI
+1 NAME Marc Louis Jean /Dobigeon/
+2 GIVN Marc, Louis, Jean
+2 SURN Dobigeon
+1 SEX M
+1 BIRT
+2 DATE 12 JUN 1929
+2 PLAC Saint Sébastien sur Loire, Loire-Atlantique, Pays de la Loire, FRA, , , 
+1 FAMC @F0003@
+1 FAMS @F0005@
+1 OBJE @M208@
+1 NOTE @N0017@
+1 DEAT
+2 DATE 18 DEC 2002
+2 ADDR Beausoleil, 06240, france
+0 @I0012@ INDI
+1 NAME Eliane /Ordroneau/
+2 GIVN Eliane
+2 SURN Ordroneau
+1 SEX F
+1 FAMS @F0004@
+1 NOTE @N0019@
+0 @I0013@ INDI
+1 NAME Claude /Cormerais/
+2 GIVN Claude
+2 SURN Cormerais
+1 SEX F
+1 FAMS @F0005@
+1 NOTE @N0020@
+0 @I0014@ INDI
+1 NAME Thérëse /Dobigeon/
+2 GIVN Thérëse
+2 SURN Dobigeon
+1 SEX F
+1 BIRT
+2 DATE 9 AUG 1958
+2 PLAC Le Pecq, Yvelines, Île-de-France, FRA, , , 
+1 CHR
+2 DATE 24 AUG 1958
+1 FAMC @F0005@
+1 NOTE @N0021@
+0 @I0015@ INDI
+1 NAME Alain /Dobigeon/
+2 GIVN Alain
+2 SURN Dobigeon
+1 SEX M
+1 BIRT
+2 DATE 20 MAY 1947
+2 PLAC Rezé les Nantes, Loire-Atlantique, Pays de la Loire, FRA, , , 
+1 FAMC @F0004@
+1 FAMS @F0006@
+1 NOTE @N0023@
+0 @I0016@ INDI
+1 NAME Marie-France /Beduneau/
+2 GIVN Marie-France
+2 SURN Beduneau
+1 SEX F
+1 FAMS @F0006@
+1 NOTE @N0025@
+0 @I0017@ INDI
+1 NAME Cyril /Dobigeon/
+2 GIVN Cyril
+2 SURN Dobigeon
+1 SEX M
+1 FAMC @F0006@
+0 @I0018@ INDI
+1 NAME Chloé /Dobigeon/
+2 GIVN Chloé
+2 SURN Dobigeon
+1 SEX F
+1 FAMC @F0006@
+0 @I0019@ INDI
+1 NAME Paul /Geisen/
+2 GIVN Paul
+2 SURN Geisen
+1 SEX M
+1 BIRT
+2 DATE 10 OCT 1860
+2 PLAC Strasbourg, Bas-Rhin, Alsace, FRA, , , 
+1 DEAT
+2 DATE 19 FEB 1940
+2 PLAC Villotran, Oise, Picardie, FRA, , , 
+1 BURI
+2 PLAC Villotran, Oise, Picardie, FRA, , , 
+1 FAMC @F0008@
+1 FAMS @F0007@
+1 FAMS @F0025@
+1 OBJE @M209@
+1 OBJE @M210@
+1 NOTE @N0026@
+0 @I0020@ INDI
+1 NAME Jeanne /Hoëflich/
+2 GIVN Jeanne
+2 SURN Hoëflich
+1 SEX F
+1 BIRT
+2 DATE 12 JUN 1885
+2 PLAC Strasbourg, Bas-Rhin, Alsace, FRA, , , 
+1 DEAT
+2 DATE 6 OCT 1960
+2 PLAC Villotran, Oise, Picardie, FRA, , , 
+1 BURI
+2 PLAC Villotran, Oise, Picardie, FRA, , , 
+1 FAMC @F0011@
+1 FAMS @F0007@
+1 OBJE @M212@
+1 NOTE @N0028@
+0 @I0021@ INDI
+1 NAME Jean-Baptiste /Geisen/
+2 GIVN Jean-Baptiste
+2 SURN Geisen
+1 SEX M
+1 BIRT
+2 DATE 26 NOV 1827
+2 PLAC Illkirch, Bas-Rhin, Alsace, FRA, , , 
+1 DEAT
+2 DATE 22 MAR 1914
+2 PLAC Neudorf, Bas-Rhin, Alsace, FRA, , , 
+1 FAMC @F0075@
+1 FAMS @F0008@
+1 OBJE @M214@
+1 NOTE @N0030@
+0 @I0022@ INDI
+1 NAME Marie /Koëhl/
+2 GIVN Marie
+2 SURN Koëhl
+1 SEX F
+1 BIRT
+2 DATE 25 MAY 1834
+2 PLAC Strasbourg, Bas-Rhin, Alsace, FRA, , , 
+1 FAMC @F0077@
+1 FAMS @F0008@
+1 OBJE @M215@
+1 NOTE @N0032@
+1 DEAT Y
+0 @I0023@ INDI
+1 NAME Maria /Geisen/
+2 GIVN Maria
+2 SURN Geisen
+1 SEX F
+1 BIRT
+2 DATE 23 MAR 1862
+2 PLAC Strasbourg, Bas-Rhin, Alsace, FRA, , , 
+1 DEAT
+2 DATE 11 JUN 1920
+1 FAMC @F0008@
+1 NOTE @N0034@
+0 @I0024@ INDI
+1 NAME Charles /Geisen/
+2 GIVN Charles
+2 SURN Geisen
+1 SEX M
+1 FAMC @F0008@
+1 FAMS @F0009@
+1 OBJE @M216@
+1 NOTE @N0036@
+0 @I0025@ INDI
+1 NAME Léon /Geisen/
+2 GIVN Léon
+2 SURN Geisen
+1 SEX M
+1 BIRT
+2 DATE 4 DEC 1858
+2 PLAC Strasbourg, Bas-Rhin, Alsace, FRA, , , 
+1 DEAT
+2 DATE 1910
+1 FAMC @F0008@
+1 OBJE @M217@
+1 NOTE @N0038@
+0 @I0026@ INDI
+1 NAME Berthe
+2 GIVN Berthe
+1 SEX F
+1 DEAT
+2 DATE 1908
+1 FAMS @F0009@
+1 OBJE @M218@
+1 NOTE @N0040@
+0 @I0027@ INDI
+1 NAME Lucienne /Geisen/
+2 GIVN Lucienne
+2 SURN Geisen
+1 SEX F
+1 BIRT
+2 DATE 8 DEC 1901
+1 FAMC @F0009@
+1 OBJE @M219@
+1 DEAT Y
+0 @I0028@ INDI
+1 NAME Renée /Geisen/
+2 GIVN Renée
+2 SURN Geisen
+1 SEX F
+1 FAMC @F0009@
+1 FAMS @F0010@
+1 OBJE @M220@
+1 NOTE @N0043@
+0 @I0029@ INDI
+1 NAME Marcel /Loison/
+2 GIVN Marcel
+2 SURN Loison
+1 SEX M
+1 FAMS @F0010@
+1 NOTE @N0045@
+0 @I0030@ INDI
+1 NAME Jean /Hoëflich/
+2 GIVN Jean
+2 SURN Hoëflich
+1 SEX M
+1 BIRT
+2 DATE 19 DEC 1847
+2 PLAC Kesseldorf, Bas-Rhin, Alsace, FRA, , , 
+1 DEAT
+2 DATE 6 JUN 1926
+2 PLAC Molsheim, Bas-Rhin, Alsace, FRA, , , 
+1 FAMC @F0064@
+1 FAMS @F0011@
+1 OBJE @M221@
+1 NOTE @N0046@
+0 @I0031@ INDI
+1 NAME Anne /Schmitt/
+2 GIVN Anne
+2 SURN Schmitt
+1 SEX F
+1 FAMS @F0011@
+1 NOTE @N0048@
+0 @I0032@ INDI
+1 NAME Marie /Hoëflich/
+2 GIVN Marie
+2 SURN Hoëflich
+1 SEX F
+1 FAMC @F0011@
+1 FAMS @F0027@
+1 OBJE @M222@
+1 NOTE @N0049@
+0 @I0033@ INDI
+1 NAME Henri /Hoëflich/
+2 GIVN Henri
+2 SURN Hoëflich
+1 SEX M
+1 FAMC @F0011@
+1 OBJE @M223@
+1 NOTE @N0051@
+0 @I0034@ INDI
+1 NAME Henri François /Geisen/
+2 GIVN Henri, François
+2 SURN Geisen
+1 SEX M
+1 BIRT
+2 DATE 7 MAR 1925
+2 PLAC Gisors, Oise, Picardie, FRA, , , 
+1 BURI
+2 PLAC Villotran, Oise, Picardie, FRA, , , 
+1 FAMC @F0007@
+1 FAMS @F0012@
+1 OBJE @M225@
+1 NOTE @N0053@
+1 DEAT
+2 DATE 21 FEB 1995
+0 @I0035@ INDI
+1 NAME Denise Marie /Geisen/
+2 GIVN Denise, Marie
+2 SURN Geisen
+1 SEX F
+1 BIRT
+2 DATE 28 FEB 1929
+2 PLAC Paris, FRA, , , , , 
+3 MAP
+4 LATI N48.881086
+4 LONG E2.354336
+1 FAMC @F0007@
+1 FAMS @F0013@
+1 OBJE @M227@
+0 @I0036@ INDI
+1 NAME Christiane
+2 GIVN Christiane
+1 SEX F
+1 FAMS @F0012@
+1 OBJE @M230@
+0 @I0037@ INDI
+1 NAME Jean /Piljan/
+2 GIVN Jean
+2 SURN Piljan
+1 SEX M
+1 BIRT
+2 DATE 10 MAR 1924
+1 FAMS @F0013@
+1 OBJE @M231@
+1 DEAT
+2 DATE 30 NOV 2018
+0 @I0038@ INDI
+1 NAME Josiane /Piljan/
+2 GIVN Josiane
+2 SURN Piljan
+1 SEX F
+1 BIRT
+2 DATE 13 MAR 1963
+1 FAMC @F0013@
+1 FAMS @F0015@
+1 OBJE @M103@
+0 @I0039@ INDI
+1 NAME Jean-Luc /Piljan/
+2 GIVN Jean-Luc
+2 SURN Piljan
+1 SEX M
+1 BIRT
+2 DATE 12 MAY 1966
+1 FAMC @F0013@
+1 FAMS @F0014@
+1 OBJE @M232@
+0 @I0040@ INDI
+1 NAME Gwénaëlle /Hervé/
+2 GIVN Gwénaëlle
+2 SURN Hervé
+1 SEX F
+1 BIRT
+2 DATE 22 MAR 1970
+1 FAMS @F0014@
+1 OBJE @M233@
+0 @I0041@ INDI
+1 NAME Mathilde /Piljan/
+2 GIVN Mathilde
+2 SURN Piljan
+1 SEX F
+1 BIRT
+2 DATE 17 JUN 1994
+1 FAMC @F0014@
+1 OBJE @M235@
+0 @I0042@ INDI
+1 NAME Baptiste /Piljan/
+2 GIVN Baptiste
+2 SURN Piljan
+1 SEX M
+1 BIRT
+2 DATE 14 FEB 1997
+1 FAMC @F0014@
+1 OBJE @M236@
+0 @I0043@ INDI
+1 NAME Guillaume /Pensier/
+2 GIVN Guillaume
+2 SURN Pensier
+1 SEX M
+1 FAMS @F0015@
+1 OBJE @M237@
+0 @I0044@ INDI
+1 NAME Philémon /Pensier/
+2 GIVN Philémon
+2 SURN Pensier
+1 SEX M
+1 BIRT
+2 DATE 24 NOV 1992
+1 FAMC @F0015@
+1 OBJE @M239@
+0 @I0045@ INDI
+1 NAME Aymeric /Pensier/
+2 GIVN Aymeric
+2 SURN Pensier
+1 SEX M
+1 BIRT
+2 DATE 24 MAR 1995
+1 FAMC @F0015@
+1 OBJE @M102@
+0 @I0046@ INDI
+1 NAME Henri Joseph /Dobigeon/
+2 GIVN Henri, Joseph
+2 SURN Dobigeon
+1 SEX M
+1 FAMC @F0072@
+1 FAMS @F0016@
+1 NOTE @N0066@
+0 @I0047@ INDI
+1 NAME Valentine Eugenie Marie /Boyer/
+2 GIVN Valentine, Eugenie, Marie
+2 SURN Boyer
+1 SEX F
+1 FAMS @F0016@
+1 NOTE @N0067@
+0 @I0048@ INDI
+1 NAME Henri /Dobigeon/
+2 GIVN Henri
+2 SURN Dobigeon
+1 SEX M
+1 BIRT
+2 DATE 18 DEC 1891
+2 PLAC Nantes, Loire-Atlantique, Pays de la Loire, FRA, , , 
+1 EVEN Y
+1 FAMC @F0016@
+1 FAMS @F0017@
+1 NOTE @N0068@
+1 DEAT
+2 DATE 14 JUN 1972
+2 PLAC Nantes, Loire-Atlantique, Pays de la Loire, FRA, , , 
+0 @I0049@ INDI
+1 NAME Marguerite Augustine /Dobigeon/
+2 GIVN Marguerite, Augustine
+2 SURN Dobigeon
+1 SEX F
+1 BIRT
+2 DATE 20 JUN 1897
+2 PLAC Nantes, Loire-Atlantique, Pays de la Loire, FRA, , , 
+1 FAMC @F0016@
+1 FAMS @F0022@
+1 NOTE @N0070@
+1 DEAT
+2 DATE 19 OCT 1987
+0 @I0050@ INDI
+1 NAME Louis /Dobigeon/
+2 GIVN Louis
+2 SURN Dobigeon
+1 SEX M
+1 BIRT
+2 DATE 24 SEP 1903
+2 PLAC Nantes, Loire-Atlantique, Pays de la Loire, FRA, , , 
+1 FAMC @F0016@
+1 NOTE @N0072@
+1 DEAT Y
+0 @I0051@ INDI
+1 NAME Joséphine /Bourguine/
+2 GIVN Joséphine
+2 SURN Bourguine
+2 NICK Phiphine
+1 SEX F
+1 FAMS @F0017@
+1 NOTE @N0074@
+0 @I0052@ INDI
+1 NAME Pierre /Chevalier/
+2 GIVN Pierre
+2 SURN Chevalier
+1 SEX M
+1 BIRT
+2 DATE 3 MAR 1859
+2 PLAC Nantes, Loire-Atlantique, Pays de la Loire, FRA, , , 
+1 FAMC @F0019@
+1 FAMS @F0018@
+1 NOTE @N0075@
+1 DEAT
+2 DATE 15 JUL 1917
+0 @I0053@ INDI
+1 NAME Marie-Louise /Sandëre/
+2 GIVN Marie-Louise
+2 SURN Sandëre
+1 SEX F
+1 BIRT
+2 DATE 6 JUN 1854
+1 FAMC @F0020@
+1 FAMS @F0018@
+1 NOTE @N0077@
+1 DEAT Y
+0 @I0054@ INDI
+1 NAME François /Chevalier/
+2 GIVN François
+2 SURN Chevalier
+1 SEX M
+1 FAMS @F0019@
+1 NOTE @N0078@
+0 @I0055@ INDI
+1 NAME Marie-Louise /Schmittlé/
+2 GIVN Marie-Louise
+2 SURN Schmittlé
+1 SEX F
+1 BIRT
+2 DATE 18 SEP 1862
+2 PLAC Colmar, Haut-Rhin, Alsace, FRA, , , 
+1 FAMC @F0094@
+1 FAMS @F0025@
+1 NOTE @N0079@
+1 DEAT Y
+0 @I0056@ INDI
+1 NAME Henriette /Dobigeon/
+2 GIVN Henriette
+2 SURN Dobigeon
+1 SEX F
+1 FAMC @F0017@
+1 FAMS @F0021@
+1 NOTE @N0081@
+1 BIRT
+2 DATE 14 MAY 1921
+1 DEAT
+2 DATE 3 MAY 2012
+0 @I0057@ INDI
+1 NAME Henri /Martinet/
+2 GIVN Henri
+2 SURN Martinet
+1 SEX M
+1 FAMS @F0021@
+1 NOTE @N0082@
+0 @I0058@ INDI
+1 NAME Marcel /Bourasseau/
+2 GIVN Marcel
+2 SURN Bourasseau
+1 SEX M
+1 FAMS @F0022@
+1 NOTE @N0083@
+0 @I0059@ INDI
+1 NAME Marcel /Bourasseau/
+2 GIVN Marcel
+2 SURN Bourasseau
+1 SEX M
+1 FAMC @F0022@
+1 FAMS @F0023@
+1 FAMS @F0095@
+1 NOTE @N0084@
+0 @I0060@ INDI
+1 NAME /Bourasseau/
+2 SURN Bourasseau
+2 NICK Mickette
+1 SEX F
+1 FAMC @F0023@
+1 NOTE @N0085@
+0 @I0061@ INDI
+1 NAME /Sandère/
+2 SURN Sandère
+1 SEX M
+1 FAMS @F0020@
+0 @I0062@ INDI
+1 NAME /Sandëre/
+2 SURN Sandëre
+1 SEX M
+1 FAMC @F0020@
+1 FAMS @F0024@
+0 @I0063@ INDI
+1 NAME Francis /Sandëre/
+2 GIVN Francis
+2 SURN Sandëre
+1 SEX M
+1 FAMC @F0024@
+1 FAMS @F0063@
+0 @I0064@ INDI
+1 NAME Mahamane /Diarra/
+2 GIVN Mahamane
+2 SURN Diarra
+1 SEX M
+1 BIRT
+2 DATE 25 NOV 1908
+2 PLAC Tombouctou, MLI, , , , , 
+3 MAP
+4 LATI N16.786135
+4 LONG W3.008194
+1 DEAT
+2 DATE 14 NOV 1974
+2 PLAC Bamako, District de Bamako, MLI, , , , 
+3 MAP
+4 LATI N12.666132
+4 LONG W7.99015
+2 NOTE @N0087@
+1 BURI
+2 PLAC Bamako, District de Bamako, MLI, , , , 
+3 MAP
+4 LATI N12.666132
+4 LONG W7.99015
+1 GRAD
+2 TYPE Diplôme de Medecin Auxilliaire
+2 DATE 23 OCT 1932
+2 PLAC DAKAr, SEN, , , , , 
+3 MAP
+4 LATI N14.736038
+4 LONG W17.479935
+2 AGNC Ecole Africaine de Medecine et de Pharmacie
+1 EVEN
+2 TYPE Mutation
+2 DATE 1961
+2 PLAC Bougouni, Sikasso, MLI, , , , 
+3 MAP
+4 LATI N11.426187
+4 LONG W7.485122
+1 EVEN
+2 TYPE Mutation
+2 DATE 1962
+2 PLAC Gao, Région de Gao, MLI, , , , 
+3 MAP
+4 LATI N16.28587
+4 LONG W0.050124
+1 EDUC Inspection Services de Santé
+2 DATE 1957
+2 PLAC Paris, FRA, , , , , 
+3 MAP
+4 LATI N48.881086
+4 LONG E2.354336
+1 EVEN
+2 TYPE Voyage d'Etudes
+2 DATE 1970
+2 PLAC Moscou, RUS, , , , , 
+3 MAP
+4 LATI N55.759191
+4 LONG E37.631607
+1 RETI
+2 DATE 1972
+2 PLAC Bamako, District de Bamako, MLI, , , , 
+3 MAP
+4 LATI N12.666132
+4 LONG W7.99015
+2 AGNC Medecin Inspecteur, Directeur Régional de la Santé
+1 FAMC @F0029@
+1 FAMS @F1029@
+1 FAMS @F1000@
+1 FAMS @F0086@
+1 FAMS @F0028@
+1 OBJE @M241@
+0 @I0065@ INDI
+1 NAME Philomëne
+2 GIVN Philomëne
+1 SEX F
+1 FAMS @F0063@
+1 NOTE @N0089@
+0 @I0066@ INDI
+1 NAME Roger /Sandëre/
+2 GIVN Roger
+2 SURN Sandëre
+1 SEX M
+1 FAMC @F0063@
+1 NOTE @N0090@
+0 @I0067@ INDI
+1 NAME Marcelle /Sandëre/
+2 GIVN Marcelle
+2 SURN Sandëre
+1 SEX F
+1 FAMC @F0063@
+1 NOTE @N0091@
+0 @I0068@ INDI
+1 NAME Fanta /Maïga/
+2 GIVN Fanta
+2 SURN Maïga
+2 NICK Fanta Koroba
+1 SEX F
+1 BIRT
+2 DATE 1 APR 1930
+1 DEAT
+2 DATE 24 JUN 2014
+1 FAMC @F0030@
+1 FAMS @F0028@
+1 OBJE @M7@
+0 @I0069@ INDI
+1 NAME Boubou /Diarra/
+2 GIVN Boubou
+2 SURN Diarra
+1 SEX M
+1 FAMC @F0061@
+1 FAMS @F0029@
+1 FAMS @F0062@
+1 FAMS @F1027@
+0 @I0070@ INDI
+1 NAME Fatoumata Alphassine /Touré/
+2 GIVN Fatoumata, Alphassine
+2 SURN Touré
+2 NICK Hama
+1 SEX F
+1 FAMC @F1015@
+1 FAMC @F0112@
+1 FAMS @F0029@
+0 @I0071@ INDI
+1 NAME Mamadou /Maïga/
+2 GIVN Mamadou
+2 SURN Maïga
+2 NICK Boua
+1 SEX M
+1 FAMC @F0031@
+1 FAMS @F0030@
+1 FAMS @F1022@
+1 FAMS @F1023@
+1 FAMS @F1032@
+0 @I0072@ INDI
+1 NAME Bintou /Diarra/
+2 GIVN Bintou
+2 SURN Diarra
+2 NICK Baouba
+1 SEX F
+1 FAMC @F0032@
+1 FAMS @F0030@
+1 OBJE @M252@
+1 NOTE @N0096@
+0 @I0073@ INDI
+1 NAME Ousmane /Maïga/
+2 GIVN Ousmane
+2 SURN Maïga
+1 SEX M
+1 FAMS @F0031@
+0 @I0074@ INDI
+1 NAME Anna /Maïga/
+2 GIVN Anna
+2 SURN Maïga
+1 SEX F
+1 FAMS @F0031@
+0 @I0075@ INDI
+1 NAME Ladji /Diarra/
+2 GIVN Ladji
+2 SURN Diarra
+1 SEX M
+1 FAMS @F0032@
+0 @I0076@ INDI
+1 NAME Fatoumata /Touré/
+2 GIVN Fatoumata
+2 SURN Touré
+1 SEX F
+1 FAMS @F0032@
+0 @I0077@ INDI
+1 NAME Mamadou /Diarra/
+2 GIVN Mamadou
+2 SURN Diarra
+1 SEX M
+1 BIRT
+2 DATE 1949
+2 PLAC Dosso, NER, , , , , 
+3 MAP
+4 LATI N13.06075
+4 LONG E3.200111
+1 DEAT
+2 DATE NOV 1990
+2 PLAC Bamako, District de Bamako, MLI, , , , 
+3 MAP
+4 LATI N12.666132
+4 LONG W7.99015
+1 FAMC @F0028@
+1 FAMS @F0085@
+1 OBJE @M253@
+0 @I0078@ INDI
+1 NAME Fatimata /Diarra/
+2 GIVN Fatimata
+2 SURN Diarra
+2 NICK Mah
+1 SEX F
+1 BIRT
+2 DATE 17 JUL 1952
+2 PLAC Bamako, District de Bamako, MLI, , , , 
+3 MAP
+4 LATI N12.666132
+4 LONG W7.99015
+1 FAMC @F0028@
+1 FAMS @F0057@
+1 OBJE @M255@
+0 @I0079@ INDI
+1 NAME Amidou /Diarra/
+2 GIVN Amidou
+2 SURN Diarra
+1 SEX M
+1 BIRT
+2 DATE 1958
+1 FAMC @F0028@
+1 OBJE @M264@
+1 DEAT
+2 DATE 19 JAN 1999
+0 @I0080@ INDI
+1 NAME Bintou /Diarra/
+2 GIVN Bintou
+2 SURN Diarra
+1 SEX F
+1 BIRT
+2 DATE 1960
+1 FAMC @F0028@
+1 FAMS @F0034@
+1 FAMS @F0136@
+1 OBJE @M4@
+0 @I0081@ INDI
+1 NAME Alhassane /Diarra/
+2 GIVN Alhassane
+2 SURN Diarra
+1 SEX M
+1 BIRT
+2 DATE 1962
+2 PLAC Gao, Région de Gao, MLI, , , , 
+3 MAP
+4 LATI N16.28587
+4 LONG W0.050124
+1 FAMC @F0028@
+1 FAMS @F0026@
+1 FAMS @F0065@
+1 OBJE @M70@
+0 @I0082@ INDI
+1 NAME Alhousseïni /Diarra/
+2 GIVN Alhousseïni
+2 SURN Diarra
+1 SEX M
+1 BIRT
+2 DATE 1962
+2 PLAC Gao, Région de Gao, MLI, , , , 
+3 MAP
+4 LATI N16.28587
+4 LONG W0.050124
+1 FAMC @F0028@
+1 FAMS @F0066@
+1 FAMS @F0067@
+1 OBJE @M268@
+1 NOTE @N0103@
+1 DEAT
+2 DATE 10 MAY 2023
+2 PLAC Bamako, District de Bamako, MLI, , , , 
+0 @I0083@ INDI
+1 NAME Sadio /Diarra/
+2 GIVN Sadio
+2 NICK Kia
+2 SURN Diarra
+2 NICK Kia
+1 SEX F
+1 BIRT
+2 DATE 20 AUG 1965
+2 PLAC Gao, Région de Gao, MLI, , , , 
+3 MAP
+4 LATI N16.28587
+4 LONG W0.050124
+1 FAMC @F0028@
+1 FAMS @F0033@
+1 FAMS @F0069@
+1 NOTE @N0105@
+1 OBJE @M6@
+0 @I0084@ INDI
+1 NAME Esther Souaré /Diarra/
+2 GIVN Esther, Souaré
+2 SURN Diarra
+1 SEX F
+1 BIRT
+2 DATE 13 JUN 1968
+2 PLAC Gao, Région de Gao, MLI, , , , 
+3 MAP
+4 LATI N16.28587
+4 LONG W0.050124
+1 FAMC @F0028@
+1 FAMS @F0035@
+1 FAMS @F0068@
+1 OBJE @M271@
+0 @I0085@ INDI
+1 NAME Fatoumata /Diawara/
+2 GIVN Fatoumata
+2 SURN Diawara
+1 SEX F
+1 BIRT
+2 DATE 20 DEC 1981
+2 PLAC Bamako, District de Bamako, MLI, , , , 
+3 MAP
+4 LATI N12.666132
+4 LONG W7.99015
+1 FAMC @F0033@
+1 FAMS @F0058@
+1 NOTE @N0108@
+1 OBJE @M30@
+0 @I0086@ INDI
+1 NAME Kadidia /Traoré/
+2 GIVN Kadidia
+2 NICK Kadi
+2 SURN Traoré
+2 NICK Kadi
+1 SEX F
+1 BIRT
+2 DATE 10 JUN 1986
+2 PLAC Dresden, DEU, , , , , 
+1 FAMC @F0034@
+1 FAMS @F0137@
+1 OBJE @M277@
+0 @I0087@ INDI
+1 NAME Rebecca Chanez Fatima F /Rodriguez/
+2 GIVN Rebecca, Chanez, Fatima, F
+2 SURN Rodriguez
+1 SEX F
+1 BIRT
+2 DATE OCT 1993
+2 PLAC Dacorum, Herefordshire, ENG, , , , 
+3 MAP
+4 LATI N51.866313
+4 LONG W0.568542
+1 FAMC @F0035@
+1 FAMS @X34@
+1 FAMS @X36@
+0 @I0088@ INDI
+1 NAME Uche /Obi/
+2 GIVN Uche
+2 SURN Obi
+1 SEX M
+1 FAMS @F0068@
+0 @I0089@ INDI
+1 NAME Barou /Maïga/
+2 GIVN Barou
+2 SURN Maïga
+1 SEX M
+1 FAMC @F1023@
+1 FAMC @F1032@
+1 FAMS @F0042@
+1 OBJE @M51@
+0 @I0090@ INDI
+1 NAME Kadiatou /Maïga/
+2 GIVN Kadiatou
+2 SURN Maïga
+1 SEX F
+1 FAMC @F1032@
+1 FAMS @F0036@
+0 @I0091@ INDI
+1 NAME Aissatou /Maïga/
+2 GIVN Aissatou
+2 SURN Maïga
+1 SEX F
+1 FAMC @F1032@
+1 NOTE @N0115@
+0 @I0092@ INDI
+1 NAME Lassine /Maïga/
+2 GIVN Lassine
+2 SURN Maïga
+1 SEX M
+1 FAMC @F1023@
+1 FAMS @F0037@
+0 @I0093@ INDI
+1 NAME Mariétou /Maïga/
+2 GIVN Mariétou
+2 SURN Maïga
+1 SEX F
+1 FAMC @F1023@
+1 FAMS @F0038@
+0 @I0094@ INDI
+1 NAME Fanta Tjini /Maïga/
+2 GIVN Fanta, Tjini
+2 SURN Maïga
+1 SEX F
+1 FAMC @F1023@
+1 OBJE @M281@
+1 NOTE @N0119@
+0 @I0095@ INDI
+1 NAME Bréhima /Maïga/
+2 GIVN Bréhima
+2 SURN Maïga
+1 SEX M
+1 FAMC @F1023@
+1 FAMS @F0040@
+0 @I0096@ INDI
+1 NAME Safiatou /Maïga/
+2 GIVN Safiatou
+2 SURN Maïga
+1 SEX F
+1 FAMC @F1032@
+1 FAMS @F0039@
+1 OBJE @M282@
+0 @I0097@ INDI
+1 NAME Oumou /Maïga/
+2 GIVN Oumou
+2 SURN Maïga
+1 SEX F
+1 FAMC @F1023@
+1 FAMS @F0041@
+0 @I0098@ INDI
+1 NAME Rokia /Maïga/
+2 GIVN Rokia
+2 SURN Maïga
+1 SEX F
+1 FAMC @F1023@
+0 @I0099@ INDI
+1 NAME Amadou /Diallo/
+2 GIVN Amadou
+2 SURN Diallo
+1 SEX M
+1 FAMC @F0036@
+0 @I0100@ INDI
+1 NAME Tibou /Diallo/
+2 GIVN Tibou
+2 SURN Diallo
+1 SEX M
+1 FAMC @F0036@
+0 @I0101@ INDI
+1 NAME Barou /Maïga/
+2 GIVN Barou
+2 SURN Maïga
+1 SEX M
+1 FAMC @F0037@
+0 @I0102@ INDI
+1 NAME Mamadou /Touré/
+2 GIVN Mamadou
+2 SURN Touré
+1 SEX M
+1 FAMC @F0038@
+0 @I0103@ INDI
+1 NAME Vieux /Touré/
+2 GIVN Vieux
+2 SURN Touré
+1 SEX M
+1 FAMC @F0038@
+0 @I0104@ INDI
+1 NAME Macourouni /Touré/
+2 GIVN Macourouni
+2 SURN Touré
+1 SEX M
+1 FAMC @F0038@
+0 @I0105@ INDI
+1 NAME Fanta /Touré/
+2 GIVN Fanta
+2 SURN Touré
+1 SEX M
+1 FAMC @F0038@
+1 NOTE @N0006@
+0 @I0106@ INDI
+1 NAME Lassine /Touré/
+2 GIVN Lassine
+2 SURN Touré
+1 SEX M
+1 FAMC @F0038@
+1 NOTE @N0125@
+0 @I0107@ INDI
+1 NAME Fousseëini /Touré/
+2 GIVN Fousseëini
+2 SURN Touré
+1 SEX M
+1 FAMC @F0038@
+1 NOTE @N0126@
+0 @I0108@ INDI
+1 NAME Koumba /Touré/
+2 GIVN Koumba
+2 SURN Touré
+1 SEX F
+1 FAMC @F0038@
+1 NOTE @N0009@
+0 @I0109@ INDI
+1 NAME Kadiatou /Keita/
+2 GIVN Kadiatou
+2 SURN Keita
+1 SEX F
+1 FAMC @F0039@
+0 @I0110@ INDI
+1 NAME Hawa /Keïta/
+2 GIVN Hawa
+2 SURN Keïta
+1 SEX F
+1 FAMC @F0039@
+0 @I0111@ INDI
+1 NAME /Keïta/
+2 SURN Keïta
+1 SEX M
+1 FAMC @F0039@
+0 @I0112@ INDI
+1 NAME /Keïta/
+2 SURN Keïta
+1 SEX M
+1 FAMC @F0039@
+0 @I0113@ INDI
+1 NAME Ousmane /Maïga/
+2 GIVN Ousmane
+2 SURN Maïga
+1 SEX M
+1 FAMC @F0040@
+0 @I0114@ INDI
+1 NAME Assetou /Maïga/
+2 GIVN Assetou
+2 SURN Maïga
+1 SEX F
+1 FAMC @F0040@
+0 @I0115@ INDI
+1 NAME M'Ba /Maïga/
+2 GIVN M'Ba
+2 SURN Maïga
+1 SEX M
+1 FAMC @F0040@
+0 @I0116@ INDI
+1 NAME Fifi /Maïga/
+2 GIVN Fifi
+2 SURN Maïga
+1 SEX F
+1 FAMC @F0040@
+0 @I0117@ INDI
+1 NAME Bébé /Maïga/
+2 GIVN Bébé
+2 SURN Maïga
+1 FAMC @F0040@
+0 @I0118@ INDI
+1 NAME Mamou /Maïga/
+2 GIVN Mamou
+2 SURN Maïga
+1 SEX F
+1 FAMC @F0041@
+1 NOTE @N0130@
+0 @I0119@ INDI
+1 NAME Kadiatou /Maïga/
+2 GIVN Kadiatou
+2 SURN Maïga
+1 SEX F
+1 FAMC @F0041@
+1 NOTE @N0011@
+0 @I0120@ INDI
+1 NAME Madou /Maïga/
+2 GIVN Madou
+2 SURN Maïga
+1 SEX M
+1 FAMC @F0042@
+0 @I0121@ INDI
+1 NAME Hawa /Maïga/
+2 GIVN Hawa
+2 SURN Maïga
+1 SEX F
+1 FAMC @F0042@
+1 OBJE @M101@
+0 @I0122@ INDI
+1 NAME Boubacar /Maïga/
+2 GIVN Boubacar
+2 SURN Maïga
+1 SEX M
+1 FAMC @F0042@
+1 OBJE @M53@
+0 @I0123@ INDI
+1 NAME Aldjoudatou /Maïga/
+2 GIVN Aldjoudatou
+2 SURN Maïga
+1 SEX F
+1 FAMC @F0042@
+0 @I0124@ INDI
+1 NAME Djeneba /Maïga/
+2 GIVN Djeneba
+2 SURN Maïga
+1 SEX F
+1 FAMC @F0042@
+0 @I0125@ INDI
+1 SEX M
+1 FAMS @F0134@
+0 @I0126@ INDI
+1 NAME Mama /Diarra/
+2 GIVN Mama
+2 SURN Diarra
+1 SEX F
+1 FAMC @F0032@
+1 FAMS @F0044@
+1 NOTE @N0132@
+0 @I0127@ INDI
+1 NAME Batoma /Diarra/
+2 GIVN Batoma
+2 SURN Diarra
+1 SEX F
+1 FAMC @F0032@
+1 FAMS @F0045@
+0 @I0128@ INDI
+1 NAME Mamou /Diarra/
+2 GIVN Mamou
+2 SURN Diarra
+1 SEX F
+1 FAMC @F0032@
+1 FAMS @F0046@
+0 @I0129@ INDI
+1 NAME Madinè /Diarra/
+2 GIVN Madinè
+2 SURN Diarra
+1 SEX F
+1 FAMC @F0032@
+1 FAMS @F0047@
+1 FAMS @F0048@
+1 NOTE @N0133@
+0 @I0130@ INDI
+1 NAME Alou /Diarra/
+2 GIVN Alou
+2 SURN Diarra
+1 SEX M
+1 FAMC @F0032@
+1 FAMS @F0049@
+0 @I0131@ INDI
+1 NAME Sambadio /Diarra/
+2 GIVN Sambadio
+2 SURN Diarra
+1 SEX M
+1 FAMC @F0029@
+1 FAMS @F1031@
+0 @I0132@ INDI
+1 NAME Nènè /Diarra/
+2 GIVN Nènè
+2 SURN Diarra
+1 SEX F
+1 FAMC @F0029@
+1 FAMS @F0059@
+1 FAMS @F1021@
+0 @I0133@ INDI
+1 NAME Badji /Diarra/
+2 GIVN Badji
+2 SURN Diarra
+1 SEX F
+1 FAMC @F0029@
+1 FAMS @F1020@
+0 @I0134@ INDI
+1 NAME Rosine /Roth/
+2 GIVN Rosine
+2 SURN Roth
+1 SEX F
+1 FAMC @F0044@
+1 FAMS @F0051@
+0 @I0135@ INDI
+1 NAME Jules /Roth/
+2 GIVN Jules
+2 SURN Roth
+1 SEX M
+1 BIRT
+2 DATE 1924
+1 DEAT
+2 DATE 17 JAN 2000
+1 FAMC @F0044@
+1 FAMS @F0050@
+1 OBJE @M283@
+0 @I0136@ INDI
+1 NAME Joséphine /Roth/
+2 GIVN Joséphine
+2 SURN Roth
+1 SEX F
+1 FAMC @F0044@
+1 FAMS @F0052@
+0 @I0137@ INDI
+1 NAME Jeanne /Roth/
+2 GIVN Jeanne
+2 SURN Roth
+1 SEX F
+1 FAMC @F0044@
+1 FAMS @F0053@
+1 OBJE @M284@
+0 @I0138@ INDI
+1 NAME Frédéric /Roth/
+2 GIVN Frédéric
+2 SURN Roth
+1 SEX M
+1 FAMC @F0044@
+1 FAMS @F0054@
+0 @I0139@ INDI
+1 NAME /Pierron/
+2 SURN Pierron
+1 SEX M
+1 FAMS @F0045@
+1 NOTE @N0140@
+0 @I0140@ INDI
+1 NAME Suzanne /Pierron/
+2 GIVN Suzanne
+2 SURN Pierron
+1 SEX F
+1 FAMC @F0045@
+1 NOTE @N0141@
+0 @I0141@ INDI
+1 NAME Marie-Louise /Pierron/
+2 GIVN Marie-Louise
+2 SURN Pierron
+1 SEX F
+1 FAMC @F0045@
+1 FAMS @F0055@
+1 OBJE @M285@
+0 @I0142@ INDI
+1 NAME Robert /Pierron/
+2 GIVN Robert
+2 SURN Pierron
+1 SEX M
+1 FAMC @F0045@
+1 NOTE @N0143@
+0 @I0143@ INDI
+1 NAME BAKAry /Sidibé/
+2 GIVN BAKAry
+2 SURN Sidibé
+1 SEX M
+1 FAMS @F0046@
+1 NOTE @N0144@
+0 @I0144@ INDI
+1 NAME Massitan /Sidibé/
+2 GIVN Massitan
+2 SURN Sidibé
+1 SEX F
+1 FAMC @F0046@
+0 @I0145@ INDI
+1 NAME Mamou /Sidibé/
+2 GIVN Mamou
+2 SURN Sidibé
+1 SEX F
+1 FAMC @F0046@
+1 NOTE @N0145@
+0 @I0146@ INDI
+1 NAME Mama /Sidibé/
+2 GIVN Mama
+2 SURN Sidibé
+1 SEX F
+1 FAMC @F0046@
+0 @I0147@ INDI
+1 NAME Cheick Oumar /Sidibé/
+2 GIVN Cheick, Oumar
+2 SURN Sidibé
+1 SEX M
+1 FAMC @F0046@
+0 @I0148@ INDI
+1 NAME Na Fanta /Sidibé/
+2 GIVN Na, Fanta
+2 SURN Sidibé
+1 SEX F
+1 FAMC @F0046@
+0 @I0149@ INDI
+1 NAME Moussa Balla /Traoré/
+2 GIVN Moussa, Balla
+2 SURN Traoré
+1 SEX M
+1 FAMC @F0047@
+0 @I0150@ INDI
+1 NAME Na Fanta /Traoré/
+2 GIVN Na, Fanta
+2 SURN Traoré
+1 SEX F
+1 FAMC @F0047@
+0 @I0151@ INDI
+1 NAME Papa Courouni /Traoré/
+2 GIVN Papa, Courouni
+2 SURN Traoré
+1 SEX M
+1 FAMC @F0047@
+0 @I0152@ INDI
+1 NAME Mamadou /Traoré/
+2 GIVN Mamadou
+2 SURN Traoré
+1 SEX M
+1 FAMS @F0048@
+0 @I0153@ INDI
+1 NAME Amadou /Diarra/
+2 GIVN Amadou
+2 SURN Diarra
+1 SEX M
+1 FAMC @F0049@
+1 FAMS @X22@
+1 FAMS @X30@
+0 @I0154@ INDI
+1 NAME Ami /Diarra/
+2 GIVN Ami
+2 SURN Diarra
+1 SEX F
+1 FAMC @F0049@
+0 @I0155@ INDI
+1 NAME Mama Koroba /Diarra/
+2 GIVN Mama, Koroba
+2 SURN Diarra
+1 SEX F
+1 FAMC @F0049@
+0 @I0156@ INDI
+1 NAME Moussa Balla /Diarra/
+2 GIVN Moussa, Balla
+2 SURN Diarra
+1 SEX M
+1 FAMC @F0049@
+0 @I0157@ INDI
+1 NAME Daouda /Diarra/
+2 GIVN Daouda
+2 SURN Diarra
+1 SEX M
+1 FAMC @F0049@
+0 @I0158@ INDI
+1 NAME Monique /Roth/
+2 GIVN Monique
+2 SURN Roth
+1 SEX F
+1 FAMC @F0050@
+1 NOTE @N0146@
+0 @I0159@ INDI
+1 NAME Dominique /Roth/
+2 GIVN Dominique
+2 SURN Roth
+1 SEX M
+1 FAMC @F0050@
+1 NOTE @N0147@
+0 @I0160@ INDI
+1 NAME /Roth/
+2 SURN Roth
+1 SEX M
+1 FAMC @F0050@
+0 @I0161@ INDI
+1 NAME Jemil /Mennen/
+2 GIVN Jemil
+2 SURN Mennen
+1 SEX M
+1 FAMS @F0051@
+1 NOTE @N0149@
+0 @I0162@ INDI
+1 NAME Marie /Mennen/
+2 GIVN Marie
+2 SURN Mennen
+1 SEX F
+1 FAMC @F0051@
+0 @I0163@ INDI
+1 NAME Eugénie /Mennen/
+2 GIVN Eugénie
+2 SURN Mennen
+1 SEX F
+1 FAMC @F0051@
+0 @I0164@ INDI
+1 NAME Claudine /Mennen/
+2 GIVN Claudine
+2 SURN Mennen
+1 SEX F
+1 FAMC @F0051@
+0 @I0165@ INDI
+1 NAME Bardon /Mennen/
+2 GIVN Bardon
+2 SURN Mennen
+1 SEX M
+1 FAMC @F0051@
+1 NOTE @N0150@
+0 @I0166@ INDI
+1 NAME /Akar/
+2 SURN Akar
+1 SEX M
+1 FAMS @F0052@
+1 NOTE @N0151@
+0 @I0167@ INDI
+1 NAME Maguy /Akar/
+2 GIVN Maguy
+2 SURN Akar
+1 SEX F
+1 FAMC @F0052@
+0 @I0168@ INDI
+1 NAME Ferdinand /Akar/
+2 GIVN Ferdinand
+2 SURN Akar
+1 SEX M
+1 FAMC @F0052@
+1 NOTE @N0152@
+0 @I0169@ INDI
+1 NAME Youyou
+2 GIVN Youyou
+1 SEX M
+1 FAMC @F0053@
+0 @I0170@ INDI
+1 NAME Ferdinand
+2 GIVN Ferdinand
+1 SEX M
+1 FAMC @F0053@
+0 @I0171@ INDI
+1 NAME Mama Christina
+2 GIVN Mama, Christina
+1 SEX F
+1 FAMC @F0053@
+0 @I0172@ INDI
+1 NAME Bébé
+2 GIVN Bébé
+1 FAMC @F0053@
+0 @I0173@ INDI
+1 NAME Ami
+2 GIVN Ami
+1 SEX F
+1 FAMC @F0053@
+1 NOTE @N0153@
+0 @I0174@ INDI
+1 SEX M
+1 FAMC @F0053@
+0 @I0175@ INDI
+1 NAME Yacouba /Roth/
+2 GIVN Yacouba
+2 SURN Roth
+1 SEX M
+1 FAMC @F0054@
+0 @I0176@ INDI
+1 NAME Abdoulaye /Roth/
+2 GIVN Abdoulaye
+2 SURN Roth
+1 SEX M
+1 FAMC @F0054@
+1 NOTE @N0155@
+0 @I0177@ INDI
+1 NAME Seydou /Sow/
+2 GIVN Seydou
+2 SURN Sow
+1 SEX M
+1 FAMS @F0055@
+0 @I0178@ INDI
+1 NAME Suzanne /Sow/
+2 GIVN Suzanne
+2 SURN Sow
+1 SEX F
+1 FAMC @F0055@
+0 @I0179@ INDI
+1 NAME Martine /Sow/
+2 GIVN Martine
+2 SURN Sow
+1 SEX F
+1 FAMC @F0055@
+1 FAMS @F0056@
+0 @I0180@ INDI
+1 NAME Armand /Sow/
+2 GIVN Armand
+2 SURN Sow
+1 SEX M
+1 FAMC @F0055@
+0 @I0181@ INDI
+1 NAME Pape /Sow/
+2 GIVN Pape
+2 SURN Sow
+1 SEX M
+1 FAMC @F0055@
+0 @I0182@ INDI
+1 NAME Pape /N'Diaye/
+2 GIVN Pape
+2 SURN N'Diaye
+1 SEX M
+1 FAMS @F0056@
+0 @I0183@ INDI
+1 NAME Malick /Touré/
+2 GIVN Malick
+2 SURN Touré
+1 SEX M
+1 BIRT
+2 DATE 20 JUL 1949
+1 FAMS @F1@
+1 FAMS @F0070@
+1 FAMS @F0057@
+1 OBJE @M61@
+0 @I0184@ INDI
+1 NAME Ramatou /Touré/
+2 GIVN Ramatou
+2 SURN Touré
+2 NICK Atou
+1 SEX F
+1 BIRT
+2 DATE 29 AUG 1977
+2 PLAC Mont-Saint-Aignan, Seine-Maritime, Haute-Normandie, FRA, , , 
+3 MAP
+4 LATI N49.461068
+4 LONG E1.080608
+1 RESI
+2 PLAC 50 W 34TH Street, , , , , , , 10001 New York NY USA
+1 FAMC @F0057@
+1 FAMS @F0138@
+1 OBJE @M290@
+0 @I0185@ INDI
+1 NAME Mahamane /Touré/
+2 GIVN Mahamane
+2 SURN Touré
+2 NICK Papus
+1 SEX M
+1 BIRT
+2 DATE 22 NOV 1978
+1 FAMC @F0057@
+1 FAMS @F0139@
+1 OBJE @M71@
+0 @I0186@ INDI
+1 NAME Kamissa /Traoré/
+2 GIVN Kamissa
+2 SURN Traoré
+1 SEX F
+1 FAMC @F0069@
+0 @I0187@ INDI
+1 NAME Mohamed Lamine /Kouma/
+2 GIVN Mohamed, Lamine
+2 SURN Kouma
+1 SEX M
+1 BIRT
+2 DATE 14 MAY 2001
+2 PLAC Bamako, District de Bamako, MLI, , , , 
+3 MAP
+4 LATI N12.666132
+4 LONG W7.99015
+1 FAMC @F0058@
+1 OBJE @M58@
+0 @I0188@ INDI
+1 NAME Cheick /Traoré/
+2 GIVN Cheick
+2 SURN Traoré
+1 SEX M
+1 FAMS @F0069@
+0 @I0189@ INDI
+1 NAME Madou Tjinè /Diarra/
+2 GIVN Madou, Tjinè
+2 SURN Diarra
+1 SEX M
+1 FAMC @F0059@
+1 FAMS @F0060@
+1 OBJE @M307@
+1 NOTE @N0165@
+1 BIRT
+2 DATE 1943
+0 @I0190@ INDI
+1 NAME Aïssata /Tienta/
+2 GIVN Aïssata
+2 SURN Tienta
+1 SEX F
+1 FAMS @F0060@
+1 NOTE @N0167@
+0 @I0191@ INDI
+1 NAME Mariam /Diallo/
+2 GIVN Mariam
+2 SURN Diallo
+1 SEX F
+1 FAMS @F0061@
+0 @I0192@ INDI
+1 NAME Baïssé /Koureissi/
+2 GIVN Baïssé
+2 SURN Koureissi
+1 SEX F
+1 FAMS @F0062@
+0 @I0193@ INDI
+1 NAME Abdoulaye /Diarra/
+2 GIVN Abdoulaye
+2 SURN Diarra
+2 NICK Peter
+1 SEX M
+1 BIRT
+2 DATE 15 APR 1950
+2 PLAC Bamako, District de Bamako, MLI, , , , 
+3 MAP
+4 LATI N12.666132
+4 LONG W7.99015
+1 EVEN
+2 NOTE Description: abdoulaye.diarra@@free.fr
+1 RESI Y
+1 RESI
+2 PLAC 77a Rue Henri Barbusse, 93 300 AUBERVILLIERS, FRANCE, , , , 
+2 NOTE @N0171@
+1 FAMC @F0062@
+1 FAMS @F0096@
+1 OBJE @M308@
+1 FAMS @F2@
+1 DEAT
+2 DATE 2009
+0 @I0194@ INDI
+1 NAME Kadija /Diarra/
+2 GIVN Kadija
+2 SURN Diarra
+2 NICK Sadio
+1 SEX F
+1 BIRT
+2 DATE 9 JUL 1947
+2 PLAC Nioro, MLI, , , , , 
+1 FAMC @F0062@
+1 FAMS @F0103@
+1 FAMS @F0097@
+1 FAMS @F0102@
+1 OBJE @M69@
+0 @I0195@ INDI
+1 NAME Nafe /Diarra/
+2 GIVN Nafe
+2 SURN Diarra
+2 NICK Thiémoko, Bako
+1 SEX M
+1 BIRT
+2 DATE 1905
+1 DEAT
+2 DATE 1983
+1 CHR
+2 PLAC Tombouctou, MLI, , , , , 
+3 MAP
+4 LATI N16.786135
+4 LONG W3.008194
+1 FAMC @F1027@
+1 FAMS @F1001@
+1 FAMS @F1002@
+1 FAMS @F1003@
+1 FAMS @F1004@
+1 FAMS @F0099@
+1 FAMS @F0104@
+1 FAMS @F0101@
+0 @I0196@ INDI
+1 NAME Marie-Françoise /Peltier/
+2 GIVN Marie-Françoise
+2 SURN Peltier
+1 SEX F
+1 FAMS @F0019@
+1 NOTE @N0175@
+0 @I0197@ INDI
+1 NAME Jean /Hoëflich/
+2 GIVN Jean
+2 SURN Hoëflich
+1 SEX M
+1 BIRT
+2 DATE 1808
+2 PLAC Forst, BEL, , , , , 
+1 FAMS @F0064@
+1 NOTE @N0176@
+1 DEAT Y
+0 @I0198@ INDI
+1 NAME Marie-Eve /Denu/
+2 GIVN Marie-Eve
+2 SURN Denu
+1 SEX F
+1 BIRT
+2 DATE 1813
+1 FAMS @F0064@
+1 NOTE @N0178@
+1 DEAT Y
+0 @I0199@ INDI
+1 NAME Alphassine /Diarra/
+2 GIVN Alphassine
+2 SURN Diarra
+1 SEX F
+1 BIRT
+2 DATE 6 SEP 1940
+2 PLAC Fada N'Gourma, BFA, , , , , 
+1 DEAT
+2 DATE 26 OCT 1940
+2 PLAC Fada N'Gourma, BFA, , , , , 
+1 FAMC @F1029@
+1 NOTE @N0179@
+0 @I0200@ INDI
+1 NAME Amadou /Diarra/
+2 GIVN Amadou
+2 SURN Diarra
+1 SEX M
+1 BIRT
+2 DATE 19 FEB 1948
+2 PLAC Maradi, NER, , , , , 
+1 DEAT
+2 DATE 19 FEB 1948
+2 PLAC Maradi, NER, , , , , 
+1 FAMC @F0028@
+1 NOTE @N0181@
+0 @I0201@ INDI
+1 NAME Kondiou Mireille /Diarra/
+2 GIVN Kondiou, Mireille
+2 SURN Diarra
+2 NICK Fantani
+1 SEX F
+1 FAMS @F0026@
+1 BIRT
+2 DATE SEP 1968
+1 DEAT
+2 DATE APR 2000
+0 @I0202@ INDI
+1 NAME Badji /Diarra/
+2 GIVN Badji
+2 SURN Diarra
+1 SEX F
+1 FAMC @F0026@
+1 OBJE @M54@
+1 BIRT
+2 DATE 6 APR 1990
+1 FAMS @X4@
+1 FAMS @X7@
+0 @I0203@ INDI
+1 NAME Mahamane /Diarra/
+2 GIVN Mahamane
+2 SURN Diarra
+1 SEX M
+1 FAMC @F0026@
+1 OBJE @M55@
+1 BIRT
+2 DATE 14 AUG 1992
+0 @I0204@ INDI
+1 NAME Fanta /Bâ/
+2 GIVN Fanta
+2 SURN Bâ
+1 SEX F
+1 FAMS @F0065@
+1 BIRT
+2 DATE 14 FEB 1973
+0 @I0205@ INDI
+1 NAME Fanta /Diarra/
+2 GIVN Fanta
+2 SURN Diarra
+1 SEX F
+1 FAMC @F0065@
+1 BIRT
+2 DATE 5 OCT 2001
+0 @I0206@ INDI
+1 NAME Nana /Sidibé/
+2 GIVN Nana
+2 SURN Sidibé
+1 SEX F
+1 FAMS @F0066@
+0 @I0207@ INDI
+1 NAME Amidou /Diarra/
+2 GIVN Amidou
+2 SURN Diarra
+1 SEX M
+1 FAMC @F0066@
+0 @I0208@ INDI
+1 NAME Nassira /Kone/
+2 GIVN Nassira
+2 SURN Kone
+1 SEX F
+1 FAMS @F0067@
+1 DEAT Y
+0 @I0209@ INDI
+1 NAME Grace /Obi/
+2 GIVN Grace
+2 SURN Obi
+1 SEX F
+1 BIRT
+2 DATE APR 2002
+2 PLAC Watford, Hertfordshire, ENG, , , , 
+3 MAP
+4 LATI N51.69762
+4 LONG W0.394821
+1 FAMC @F0068@
+1 OBJE @M37@
+0 @I0210@ INDI
+1 SEX F
+1 FAMS @F0070@
+0 @I0211@ INDI
+1 NAME Marény /Touré/
+2 GIVN Marény
+2 SURN Touré
+2 NICK Nènè
+1 SEX F
+1 BIRT
+2 DATE 30 MAY 1975
+1 ADOP Y
+1 ADOP Y
+1 RESI
+2 PLAC 14 RUE DE LA RAMPE, 06400 CANNES, , , , , 
+1 RESI Y
+1 FAMC @F0070@
+1 FAMS @F0071@
+1 FAMS @F0134@
+1 OBJE @M60@
+1 FAMS @F7@
+0 @I0212@ INDI
+1 NAME Ousmane /Touré/
+2 GIVN Ousmane
+2 SURN Touré
+1 SEX M
+1 BIRT
+2 DATE 31 AUG 1976
+1 ADOP Y
+1 ADOP Y
+1 FAMC @F0070@
+1 OBJE @M72@
+1 FAMS @F5@
+0 @I0213@ INDI
+1 NAME Adama /Diop/
+2 GIVN Adama
+2 SURN Diop
+1 SEX M
+1 FAMS @F0071@
+1 OBJE @M93@
+0 @I0214@ INDI
+1 NAME Idrissa /Diop/
+2 GIVN Idrissa
+2 SURN Diop
+1 SEX M
+1 BIRT
+2 DATE 30 APR 2003
+2 PLAC Rueil-Malmaison, Hauts-de-Seine, Île-de-France, FRA, , , 
+1 FAMC @F0071@
+1 OBJE @M91@
+0 @I0215@ INDI
+1 NAME Louis /Dobigeon/
+2 GIVN Louis
+2 SURN Dobigeon
+1 SEX M
+1 FAMC @F0073@
+1 FAMS @F0072@
+1 NOTE @N0190@
+1 DEAT Y
+0 @I0216@ INDI
+1 NAME /Dobigeon/
+2 SURN Dobigeon
+1 SEX M
+1 FAMS @F0073@
+0 @I0217@ INDI
+1 NAME Auguste /Dobigeon/
+2 GIVN Auguste
+2 SURN Dobigeon
+1 SEX M
+1 DEAT
+2 DATE 21 MAY 1920
+2 PLAC Nantes, Loire-Atlantique, Pays de la Loire, FRA, , , 
+1 FAMC @F0073@
+1 FAMS @F0074@
+1 NOTE @N0191@
+0 @I0218@ INDI
+1 NAME Claire /Jouet/
+2 GIVN Claire
+2 SURN Jouet
+1 SEX F
+1 DEAT
+2 DATE 18 JUN 1907
+2 PLAC Nantes, Loire-Atlantique, Pays de la Loire, FRA, , , 
+1 FAMS @F0074@
+1 NOTE @N0193@
+0 @I0219@ INDI
+1 NAME Gabrielle /Dobigeon/
+2 GIVN Gabrielle
+2 SURN Dobigeon
+1 SEX F
+1 DEAT
+2 DATE 16 JAN 1943
+2 PLAC Nantes, Loire-Atlantique, Pays de la Loire, FRA, , , 
+1 FAMC @F0074@
+1 NOTE @N0195@
+0 @I0220@ INDI
+1 NAME Jean-Baptiste /Geisen/
+2 GIVN Jean-Baptiste
+2 SURN Geisen
+1 SEX M
+1 BIRT
+2 DATE 4 JUL 1801
+2 PLAC Molsheim, Bas-Rhin, Alsace, FRA, , , 
+1 FAMC @F0076@
+1 FAMS @F0075@
+1 NOTE @N0197@
+1 DEAT Y
+0 @I0221@ INDI
+1 NAME Barbe /Nuss/
+2 GIVN Barbe
+2 SURN Nuss
+1 SEX F
+1 FAMS @F0075@
+0 @I0222@ INDI
+1 NAME Charles /Hoëflich/
+2 GIVN Charles
+2 SURN Hoëflich
+1 SEX M
+1 BIRT
+2 DATE 26 MAR 1855
+2 PLAC Kesseldorf, Bas-Rhin, Alsace, FRA, , , 
+1 FAMC @F0064@
+1 NOTE @N0199@
+1 DEAT Y
+0 @I0223@ INDI
+1 NAME Arbogaste /Geisen/
+2 GIVN Arbogaste
+2 SURN Geisen
+1 SEX M
+1 BIRT
+2 DATE 19 JUL 1829
+2 PLAC Illkirch, Bas-Rhin, Alsace, FRA, , , 
+1 DEAT
+2 DATE 26 AUG 1829
+2 PLAC Bas-Rhin, Alsace, FRA, , , , 
+2 CAUS IllKirch
+1 FAMC @F0075@
+1 NOTE @N0201@
+0 @I0224@ INDI
+1 NAME Louis /Hoëflich/
+2 GIVN Louis
+2 SURN Hoëflich
+1 SEX M
+1 BIRT
+2 DATE 19 AUG 1851
+2 PLAC Kesseldorf, Bas-Rhin, Alsace, FRA, , , 
+1 FAMC @F0064@
+1 NOTE @N0203@
+1 DEAT Y
+0 @I0225@ INDI
+1 NAME Jean /Geisen/
+2 GIVN Jean
+2 SURN Geisen
+1 SEX M
+1 DEAT
+2 DATE 13 JUL 1822
+2 PLAC Illkirch, Bas-Rhin, Alsace, FRA, , , 
+1 FAMS @F0076@
+1 NOTE @N0205@
+0 @I0226@ INDI
+1 NAME Anne Marie /Stiegert/
+2 GIVN Anne, Marie
+2 SURN Stiegert
+1 SEX F
+1 BIRT
+2 DATE 1762
+2 NOTE Date de naissance incertaine
+1 FAMS @F0076@
+1 NOTE @N0207@
+1 DEAT Y
+0 @I0227@ INDI
+1 NAME François /Koehl/
+2 GIVN François
+2 SURN Koehl
+1 SEX M
+1 BIRT
+2 DATE 4 JUN 1804
+2 PLAC Strasbourg, Bas-Rhin, Alsace, FRA, , , 
+1 DEAT
+2 DATE 16 MAR 1842
+2 PLAC Strasbourg, Bas-Rhin, Alsace, FRA, , , 
+1 FAMC @F0078@
+1 FAMS @F0077@
+1 NOTE @N0208@
+0 @I0228@ INDI
+1 NAME Marie /Joessel/
+2 GIVN Marie
+2 SURN Joessel
+1 SEX F
+1 FAMS @F0077@
+1 NOTE @N0210@
+0 @I0229@ INDI
+1 NAME François /Koehl/
+2 GIVN François
+2 SURN Koehl
+1 SEX M
+1 BIRT
+2 DATE 1774
+2 PLAC Molsheim, Bas-Rhin, Alsace, FRA, , , 
+2 NOTE Date de naissance incertaine
+1 DEAT
+2 DATE 23 FEB 1851
+2 PLAC Strasbourg, Bas-Rhin, Alsace, FRA, , , 
+1 FAMC @F0079@
+1 FAMS @F0078@
+1 NOTE @N0211@
+0 @I0230@ INDI
+1 NAME Anne /Gebhart/
+2 GIVN Anne
+2 SURN Gebhart
+1 SEX F
+1 BIRT
+2 DATE 3 AUG 1775
+2 PLAC Molsheim, Bas-Rhin, Alsace, FRA, , , 
+1 DEAT
+2 DATE 24 MAR 1824
+2 PLAC Strasbourg, Bas-Rhin, Alsace, FRA, , , 
+1 FAMC @F0080@
+1 FAMS @F0078@
+1 NOTE @N0213@
+0 @I0231@ INDI
+1 NAME Joseph /Koehl/
+2 GIVN Joseph
+2 SURN Koehl
+1 SEX M
+1 BIRT
+2 DATE 9 OCT 1805
+2 PLAC Strasbourg, Bas-Rhin, Alsace, FRA, , , 
+1 DEAT
+2 DATE 1 APR 1806
+2 PLAC Strasbourg, Bas-Rhin, Alsace, FRA, , , 
+1 FAMC @F0078@
+1 NOTE @N0215@
+0 @I0232@ INDI
+1 NAME François /Koehl/
+2 GIVN François
+2 SURN Koehl
+1 SEX M
+1 FAMS @F0079@
+1 NOTE @N0217@
+0 @I0233@ INDI
+1 NAME Anne /Zerr/
+2 GIVN Anne
+2 SURN Zerr
+1 SEX F
+1 FAMS @F0079@
+1 NOTE @N0218@
+0 @I0234@ INDI
+1 NAME Jean /Gebhart/
+2 GIVN Jean
+2 SURN Gebhart
+1 SEX M
+1 FAMS @F0080@
+1 NOTE @N0219@
+0 @I0235@ INDI
+1 NAME Elisabeth /Graff/
+2 GIVN Elisabeth
+2 SURN Graff
+1 SEX F
+1 FAMS @F0080@
+0 @I0236@ INDI
+1 NAME René /Hoëflich/
+2 GIVN René
+2 SURN Hoëflich
+1 SEX M
+1 BIRT
+2 DATE 27 MAY 1850
+2 PLAC Kesseldorf, Bas-Rhin, Alsace, FRA, , , 
+1 FAMC @F0064@
+1 NOTE @N0220@
+1 DEAT Y
+0 @I0237@ INDI
+1 NAME Bernard /Koehl/
+2 GIVN Bernard
+2 SURN Koehl
+1 SEX M
+1 BIRT
+2 DATE 1808
+1 FAMC @F0078@
+1 NOTE @N0222@
+1 DEAT Y
+0 @I0238@ INDI
+1 NAME /Koehl/
+2 SURN Koehl
+1 SEX F
+1 FAMC @F0078@
+1 FAMS @F0081@
+1 NOTE @N0223@
+0 @I0239@ INDI
+1 NAME Ferdinand /Greyenbicht/
+2 GIVN Ferdinand
+2 SURN Greyenbicht
+1 SEX M
+1 FAMS @F0081@
+1 NOTE @N0224@
+0 @I0240@ INDI
+1 NAME Elisabeth /Geisen/
+2 GIVN Elisabeth
+2 SURN Geisen
+1 SEX F
+1 BIRT
+2 DATE 1806
+2 NOTE Date de naissance incertaine
+1 DEAT
+2 DATE 6 AUG 1827
+2 PLAC Illkirch, Bas-Rhin, Alsace, FRA, , , 
+1 FAMC @F0076@
+1 NOTE @N0225@
+0 @I0241@ INDI
+1 NAME Marie /Geisen/
+2 GIVN Marie
+2 SURN Geisen
+1 SEX F
+1 BIRT
+2 DATE 30 NOV 1799
+2 PLAC Molsheim, Bas-Rhin, Alsace, FRA, , , 
+1 FAMC @F0076@
+1 FAMS @F0082@
+1 NOTE @N0227@
+1 DEAT Y
+0 @I0242@ INDI
+1 NAME Mathieu /Décarière/
+2 GIVN Mathieu
+2 SURN Décarière
+1 SEX M
+1 BIRT
+2 DATE 17 FEB 1801
+2 PLAC Autheuil le Plessis, Oise, Picardie, FRA, , , 
+1 FAMC @F0083@
+1 FAMS @F0082@
+1 NOTE @N0229@
+1 DEAT Y
+0 @I0243@ INDI
+1 NAME Antoine /Décarière/
+2 GIVN Antoine
+2 SURN Décarière
+1 SEX M
+1 BIRT
+2 DATE 1775
+2 NOTE Date de naissance incertaine. A vérifier
+1 FAMS @F0083@
+1 NOTE @N0231@
+1 DEAT Y
+0 @I0244@ INDI
+1 NAME Victoria /Aiberette/
+2 GIVN Victoria
+2 SURN Aiberette
+1 SEX F
+1 BIRT
+2 DATE 1780
+2 NOTE Date ne naissance  incertaine .à vérifier
+1 FAMS @F0083@
+1 NOTE @N0233@
+1 DEAT Y
+0 @I0245@ INDI
+1 NAME François /Diarra/
+2 GIVN François
+2 SURN Diarra
+1 SEX M
+1 FAMC @F1000@
+1 FAMS @F0087@
+0 @I0246@ INDI
+1 NAME Fanta /Diarra/
+2 TYPE BIRTH
+2 GIVN Fanta
+2 SURN Diarra
+2 NICK Fantany
+1 NAME Fanta /Traoré/
+2 TYPE MARRIED
+2 GIVN Fanta
+2 SURN Traoré
+1 SEX F
+1 BIRT
+2 DATE 5 OCT 1953
+1 FAMC @F0086@
+1 FAMS @F1016@
+1 OBJE @M316@
+0 @I0247@ INDI
+1 NAME Colette /Diarra/
+2 GIVN Colette
+2 SURN Diarra
+1 SEX F
+1 FAMS @F0087@
+0 @I0248@ INDI
+1 NAME Alhassane Aimé Patrice /Diarra/
+2 GIVN Alhassane, Aimé, Patrice
+2 SURN Diarra
+1 SEX M
+1 BIRT
+2 DATE 8 APR 1966
+2 PLAC Niamey, NER, , , , , 
+1 FAMC @F0087@
+1 FAMS @F0088@
+1 FAMS @F0089@
+1 FAMS @F0090@
+1 OBJE @M317@
+1 NOTE @N0237@
+0 @I0249@ INDI
+1 NAME Alhousseïni Aimé Patrice /Diarra/
+2 GIVN Alhousseïni, Aimé, Patrice
+2 SURN Diarra
+1 SEX M
+1 BIRT
+2 DATE 8 APR 1966
+2 PLAC Niamey, NER, , , , , 
+1 FAMC @F0087@
+1 FAMS @F0091@
+1 OBJE @M318@
+1 NOTE @N0239@
+0 @I0250@ INDI
+1 NAME Ousmane /Diarra/
+2 GIVN Ousmane
+2 SURN Diarra
+1 SEX M
+1 BIRT
+2 DATE 23 APR 1967
+2 PLAC Niamey, NER, , , , , 
+1 FAMC @F0087@
+1 FAMS @F0092@
+1 OBJE @M319@
+0 @I0251@ INDI
+1 NAME Mahamane Valéry /Diarra/
+2 GIVN Mahamane, Valéry
+2 SURN Diarra
+1 SEX M
+1 BIRT
+2 DATE 20 JUL 1968
+2 PLAC Niamey, NER, , , , , 
+1 FAMC @F0087@
+1 FAMS @F0093@
+1 OBJE @M320@
+1 NOTE @N0242@
+0 @I0252@ INDI
+1 NAME Mariama Mahamane /Hima/
+2 GIVN Mariama, Mahamane
+2 SURN Hima
+1 SEX F
+1 FAMS @F0088@
+1 NOTE @N0244@
+0 @I0253@ INDI
+1 NAME Bamoussa Alfred /Diarra/
+2 GIVN Bamoussa, Alfred
+2 SURN Diarra
+1 SEX M
+1 BIRT
+2 DATE 11 OCT 1987
+2 PLAC Niamey, NER, , , , , 
+1 FAMC @F0088@
+1 OBJE @M321@
+1 NOTE @N0246@
+0 @I0254@ INDI
+1 NAME Penda Colette /Diarra/
+2 GIVN Penda, Colette
+2 SURN Diarra
+1 SEX F
+1 BIRT
+2 DATE 12 MAY 1989
+2 PLAC Niamey, NER, , , , , 
+1 FAMC @F0088@
+1 OBJE @M322@
+1 NOTE @N0248@
+0 @I0255@ INDI
+1 NAME Amadou Papy /Diarra/
+2 GIVN Amadou, Papy
+2 SURN Diarra
+1 SEX M
+1 BIRT
+2 DATE 15 MAR 1993
+2 PLAC Niamey, NER, , , , , 
+1 FAMC @F0088@
+1 OBJE @M323@
+0 @I0256@ INDI
+1 NAME Nana Souweba /Ibrahim/
+2 GIVN Nana, Souweba
+2 SURN Ibrahim
+1 SEX F
+1 FAMS @F0089@
+1 NOTE @N0251@
+0 @I0257@ INDI
+1 NAME Mariam /Diarra/
+2 GIVN Mariam
+2 SURN Diarra
+1 SEX F
+1 BIRT
+2 DATE 1 FEB 1999
+2 PLAC Arcueil, Val-de-Marne, Île-de-France, FRA, , , 
+1 FAMC @F0089@
+0 @I0258@ INDI
+1 NAME Kankoun /Konté/
+2 GIVN Kankoun
+2 SURN Konté
+1 SEX F
+1 FAMS @F0090@
+0 @I0259@ INDI
+1 NAME Abdoulaye François Pitène /Diarra/
+2 GIVN Abdoulaye, François, Pitène
+2 SURN Diarra
+1 SEX M
+1 BIRT
+2 DATE 5 MAY 2003
+2 PLAC Ivry-sur-Seine, Val-de-Marne, Île-de-France, FRA, , , 
+1 FAMC @F0090@
+0 @I0260@ INDI
+1 NAME Fatoumata /Diarra/
+2 GIVN Fatoumata
+2 SURN Diarra
+1 SEX F
+1 BIRT
+2 DATE 22 OCT 1982
+1 FAMC @F0091@
+0 @I0261@ INDI
+1 NAME Farouk /Diarra/
+2 GIVN Farouk
+2 SURN Diarra
+1 SEX M
+1 FAMC @F0091@
+1 NOTE @N0255@
+0 @I0262@ INDI
+1 NAME Soukourou /Diarra/
+2 GIVN Soukourou
+2 SURN Diarra
+1 SEX M
+1 BIRT
+2 DATE 1992
+1 FAMC @F0091@
+0 @I0263@ INDI
+1 NAME Mahamadou /Diarra/
+2 GIVN Mahamadou
+2 SURN Diarra
+1 SEX M
+1 BIRT
+2 DATE 1995
+1 FAMC @F0091@
+1 NOTE @N0256@
+0 @I0264@ INDI
+1 NAME Ousmane /Diarra/
+2 GIVN Ousmane
+2 SURN Diarra
+1 SEX M
+1 BIRT
+2 DATE 25 JUN 2004
+1 FAMC @F0091@
+0 @I0265@ INDI
+1 NAME Denise /André/
+2 GIVN Denise
+2 SURN André
+1 SEX F
+1 BIRT
+2 DATE 11 AUG 1975
+2 PLAC Niamey, NER, , , , , 
+1 FAMS @F0092@
+1 NOTE @N0257@
+0 @I0266@ INDI
+1 NAME Ibrahim /Diarra/
+2 GIVN Ibrahim
+2 SURN Diarra
+1 SEX M
+1 BIRT
+2 DATE 2 JUN 1988
+1 FAMC @F0093@
+1 NOTE @N0259@
+0 @I0267@ INDI
+1 NAME Khadija /Diarra/
+2 GIVN Khadija
+2 SURN Diarra
+1 SEX F
+1 BIRT
+2 DATE 15 MAY 2000
+1 FAMC @F0093@
+1 NOTE @N0260@
+0 @I0268@ INDI
+1 NAME Ayisha /Diarra/
+2 GIVN Ayisha
+2 SURN Diarra
+1 SEX F
+1 BIRT
+2 DATE 28 OCT 2001
+1 FAMC @F0093@
+1 NOTE @N0261@
+0 @I0269@ INDI
+1 NAME Halimatou Sadio /Diarra/
+2 GIVN Halimatou, Sadio
+2 SURN Diarra
+1 SEX F
+1 BIRT
+2 DATE 24 JUL 1975
+1 FAMS @F0093@
+0 @I0270@ INDI
+1 NAME Mathias /Schmittlé/
+2 GIVN Mathias
+2 SURN Schmittlé
+1 SEX M
+1 FAMS @F0094@
+1 NOTE @N0263@
+0 @I0271@ INDI
+1 NAME Caroline /Michel/
+2 GIVN Caroline
+2 SURN Michel
+1 SEX F
+1 FAMS @F0094@
+1 NOTE @N0264@
+0 @I0272@ INDI
+1 NAME Paulette
+2 GIVN Paulette
+1 SEX F
+1 FAMS @F0095@
+0 @I0273@ INDI
+1 NAME Paulette
+2 GIVN Paulette
+1 SEX F
+1 FAMS @F0023@
+0 @I0274@ INDI
+1 NAME Hawa /Cissé/
+2 GIVN Hawa
+2 SURN Cissé
+1 SEX F
+1 BIRT
+2 DATE 1 JUN 1958
+2 PLAC Bongouanou, Côte d'Ivoire, , , , , 
+3 MAP
+4 LATI N7.117245
+4 LONG W4.202271
+1 RESI Y
+1 RESI
+2 PLAC 77a Rue Henri Barbusse, 93 300 AUBERVILLIERS, FRANCE, , , , 
+1 FAMC @F1030@
+1 FAMS @F0096@
+1 OBJE @M94@
+0 @I0275@ INDI
+1 NAME Myriam /Diarra/
+2 GIVN Myriam
+2 SURN Diarra
+1 SEX F
+1 BIRT
+2 DATE 30 SEP 1987
+2 PLAC Rouen, Seine-Maritime, Haute-Normandie, FRA, , , 
+3 MAP
+4 LATI N49.442738
+4 LONG E1.101723
+1 RESI Y
+1 RESI
+2 PLAC 77a Rue Henri Barbusse, 93 300 AUBERVILLIERS, FRANCE, , , , 
+2 NOTE @N0313@
+1 FAMC @F0096@
+1 OBJE @M97@
+0 @I0276@ INDI
+1 NAME Hawa /Touré/
+2 GIVN Hawa
+2 SURN Touré
+1 SEX F
+1 BIRT
+2 DATE SEP 1969
+1 FAMS @F0133@
+1 FAMS @F0135@
+1 FAMC @F1@
+1 OBJE @M62@
+0 @I0277@ INDI
+1 NAME Mamadou /Kamissoko/
+2 GIVN Mamadou
+2 SURN Kamissoko
+1 SEX M
+1 BIRT
+2 NOTE @N0004@
+1 FAMS @F0097@
+0 @I0278@ INDI
+1 NAME Baïssé /Kamissoko/
+2 GIVN Baïssé
+2 SURN Kamissoko
+1 SEX F
+1 BIRT
+2 DATE 12 AUG 1975
+2 PLAC Bamako, District de Bamako, MLI, , , , 
+3 MAP
+4 LATI N12.666132
+4 LONG W7.99015
+1 FAMC @F0097@
+1 FAMS @F3@
+1 OBJE @M86@
+0 @I0279@ INDI
+1 NAME Kadija Mama /Diarra/
+2 GIVN Kadija, Mama
+2 SURN Diarra
+1 SEX F
+1 BIRT
+2 DATE 7 FEB 1979
+1 FAMC @F0096@
+1 OBJE @M96@
+0 @I0280@ INDI
+1 NAME Alfassine /Diarra/
+2 GIVN Alfassine
+2 SURN Diarra
+1 SEX F
+1 BIRT
+2 DATE 2 MAR 1989
+1 FAMC @F0096@
+1 OBJE @M95@
+0 @I0281@ INDI
+1 SEX F
+1 FAMC @F0134@
+1 OBJE @M90@
+0 @I0282@ INDI
+1 NAME Adama /Diarra/
+2 GIVN Adama
+2 SURN Diarra
+1 NAME Adama /Diarra/
+2 TYPE AKA
+2 GIVN Adama
+2 SURN Diarra
+2 NICK Damiss
+1 SEX M
+1 BIRT
+2 DATE 1 MAR 1971
+1 FACT I1004
+2 TYPE ID Gramps fusionné
+1 FAMC @F0085@
+1 OBJE @M56@
+0 @I0283@ INDI
+1 SEX M
+1 FAMS @F0135@
+0 @I0284@ INDI
+1 SEX M
+1 FAMC @F0135@
+0 @I0285@ INDI
+1 NAME Tony /Alexander/
+2 GIVN Tony
+2 SURN Alexander
+1 SEX M
+1 FAMS @F0136@
+1 BIRT
+2 DATE 18 OCT 1973
+2 PLAC Port of Spain, Trinidad & Tobago, , , , , 
+0 @I0286@ INDI
+1 NAME Caylan /Alexander/
+2 GIVN Caylan
+2 SURN Alexander
+1 SEX M
+1 FAMC @F0136@
+1 OBJE @M65@
+1 BIRT
+2 DATE 3 AUG 2002
+2 PLAC Washington DC, , , , , , 
+0 @I0287@ INDI
+1 NAME Mariam /Coulibaly/
+2 GIVN Mariam
+2 SURN Coulibaly
+1 SEX F
+1 FAMS @F0099@
+0 @I0288@ INDI
+1 SEX M
+1 FAMS @F0137@
+1 NAME Jean Pierre /SAMBOU/
+2 GIVN Jean, Pierre
+2 SURN SAMBOU
+1 BIRT
+2 DATE 8 DEC 1980
+0 @I0289@ INDI
+1 NAME Aminata (Beïni) /Traoré/
+2 GIVN Aminata, (Beïni)
+2 SURN Traoré
+1 SEX F
+1 FAMS @F0101@
+0 @I0291@ INDI
+1 NAME Moussa /Diallo/
+2 GIVN Moussa
+2 SURN Diallo
+1 SEX M
+1 FAMS @F0102@
+0 @I0292@ INDI
+1 NAME Roger /Attingli/
+2 GIVN Roger
+2 SURN Attingli
+1 SEX M
+1 FACT I1010
+2 TYPE ID Gramps fusionné
+1 FAMS @F0103@
+0 @I0293@ INDI
+1 NAME Alain /Attingli/
+2 GIVN Alain
+2 SURN Attingli
+1 SEX M
+1 BIRT
+2 DATE 19 JAN 1963
+1 FACT I1011
+2 TYPE ID Gramps fusionné
+1 FAMC @F0103@
+1 FAMS @F0114@
+1 OBJE @M80@
+0 @I0294@ INDI
+1 NAME Isack /SAMBOU/
+2 GIVN Isack
+2 SURN SAMBOU
+1 SEX M
+1 FAMC @F0137@
+1 OBJE @M77@
+0 @I0295@ INDI
+1 NAME Mouye /Koureissi/
+2 GIVN Mouye
+2 SURN Koureissi
+1 SEX F
+1 BIRT
+2 NOTE @N0004@
+1 FAMS @F0104@
+0 @I0296@ INDI
+1 NAME Amadou Boubou /Diarra/
+2 GIVN Amadou, Boubou
+2 SURN Diarra
+1 SEX M
+1 BIRT
+2 NOTE @N0004@
+1 FAMS @F0105@
+0 @I0298@ INDI
+1 SEX F
+1 BIRT
+2 NOTE @N0004@
+1 FAMS @F0105@
+0 @I0299@ INDI
+1 NAME Boye /Diarra/
+2 GIVN Boye
+2 SURN Diarra
+1 SEX F
+1 BIRT
+2 NOTE @N0004@
+1 FAMC @F0105@
+1 FAMS @F0110@
+0 @I0300@ INDI
+1 NAME Alessandro /Merlo/
+2 GIVN Alessandro
+2 SPFX Merlo
+1 SEX M
+1 FAMS @F0138@
+1 OBJE @M78@
+0 @I0301@ INDI
+1 NAME Noliane Eléa /Merlo/
+2 GIVN Noliane, Eléa
+2 SPFX Merlo
+1 SEX F
+1 FAMC @F0138@
+1 OBJE @M79@
+1 BIRT
+2 DATE 5 JAN 2011
+0 @I0302@ INDI
+1 SEX F
+1 FAMS @F0106@
+0 @I0303@ INDI
+1 SEX F
+1 FAMC @F0106@
+1 FAMS @F0107@
+0 @I0304@ INDI
+1 SEX M
+1 FAMS @F0107@
+0 @I0305@ INDI
+1 NAME Fatou /N'Diaye/
+2 GIVN Fatou
+2 SURN N'Diaye
+1 SEX F
+1 FAMC @F0107@
+0 @I0306@ INDI
+1 SEX F
+1 FAMS @F0108@
+0 @I0307@ INDI
+1 NAME Boundy /Diarra/
+2 GIVN Boundy
+2 SURN Diarra
+1 SEX M
+1 BIRT
+2 NOTE @N0004@
+1 FAMC @F0108@
+1 FAMS @F0113@
+0 @I0308@ INDI
+1 NAME Hélène /Berment/
+2 GIVN Hélène
+2 SURN Berment
+1 SEX F
+1 FAMS @F0139@
+1 OBJE @M74@
+0 @I0309@ INDI
+1 SEX M
+1 BIRT
+2 NOTE @N0004@
+1 FAMS @F0110@
+0 @I0310@ INDI
+1 NAME Mariam /Savadogo/
+2 GIVN Mariam
+2 SURN Savadogo
+1 NAME /Savadogo/
+2 TYPE AKA
+2 SURN Savadogo
+1 SEX F
+1 BIRT
+2 NOTE @N0004@
+1 FAMC @F0110@
+0 @I0311@ INDI
+1 NAME Mamadou /Savadogo/
+2 GIVN Mamadou
+2 SURN Savadogo
+1 SEX M
+1 BIRT
+2 NOTE @N0004@
+1 FAMC @F0110@
+0 @I0312@ INDI
+1 NAME Abdoulaye /Savadogo/
+2 GIVN Abdoulaye
+2 SURN Savadogo
+1 SEX M
+1 BIRT
+2 NOTE @N0004@
+1 FAMC @F0110@
+0 @I0313@ INDI
+1 NAME Malick Mathis /Touré/
+2 GIVN Malick, Mathis
+2 SURN Touré
+1 SEX M
+1 FAMC @F0139@
+1 OBJE @M75@
+1 BIRT
+2 DATE 12 FEB 2011
+0 @I0314@ INDI
+1 NAME /Touré/
+2 SURN Touré
+1 SEX M
+1 BIRT
+2 NOTE @N0004@
+1 FAMS @F0112@
+0 @I0315@ INDI
+1 NAME /(MèreHama)?/
+2 SURN (MèreHama)?
+1 SEX F
+1 BIRT
+2 NOTE @N0004@
+1 FAMS @F0112@
+0 @I0316@ INDI
+1 NAME Aminata Tata /Touré/
+2 GIVN Aminata, Tata
+2 SURN Touré
+1 SEX F
+1 BIRT
+2 NOTE @N0004@
+1 FAMC @F0112@
+0 @I0317@ INDI
+1 SEX F
+1 FAMS @F0113@
+0 @I0318@ INDI
+1 NAME Mamadou Boundy /Diarra/
+2 GIVN Mamadou, Boundy
+2 SURN Diarra
+1 SEX M
+1 FAMC @F0113@
+0 @I0319@ INDI
+1 NAME Franciane
+2 GIVN Franciane
+1 NAME Franciane /Attingli/
+2 TYPE MARRIED
+2 GIVN Franciane
+2 SURN Attingli
+1 SEX F
+1 FACT I1016
+2 TYPE ID Gramps fusionné
+1 FAMS @F0114@
+1 OBJE @M82@
+0 @I0321@ INDI
+1 NAME Lia Aïssa /Touré/
+2 GIVN Lia, Aïssa
+2 SURN Touré
+1 SEX F
+1 FAMC @F0139@
+1 OBJE @M76@
+1 BIRT
+2 DATE 9 SEP 2014
+0 @I1000@ INDI
+1 NAME Haby /Sall/
+2 GIVN Haby
+2 SURN Sall
+1 SEX F
+1 FAMC @F1017@
+1 FAMS @F0086@
+0 @I1001@ INDI
+1 NAME Fatou /Diallo/
+2 GIVN Fatou
+2 SURN Diallo
+1 SEX F
+1 FAMS @F1000@
+0 @I1002@ INDI
+1 NAME Moussa Bilane /Traoré/
+2 GIVN Moussa, Bilane
+2 SURN Traoré
+2 NICK Bill
+1 SEX M
+1 FAMS @F0034@
+1 NOTE @N0013@
+1 OBJE @M63@
+1 DEAT
+2 DATE 27 JUL 2022
+1 BIRT
+2 DATE 1958
+2 PLAC Kondi, cercle de Diré, MALI, , , , 
+2 NOTE Jugement  supplétif du 5 mars 1975
+1 FAMC @X45@
+0 @I1003@ INDI
+1 NAME Maïmouna /N'Diaye/
+2 GIVN Maïmouna
+2 SURN N'Diaye
+1 SEX F
+1 BIRT
+2 NOTE @N0004@
+1 FACT I0321
+2 TYPE ID Gramps fusionné
+1 FAMS @F0085@
+0 @I1005@ INDI
+1 NAME Mariam /Coulibaly/
+2 GIVN Mariam
+2 SURN Coulibaly
+1 NAME Mariam /Diarra/
+2 TYPE MARRIED
+2 GIVN Mariam
+2 SURN Diarra
+1 SEX F
+1 FAMS @F1001@
+0 @I1006@ INDI
+1 NAME Aminata /Fofana/
+2 GIVN Aminata
+2 SURN Fofana
+1 NAME Aminata /Diarra/
+2 TYPE MARRIED
+2 GIVN Aminata
+2 SURN Diarra
+1 SEX F
+1 FAMS @F1002@
+0 @I1007@ INDI
+1 NAME Nana /Touré/
+2 GIVN Nana
+2 SURN Touré
+1 NAME Nana /Diarra/
+2 TYPE MARRIED
+2 GIVN Nana
+2 SURN Diarra
+1 SEX F
+1 FACT I0288
+2 TYPE ID Gramps fusionné
+1 FAMS @F1003@
+0 @I1008@ INDI
+1 NAME Mouye /Koureissi/
+2 GIVN Mouye
+2 SURN Koureissi
+1 SEX F
+1 FAMS @F1004@
+0 @I1009@ INDI
+1 NAME Sitan /Diarra/
+2 GIVN Sitan
+2 SURN Diarra
+1 SEX F
+1 BIRT
+2 DATE 1965
+1 FAMC @F1004@
+1 OBJE @M325@
+0 @I1012@ INDI
+1 NAME Rufin /Attingli/
+2 GIVN Rufin
+2 SURN Attingli
+1 SEX M
+1 BIRT
+2 DATE 13 JUN 1966
+1 FACT I0294
+2 TYPE ID Gramps fusionné
+1 FAMC @F0103@
+1 FAMS @F1008@
+1 OBJE @M81@
+0 @I1015@ INDI
+1 NAME Tidiane /Diarra/
+2 GIVN Tidiane
+2 SURN Diarra
+2 NICK Pouli
+1 SEX M
+1 BIRT
+2 NOTE @N0004@
+1 RESI Y
+1 RESI
+2 PLAC 77a Rue Henri Barbusse, 93 300 AUBERVILLIERS, FRANCE, , , , 
+2 NOTE @N0555@
+1 FACT I0281
+2 TYPE ID Gramps fusionné
+1 FAMC @F0096@
+1 OBJE @M98@
+0 @I1017@ INDI
+1 NAME Mireille /Chadaré/
+2 GIVN Mireille
+2 SURN Chadaré
+1 NAME Mireille /Attingli/
+2 TYPE MARRIED
+2 GIVN Mireille
+2 SURN Attingli
+1 SEX F
+1 BIRT
+2 DATE 1 OCT 1975
+2 PLAC Cotonou, , , , , , 
+1 FAMS @F1008@
+1 OBJE @M47@
+0 @I1018@ INDI
+1 NAME Amadou Boubou /Diarra/
+2 GIVN Amadou, Boubou
+2 SURN Diarra
+1 SEX M
+1 FAMS @F0061@
+1 FAMS @F1009@
+0 @I1019@ INDI
+1 NAME Souaré /Diarra/
+2 GIVN Souaré
+2 SURN Diarra
+1 SEX F
+1 FAMC @F0061@
+0 @I1020@ INDI
+1 NAME Boye /Diarra/
+2 GIVN Boye
+2 SURN Diarra
+1 SEX F
+1 FAMC @F0061@
+1 FAMS @F1028@
+0 @I1021@ INDI
+1 SEX F
+1 FAMS @F1009@
+0 @I1022@ INDI
+1 NAME Nafe /Diarra/
+2 GIVN Nafe
+2 SURN Diarra
+1 SEX M
+1 BIRT
+2 NOTE @N0004@
+1 FACT I0300
+2 TYPE ID Gramps fusionné
+1 FAMC @F1009@
+1 FAMC @F0105@
+1 FAMS @F1012@
+1 FAMS @F0106@
+1 NAME
+2 NICK Thémoko
+0 @I1023@ INDI
+1 NAME Diabé /Diarra/
+2 GIVN Diabé
+2 SURN Diarra
+1 SEX M
+1 BIRT
+2 NOTE @N0004@
+1 FACT I0301
+2 TYPE ID Gramps fusionné
+1 FAMC @F1009@
+1 FAMC @F0105@
+1 FAMS @F1010@
+1 FAMS @F0108@
+0 @I1024@ INDI
+1 SEX F
+1 FAMS @F1010@
+0 @I1025@ INDI
+1 NAME Boundy /Diarra/
+2 GIVN Boundy
+2 SURN Diarra
+1 SEX M
+1 FAMC @F1010@
+1 FAMS @F1011@
+0 @I1026@ INDI
+1 NAME Filly /Diarra/
+2 GIVN Filly
+2 SURN Diarra
+1 SEX M
+1 FAMC @F1010@
+0 @I1027@ INDI
+1 SEX F
+1 FAMS @F1011@
+0 @I1028@ INDI
+1 NAME Mamadou Boundy /Diarra/
+2 GIVN Mamadou, Boundy
+2 SURN Diarra
+1 SEX M
+1 FAMC @F1011@
+0 @I1029@ INDI
+1 SEX F
+1 FAMS @F1012@
+0 @I1030@ INDI
+1 NAME Fatoumata Tata /Diarra/
+2 GIVN Fatoumata, Tata
+2 SURN Diarra
+1 SEX F
+1 FAMC @F1012@
+1 FAMS @F1013@
+0 @I1031@ INDI
+1 NAME /N'Diaye/
+2 SURN N'Diaye
+1 SEX M
+1 FAMS @F1013@
+0 @I1032@ INDI
+1 NAME Fatou /N'Diaye/
+2 GIVN Fatou
+2 SURN N'Diaye
+1 SEX F
+1 FAMC @F1013@
+0 @I1033@ INDI
+1 NAME /Savadogo/
+2 SURN Savadogo
+1 SEX M
+1 FAMS @F1014@
+0 @I1034@ INDI
+1 NAME Mamadou /Savadogo/
+2 GIVN Mamadou
+2 SURN Savadogo
+1 SEX M
+1 FAMC @F1014@
+0 @I1035@ INDI
+1 NAME Aboulaye /Savadogo/
+2 GIVN Aboulaye
+2 SURN Savadogo
+1 SEX M
+1 FAMC @F1014@
+0 @I1038@ INDI
+1 NAME Aminata /Touré/
+2 GIVN Aminata
+2 SURN Touré
+2 NICK Tata
+1 SEX F
+1 FAMC @F1015@
+0 @I1039@ INDI
+1 NAME Alhassane /Touré/
+2 GIVN Alhassane
+2 SURN Touré
+1 SEX M
+1 FAMC @F1026@
+1 FAMS @F1024@
+0 @I1040@ INDI
+1 NAME Mahalmoudou /Touré/
+2 GIVN Mahalmoudou
+2 SURN Touré
+1 SEX F
+1 FAMC @F1026@
+0 @I1041@ INDI
+1 NAME Lamine /Diawara/
+2 GIVN Lamine
+2 SURN Diawara
+1 SEX M
+1 FAMS @F0033@
+0 @I1042@ INDI
+1 NAME Amadou /Kouma/
+2 GIVN Amadou
+2 SURN Kouma
+1 SEX M
+1 FAMS @F0058@
+1 OBJE @M57@
+0 @I1043@ INDI
+1 SEX F
+1 FAMS @F0091@
+0 @I1044@ INDI
+1 NAME Fanta /Koné/
+2 GIVN Fanta
+2 SURN Koné
+1 SEX F
+1 FAMS @F0049@
+0 @I1045@ INDI
+1 SEX F
+1 FAMS @F0072@
+0 @I1046@ INDI
+1 SEX F
+1 FAMS @F0073@
+0 @I1047@ INDI
+1 NAME /Traoré/
+2 SURN Traoré
+1 SEX M
+1 FAMS @F0047@
+0 @I1048@ INDI
+1 NAME Ferdinand François /Roth/
+2 GIVN Ferdinand, François
+2 SURN Roth
+1 SEX M
+1 FAMS @F0044@
+0 @I1049@ INDI
+1 NAME /Diarra/
+2 SURN Diarra
+1 SEX M
+1 FAMS @F0059@
+0 @I1050@ INDI
+1 NAME /Rodriguez/
+2 SURN Rodriguez
+1 SEX M
+1 FAMS @F0035@
+0 @I1051@ INDI
+1 NAME /Hoch/
+2 SURN Hoch
+1 SEX M
+1 FAMS @F0027@
+1 OBJE @M326@
+0 @I1052@ INDI
+1 NAME Diahara /Haïdara/
+2 GIVN Diahara
+2 SURN Haïdara
+1 SEX F
+1 FAMS @F0042@
+1 OBJE @M52@
+0 @I1053@ INDI
+1 SEX F
+1 FAMS @F0054@
+0 @I1054@ INDI
+1 SEX F
+1 FAMS @F0020@
+0 @I1055@ INDI
+1 SEX F
+1 FAMS @F0024@
+0 @I1056@ INDI
+1 SEX F
+1 FAMS @F0040@
+0 @I1057@ INDI
+1 NAME Kani
+2 GIVN Kani
+1 SEX F
+1 FAMS @F0037@
+0 @I1058@ INDI
+1 SEX F
+1 FAMS @F0050@
+0 @I1059@ INDI
+1 NAME /Diallo/
+2 SURN Diallo
+1 SEX M
+1 FAMS @F0036@
+0 @I1060@ INDI
+1 NAME /Touré/
+2 SURN Touré
+1 SEX M
+1 FAMS @F0038@
+0 @I1061@ INDI
+1 NAME /Maïga/
+2 SURN Maïga
+1 SEX M
+1 FAMS @F0041@
+0 @I1062@ INDI
+1 NAME /Keïta/
+2 SURN Keïta
+1 SEX M
+1 FAMS @F0039@
+0 @I1063@ INDI
+1 SEX M
+1 FAMS @F0053@
+0 @I1064@ INDI
+1 NAME Moussa /Traoré/
+2 GIVN Moussa
+2 SURN Traoré
+2 NICK Gigla
+1 SEX M
+1 BIRT
+2 DATE 2 DEC 1949
+1 DEAT
+2 DATE 26 MAY 2003
+1 FAMS @F1016@
+1 OBJE @M100@
+0 @I1065@ INDI
+1 NAME Aboulaye /Traoré/
+2 GIVN Aboulaye
+2 SURN Traoré
+1 SEX M
+1 BIRT
+2 DATE 19 APR 1976
+1 FAMC @F1016@
+1 FAMS @F1018@
+1 OBJE @M39@
+0 @I1066@ INDI
+1 NAME Mariam /Traoré/
+2 GIVN Mariam
+2 SURN Traoré
+1 SEX F
+1 BIRT
+2 DATE 17 JUL 1979
+1 FAMC @F1016@
+1 FAMS @F1019@
+1 OBJE @M40@
+0 @I1067@ INDI
+1 NAME Haby /Traoré/
+2 GIVN Haby
+2 SURN Traoré
+1 SEX F
+1 BIRT
+2 DATE 12 OCT 1987
+1 FAMC @F1016@
+1 OBJE @M41@
+1 FAMS @X49@
+0 @I1068@ INDI
+1 NAME Mamadou /Sall/
+2 GIVN Mamadou
+2 SURN Sall
+1 SEX M
+1 FAMS @F1017@
+0 @I1069@ INDI
+1 NAME Fatou /Diop/
+2 GIVN Fatou
+2 SURN Diop
+1 SEX F
+1 FAMS @F1017@
+0 @I1070@ INDI
+1 NAME Catherine /Degras/
+2 GIVN Catherine
+2 SURN Degras
+1 NAME Catherine /Traoré/
+2 TYPE MARRIED
+2 GIVN Catherine
+2 SURN Traoré
+1 SEX F
+1 BIRT
+2 DATE 25 NOV 1979
+1 FAMS @F1018@
+1 OBJE @M42@
+0 @I1071@ INDI
+1 NAME Moussa /Traoré/
+2 GIVN Moussa
+2 SURN Traoré
+1 SEX M
+1 BIRT
+2 DATE 22 JAN 2005
+1 FAMC @F1018@
+1 OBJE @M43@
+0 @I1072@ INDI
+1 NAME Haby /Traoré/
+2 GIVN Haby
+2 SURN Traoré
+1 SEX F
+1 BIRT
+2 DATE 22 JAN 2005
+1 FAMC @F1018@
+1 OBJE @M44@
+0 @I1073@ INDI
+1 NAME Estaing /Bissangou/
+2 GIVN Estaing
+2 SURN Bissangou
+1 SEX M
+1 FAMS @F1019@
+0 @I1074@ INDI
+1 NAME Hawa /Bissangou/
+2 GIVN Hawa
+2 SURN Bissangou
+1 SEX F
+1 BIRT
+2 DATE 15 NOV 2000
+1 FAMC @F1019@
+1 OBJE @M99@
+0 @I1075@ INDI
+1 NAME /Haïdara/
+2 SURN Haïdara
+1 SEX M
+1 FAMS @F1020@
+0 @I1076@ INDI
+1 SEX F
+1 FAMC @F1020@
+0 @I1077@ INDI
+1 NAME /Dabo/
+2 SURN Dabo
+1 SEX M
+1 FAMS @F1021@
+0 @I1078@ INDI
+1 NAME Maïmouna /Dabo/
+2 GIVN Maïmouna
+2 SURN Dabo
+1 SEX F
+1 FAMC @F1021@
+0 @I1079@ INDI
+1 NAME Sitan /Dabo/
+2 GIVN Sitan
+2 SURN Dabo
+1 SEX F
+1 FAMC @F1021@
+0 @I1080@ INDI
+1 NAME Sinè /Dabo/
+2 GIVN Sinè
+2 SURN Dabo
+1 SEX M
+1 FAMC @F1021@
+0 @I1081@ INDI
+1 NAME
+2 NICK Baïni Sangou
+1 SEX F
+1 FAMS @F1022@
+0 @I1082@ INDI
+1 NAME Oumou /Maïga/
+2 GIVN Oumou
+2 SURN Maïga
+1 SEX F
+1 FAMC @F1022@
+1 OBJE @M31@
+0 @I1083@ INDI
+1 SEX F
+1 FAMS @F1023@
+0 @I1084@ INDI
+1 SEX F
+1 FAMS @F1024@
+0 @I1085@ INDI
+1 NAME Kadija /Maïga/
+2 GIVN Kadija
+2 SURN Maïga
+1 SEX F
+1 FAMC @F1024@
+0 @I1087@ INDI
+1 NAME /Hoch/
+2 SURN Hoch
+1 SEX M
+1 ADOP Y
+2 FAMC @F0027@
+3 ADOP BOTH
+1 FAMC @F0027@
+1 OBJE @M327@
+0 @I1088@ INDI
+1 NAME Stephen Chukwuebuka J /Obi/
+2 GIVN Stephen, Chukwuebuka, J
+2 SURN Obi
+1 SEX M
+1 BIRT
+2 DATE NOV 2000
+2 PLAC Watford, Hertfordshire, ENG, , , , 
+3 MAP
+4 LATI N51.69762
+4 LONG W0.394821
+1 FAMC @F0068@
+1 OBJE @M36@
+0 @I1089@ INDI
+1 NAME Hannah Chinezu R /Obi/
+2 GIVN Hannah, Chinezu, R
+2 SURN Obi
+1 SEX F
+1 BIRT
+2 DATE JUL 2004
+2 PLAC Watford, Hertfordshire, ENG, , , , 
+3 MAP
+4 LATI N51.69762
+4 LONG W0.394821
+1 FAMC @F0068@
+1 OBJE @M38@
+0 @I1090@ INDI
+1 SEX F
+1 FAMS @F1015@
+0 @I1091@ INDI
+1 NAME /Touré/
+2 SURN Touré
+1 SEX M
+1 FAMS @F1015@
+1 FAMS @F1026@
+0 @I1092@ INDI
+1 SEX F
+1 FAMS @F1026@
+0 @I1093@ INDI
+1 NAME Kadidia /Coulibaly/
+2 GIVN Kadidia
+2 SURN Coulibaly
+1 NAME Kadidia /Diarra/
+2 TYPE MARRIED
+2 GIVN Kadidia
+2 SURN Diarra
+1 SEX F
+1 FAMS @F1027@
+0 @I1094@ INDI
+1 SEX M
+1 FAMS @F1028@
+0 @I1095@ INDI
+1 NAME Fatoumata Boye
+2 GIVN Fatoumata, Boye
+1 SEX F
+1 FAMC @F1028@
+1 FAMS @F1014@
+0 @I1096@ INDI
+1 NAME Mariam /Savadogo/
+2 GIVN Mariam
+2 SURN Savadogo
+1 SEX F
+1 FAMC @F1014@
+0 @I1097@ INDI
+1 NAME Karamoko /Dabo/
+2 GIVN Karamoko
+2 SURN Dabo
+1 SEX M
+1 FAMC @F1021@
+0 @I1098@ INDI
+1 NAME Salimata /Diarra/
+2 GIVN Salimata
+2 SURN Diarra
+1 SEX F
+1 FAMC @F1011@
+0 @I1099@ INDI
+1 NAME Diabé /Diarra/
+2 GIVN Diabé
+2 SURN Diarra
+1 SEX M
+1 FAMC @F1011@
+0 @I1100@ INDI
+1 NAME Djiguy /Diarra/
+2 GIVN Djiguy
+2 SURN Diarra
+1 SEX M
+1 FAMC @F1011@
+0 @I1101@ INDI
+1 SEX F
+1 FAMS @F1029@
+0 @I1102@ INDI
+1 NAME Kalfala /Cissé/
+2 GIVN Kalfala
+2 SURN Cissé
+1 SEX M
+1 FAMS @F1030@
+0 @I1103@ INDI
+1 NAME Mariam /Cissé/
+2 GIVN Mariam
+2 SURN Cissé
+1 SEX F
+1 FAMS @F1030@
+0 @I1104@ INDI
+1 SEX F
+1 FAMS @F1031@
+0 @I1105@ INDI
+1 NAME Mamadou /Diarra/
+2 GIVN Mamadou
+2 SURN Diarra
+2 NICK MaDiarra
+1 SEX M
+1 DEAT
+2 DATE APR 2007
+1 FAMC @F1031@
+0 @I1106@ INDI
+1 NAME Ibrahim /Kouma/
+2 GIVN Ibrahim
+2 SURN Kouma
+1 SEX M
+1 BIRT
+2 DATE 3 FEB 2006
+2 PLAC Paris, FRANCE, , , , , 
+1 FAMC @F0058@
+0 @I1107@ INDI
+1 SEX F
+1 FAMS @F1032@
+0 @I1108@ INDI
+1 NAME Malick /Traoré/
+2 GIVN Malick
+2 SURN Traoré
+1 SEX M
+1 BIRT
+2 DATE 3 OCT 2007
+1 FAMC @F1018@
+1 OBJE @M45@
+0 @I1109@ INDI
+1 NAME Sadio /Attingli/
+2 GIVN Sadio
+2 SURN Attingli
+1 SEX F
+1 BIRT
+2 DATE 2 MAY 1999
+1 FAMC @F1008@
+1 OBJE @M48@
+0 @I1110@ INDI
+1 NAME David /Attingli/
+2 GIVN David
+2 SURN Attingli
+1 SEX M
+1 FAMC @F1008@
+1 OBJE @M49@
+1 BIRT
+2 DATE 25 MAY 2005
+0 @I1111@ INDI
+1 NAME Nathan /Attingli/
+2 GIVN Nathan
+2 SURN Attingli
+1 SEX M
+1 FAMC @F1008@
+1 OBJE @M50@
+0 @F1@ FAM
+1 WIFE @I4@
+1 HUSB @I0183@
+1 MARR Y
+1 CHIL @I0276@
+0 @F2@ FAM
+1 WIFE @I5@
+1 HUSB @I0193@
+1 MARR Y
+1 CHIL @I6@
+0 @F3@ FAM
+1 HUSB @I7@
+1 WIFE @I0278@
+1 MARR Y
+1 CHIL @I8@
+0 @F4@ FAM
+1 WIFE @I9@
+1 HUSB @I0003@
+1 MARR Y
+1 CHIL @X10@
+1 CHIL @X11@
+0 @F5@ FAM
+1 WIFE @I11@
+1 HUSB @I0212@
+1 MARR Y
+0 @F6@ FAM
+1 WIFE @I12@
+1 HUSB @I2@
+1 MARR Y
+0 @F7@ FAM
+1 HUSB @I13@
+1 WIFE @I0211@
+1 MARR Y
+0 @X4@ FAM
+1 WIFE @I0202@
+1 HUSB @X3@
+1 CHIL @X5@
+0 @X7@ FAM
+1 WIFE @I0202@
+1 HUSB @X6@
+1 CHIL @X8@
+0 @X17@ FAM
+1 HUSB @X12@
+1 WIFE @X16@
+1 CHIL @X18@
+1 CHIL @X19@
+1 CHIL @X20@
+0 @X22@ FAM
+1 HUSB @I0153@
+1 WIFE @X21@
+1 CHIL @X23@
+1 CHIL @X24@
+1 CHIL @X25@
+1 CHIL @X26@
+1 CHIL @X27@
+1 CHIL @X28@
+0 @X30@ FAM
+1 HUSB @I0153@
+1 WIFE @X29@
+1 CHIL @X31@
+1 CHIL @X32@
+0 @X34@ FAM
+1 WIFE @I0087@
+1 HUSB @X33@
+1 CHIL @X37@
+0 @X36@ FAM
+1 WIFE @I0087@
+1 HUSB @X35@
+1 CHIL @X38@
+0 @X45@ FAM
+1 CHIL @I1002@
+1 HUSB @X44@
+1 WIFE @X46@
+0 @X49@ FAM
+1 WIFE @I1067@
+1 HUSB @X48@
+1 CHIL @X50@
+1 CHIL @X51@
+0 @F0001@ FAM
+1 HUSB @I0002@
+1 WIFE @I0001@
+1 MARR
+2 TYPE Civil
+2 DATE 7 APR 1992
+2 PLAC Mont-Saint-Aignan, Seine-Maritime, Haute-Normandie, FRA, , , 
+3 MAP
+4 LATI N49.461068
+4 LONG E1.080608
+1 CHIL @I0003@
+1 CHIL @I0004@
+0 @F0002@ FAM
+1 HUSB @I0005@
+1 WIFE @I0006@
+1 MARR
+2 TYPE Religious
+2 DATE 9 OCT 1954
+2 PLAC Paris, FRA, , , , , 
+3 MAP
+4 LATI N48.881086
+4 LONG E2.354336
+1 CHIL @I0001@
+1 CHIL @I0007@
+0 @F0003@ FAM
+1 HUSB @I0008@
+1 WIFE @I0009@
+1 MARR
+2 DATE 7 JUN 1919
+2 PLAC Saint Sébastien sur Loire, Loire-Atlantique, Pays de la Loire, FRA, , , 
+1 CHIL @I0005@
+1 CHIL @I0010@
+1 CHIL @I0011@
+0 @F0004@ FAM
+1 HUSB @I0010@
+1 WIFE @I0012@
+1 CHIL @I0015@
+0 @F0005@ FAM
+1 HUSB @I0011@
+1 WIFE @I0013@
+1 CHIL @I0014@
+0 @F0006@ FAM
+1 HUSB @I0015@
+1 WIFE @I0016@
+1 CHIL @I0017@
+1 CHIL @I0018@
+0 @F0007@ FAM
+1 HUSB @I0019@
+1 WIFE @I0020@
+1 MARR
+2 DATE 3 SEP 1924
+2 PLAC Montreuil, Seine-Saint-Denis, Île-de-France, FRA, , , 
+1 CHIL @I0034@
+1 CHIL @I0006@
+1 CHIL @I0035@
+0 @F0008@ FAM
+1 HUSB @I0021@
+1 WIFE @I0022@
+1 MARR
+2 DATE 7 JUL 1857
+2 PLAC Strasbourg, Bas-Rhin, Alsace, FRA, , , 
+1 CHIL @I0024@
+1 CHIL @I0025@
+1 CHIL @I0019@
+1 CHIL @I0023@
+0 @F0009@ FAM
+1 HUSB @I0024@
+1 WIFE @I0026@
+1 CHIL @I0027@
+1 CHIL @I0028@
+0 @F0010@ FAM
+1 HUSB @I0029@
+1 WIFE @I0028@
+0 @F0011@ FAM
+1 HUSB @I0030@
+1 WIFE @I0031@
+1 CHIL @I0032@
+1 CHIL @I0033@
+1 CHIL @I0020@
+0 @F0012@ FAM
+1 HUSB @I0034@
+1 WIFE @I0036@
+1 MARR
+2 DATE 2 JUN 1979
+0 @F0013@ FAM
+1 HUSB @I0037@
+1 WIFE @I0035@
+1 CHIL @I0038@
+1 CHIL @I0039@
+0 @F0014@ FAM
+1 HUSB @I0039@
+1 WIFE @I0040@
+1 MARR
+2 DATE 27 FEB 1993
+2 PLAC Saint-Germain-en-Laye, Yvelines, Île-de-France, FRA, , , 
+1 CHIL @I0041@
+1 CHIL @I0042@
+0 @F0015@ FAM
+1 HUSB @I0043@
+1 WIFE @I0038@
+1 MARR
+2 DATE 29 SEP 1990
+1 CHIL @I0044@
+1 CHIL @I0045@
+0 @F0016@ FAM
+1 HUSB @I0046@
+1 WIFE @I0047@
+1 CHIL @I0048@
+1 CHIL @I0008@
+1 CHIL @I0049@
+1 CHIL @I0050@
+0 @F0017@ FAM
+1 HUSB @I0048@
+1 WIFE @I0051@
+1 CHIL @I0056@
+0 @F0018@ FAM
+1 HUSB @I0052@
+1 WIFE @I0053@
+1 MARR
+2 DATE 10 JAN 1882
+2 PLAC Doulon les Nantes, Loire-Atlantique, Pays de la Loire, FRA, , , 
+1 CHIL @I0009@
+1 NOTE @N0271@
+0 @F0019@ FAM
+1 HUSB @I0054@
+1 WIFE @I0196@
+1 CHIL @I0052@
+0 @F0020@ FAM
+1 HUSB @I0061@
+1 WIFE @I1054@
+1 MARR Y
+1 CHIL @I0053@
+1 CHIL @I0062@
+0 @F0021@ FAM
+1 HUSB @I0057@
+1 WIFE @I0056@
+0 @F0022@ FAM
+1 HUSB @I0058@
+1 WIFE @I0049@
+1 CHIL @I0059@
+0 @F0023@ FAM
+1 HUSB @I0059@
+1 WIFE @I0273@
+1 CHIL @I0060@
+0 @F0024@ FAM
+1 HUSB @I0062@
+1 WIFE @I1055@
+1 MARR Y
+1 CHIL @I0063@
+0 @F0025@ FAM
+1 HUSB @I0019@
+1 WIFE @I0055@
+1 MARR
+2 DATE 12 OCT 1889
+2 PLAC Paris, FRA, , , , , 
+3 MAP
+4 LATI N48.881086
+4 LONG E2.354336
+1 NOTE @N0275@
+0 @F0026@ FAM
+1 HUSB @I0081@
+1 WIFE @I0201@
+1 CHIL @I0202@
+1 CHIL @I0203@
+1 CHIL @X2@
+0 @F0027@ FAM
+1 HUSB @I1051@
+1 WIFE @I0032@
+1 MARR Y
+1 CHIL @I1087@
+1 CHIL @I1087@
+0 @F0028@ FAM
+1 HUSB @I0064@
+1 WIFE @I0068@
+1 MARR
+2 DATE 29 SEP 1946
+2 PLAC Bamako, District de Bamako, MLI, , , , 
+3 MAP
+4 LATI N12.666132
+4 LONG W7.99015
+1 CHIL @I0200@
+1 CHIL @I0077@
+1 CHIL @I0078@
+1 CHIL @I0002@
+1 CHIL @I0079@
+1 CHIL @I0080@
+1 CHIL @I0081@
+1 CHIL @I0082@
+1 CHIL @I0083@
+1 CHIL @I0084@
+0 @F0029@ FAM
+1 HUSB @I0069@
+1 WIFE @I0070@
+1 CHIL @I0064@
+1 CHIL @I0131@
+1 CHIL @I0132@
+1 CHIL @I0133@
+0 @F0030@ FAM
+1 HUSB @I0071@
+1 WIFE @I0072@
+1 CHIL @I0068@
+0 @F0031@ FAM
+1 HUSB @I0073@
+1 WIFE @I0074@
+1 CHIL @I0071@
+0 @F0032@ FAM
+1 HUSB @I0075@
+1 WIFE @I0076@
+1 CHIL @I0126@
+1 CHIL @I0127@
+1 CHIL @I0072@
+1 CHIL @I0128@
+1 CHIL @I0129@
+1 CHIL @I0130@
+0 @F0033@ FAM
+1 HUSB @I1041@
+1 WIFE @I0083@
+1 MARR Y
+1 CHIL @I0085@
+0 @F0034@ FAM
+1 HUSB @I1002@
+1 WIFE @I0080@
+1 CHIL @I0086@
+0 @F0035@ FAM
+1 HUSB @I1050@
+1 WIFE @I0084@
+1 MARR Y
+1 CHIL @I0087@
+0 @F0036@ FAM
+1 HUSB @I1059@
+1 WIFE @I0090@
+1 MARR Y
+1 CHIL @I0099@
+1 CHIL @I0100@
+0 @F0037@ FAM
+1 HUSB @I0092@
+1 WIFE @I1057@
+1 MARR Y
+1 CHIL @I0101@
+0 @F0038@ FAM
+1 HUSB @I1060@
+1 WIFE @I0093@
+1 MARR Y
+1 CHIL @I0102@
+1 CHIL @I0103@
+1 CHIL @I0104@
+1 CHIL @I0105@
+1 CHIL @I0106@
+1 CHIL @I0107@
+1 CHIL @I0108@
+0 @F0039@ FAM
+1 HUSB @I1062@
+1 WIFE @I0096@
+1 MARR Y
+1 CHIL @I0109@
+1 CHIL @I0110@
+1 CHIL @I0111@
+1 CHIL @I0112@
+0 @F0040@ FAM
+1 HUSB @I0095@
+1 WIFE @I1056@
+1 MARR Y
+1 CHIL @I0113@
+1 CHIL @I0114@
+1 CHIL @I0115@
+1 CHIL @I0116@
+1 CHIL @I0117@
+0 @F0041@ FAM
+1 HUSB @I1061@
+1 WIFE @I0097@
+1 MARR Y
+1 CHIL @I0118@
+1 CHIL @I0119@
+0 @F0042@ FAM
+1 HUSB @I0089@
+1 WIFE @I1052@
+1 MARR Y
+1 MARR Y
+1 CHIL @I0120@
+1 CHIL @I0121@
+1 CHIL @I0122@
+1 CHIL @I0123@
+1 CHIL @I0124@
+0 @F0044@ FAM
+1 HUSB @I1048@
+1 WIFE @I0126@
+1 MARR Y
+1 MARR Y
+1 CHIL @I0134@
+1 CHIL @I0135@
+1 CHIL @I0136@
+1 CHIL @I0137@
+1 CHIL @I0138@
+0 @F0045@ FAM
+1 HUSB @I0139@
+1 WIFE @I0127@
+1 CHIL @I0140@
+1 CHIL @I0141@
+1 CHIL @I0142@
+0 @F0046@ FAM
+1 HUSB @I0143@
+1 WIFE @I0128@
+1 CHIL @I0144@
+1 CHIL @I0145@
+1 CHIL @I0146@
+1 CHIL @I0147@
+1 CHIL @I0148@
+0 @F0047@ FAM
+1 HUSB @I1047@
+1 WIFE @I0129@
+1 MARR Y
+1 CHIL @I0149@
+1 CHIL @I0150@
+1 CHIL @I0151@
+0 @F0048@ FAM
+1 HUSB @I0152@
+1 WIFE @I0129@
+0 @F0049@ FAM
+1 CHIL @X14@
+1 CHIL @I0153@
+1 CHIL @X12@
+1 CHIL @I0154@
+1 CHIL @I0155@
+1 CHIL @I0156@
+1 CHIL @X15@
+1 CHIL @X13@
+1 CHIL @I0157@
+1 HUSB @I0130@
+1 WIFE @I1044@
+1 MARR Y
+0 @F0050@ FAM
+1 HUSB @I0135@
+1 WIFE @I1058@
+1 MARR Y
+1 CHIL @I0158@
+1 CHIL @I0159@
+1 CHIL @I0160@
+0 @F0051@ FAM
+1 HUSB @I0161@
+1 WIFE @I0134@
+1 CHIL @I0162@
+1 CHIL @I0163@
+1 CHIL @I0164@
+1 CHIL @I0165@
+0 @F0052@ FAM
+1 HUSB @I0166@
+1 WIFE @I0136@
+1 CHIL @I0167@
+1 CHIL @I0168@
+0 @F0053@ FAM
+1 HUSB @I1063@
+1 WIFE @I0137@
+1 MARR Y
+1 CHIL @I0169@
+1 CHIL @I0170@
+1 CHIL @I0171@
+1 CHIL @I0172@
+1 CHIL @I0173@
+1 CHIL @I0174@
+0 @F0054@ FAM
+1 HUSB @I0138@
+1 WIFE @I1053@
+1 MARR Y
+1 CHIL @I0175@
+1 CHIL @I0176@
+0 @F0055@ FAM
+1 HUSB @I0177@
+1 WIFE @I0141@
+1 CHIL @I0178@
+1 CHIL @I0179@
+1 CHIL @I0180@
+1 CHIL @I0181@
+0 @F0056@ FAM
+1 HUSB @I0182@
+1 WIFE @I0179@
+0 @F0057@ FAM
+1 HUSB @I0183@
+1 WIFE @I0078@
+1 DIV
+2 DATE 1996
+1 MARR
+2 TYPE Civil
+2 DATE 15 OCT 1977
+1 CHIL @I0184@
+1 CHIL @I0185@
+1 CHIL @X43@
+0 @F0058@ FAM
+1 HUSB @I1042@
+1 WIFE @I0085@
+1 MARR Y
+1 CHIL @I0187@
+1 CHIL @I1106@
+1 CHIL @X47@
+0 @F0059@ FAM
+1 HUSB @I1049@
+1 WIFE @I0132@
+1 MARR Y
+1 CHIL @I0189@
+0 @F0060@ FAM
+1 HUSB @I0189@
+1 WIFE @I0190@
+0 @F0061@ FAM
+1 HUSB @I1018@
+1 WIFE @I0191@
+1 MARR Y
+1 CHIL @I0069@
+1 CHIL @I1019@
+1 CHIL @I1020@
+0 @F0062@ FAM
+1 HUSB @I0069@
+1 WIFE @I0192@
+1 CHIL @I0193@
+1 CHIL @I0194@
+0 @F0063@ FAM
+1 HUSB @I0063@
+1 WIFE @I0065@
+1 CHIL @I0067@
+1 CHIL @I0066@
+0 @F0064@ FAM
+1 HUSB @I0197@
+1 WIFE @I0198@
+1 CHIL @I0030@
+1 CHIL @I0236@
+1 CHIL @I0224@
+1 CHIL @I0222@
+0 @F0065@ FAM
+1 HUSB @I0081@
+1 WIFE @I0204@
+1 CHIL @I0205@
+1 MARR
+2 DATE 23 SEP 1999
+1 CHIL @X1@
+0 @F0066@ FAM
+1 HUSB @I0082@
+1 WIFE @I0206@
+1 CHIL @I0207@
+1 MARR
+2 DATE 2000
+0 @F0067@ FAM
+1 HUSB @I0082@
+1 WIFE @I0208@
+0 @F0068@ FAM
+1 HUSB @I0088@
+1 WIFE @I0084@
+1 MARR
+2 TYPE Civil
+2 DATE FEB 2000
+2 PLAC Watford, Hertfordshire, ENG, , , , 
+3 MAP
+4 LATI N51.69762
+4 LONG W0.394821
+2 SOUR @S0001@
+3 PAGE Voume :536, Page : 90, Register; R1A
+1 CHIL @I0209@
+1 CHIL @I1088@
+1 CHIL @I1089@
+0 @F0069@ FAM
+1 HUSB @I0188@
+1 WIFE @I0083@
+1 CHIL @I0186@
+0 @F0070@ FAM
+1 HUSB @I0183@
+1 WIFE @I0210@
+1 CHIL @I0211@
+1 CHIL @I0212@
+0 @F0071@ FAM
+1 HUSB @I0213@
+1 WIFE @I0211@
+1 MARR
+2 DATE 28 SEP 2002
+2 PLAC Grand-Couronne, Seine-Maritime, Haute-Normandie, FRA, , , 
+1 CHIL @I0214@
+0 @F0072@ FAM
+1 HUSB @I0215@
+1 WIFE @I1045@
+1 MARR Y
+1 CHIL @I0046@
+0 @F0073@ FAM
+1 HUSB @I0216@
+1 WIFE @I1046@
+1 MARR Y
+1 CHIL @I0215@
+1 CHIL @I0217@
+0 @F0074@ FAM
+1 HUSB @I0217@
+1 WIFE @I0218@
+1 CHIL @I0219@
+0 @F0075@ FAM
+1 HUSB @I0220@
+1 WIFE @I0221@
+1 CHIL @I0021@
+1 CHIL @I0223@
+0 @F0076@ FAM
+1 HUSB @I0225@
+1 WIFE @I0226@
+1 CHIL @I0220@
+1 CHIL @I0240@
+1 CHIL @I0241@
+0 @F0077@ FAM
+1 HUSB @I0227@
+1 WIFE @I0228@
+1 CHIL @I0022@
+0 @F0078@ FAM
+1 HUSB @I0229@
+1 WIFE @I0230@
+1 CHIL @I0227@
+1 CHIL @I0231@
+1 CHIL @I0237@
+1 CHIL @I0238@
+0 @F0079@ FAM
+1 HUSB @I0232@
+1 WIFE @I0233@
+1 CHIL @I0229@
+0 @F0080@ FAM
+1 HUSB @I0234@
+1 WIFE @I0235@
+1 CHIL @I0230@
+0 @F0081@ FAM
+1 HUSB @I0239@
+1 WIFE @I0238@
+0 @F0082@ FAM
+1 HUSB @I0242@
+1 WIFE @I0241@
+1 MARR
+2 DATE 30 DEC 1835
+2 PLAC Illkirch, Bas-Rhin, Alsace, FRA, , , 
+0 @F0083@ FAM
+1 HUSB @I0243@
+1 WIFE @I0244@
+1 CHIL @I0242@
+0 @F0085@ FAM
+1 HUSB @I0077@
+1 WIFE @I1003@
+1 MARR
+2 TYPE Y
+1 CHIL @I0282@
+0 @F0086@ FAM
+1 HUSB @I0064@
+1 WIFE @I1000@
+1 EVEN
+2 TYPE TYPE
+2 NOTE Description: Partners
+1 CHIL @I0246@
+0 @F0087@ FAM
+1 HUSB @I0245@
+1 WIFE @I0247@
+1 CHIL @I0248@
+1 CHIL @I0249@
+1 CHIL @I0250@
+1 CHIL @I0251@
+0 @F0088@ FAM
+1 HUSB @I0248@
+1 WIFE @I0252@
+1 CHIL @I0253@
+1 CHIL @I0254@
+1 CHIL @I0255@
+0 @F0089@ FAM
+1 HUSB @I0248@
+1 WIFE @I0256@
+1 CHIL @I0257@
+0 @F0090@ FAM
+1 HUSB @I0248@
+1 WIFE @I0258@
+1 CHIL @I0259@
+0 @F0091@ FAM
+1 HUSB @I0249@
+1 WIFE @I1043@
+1 MARR Y
+1 CHIL @I0260@
+1 CHIL @I0261@
+1 CHIL @I0262@
+1 CHIL @I0263@
+1 CHIL @I0264@
+0 @F0092@ FAM
+1 HUSB @I0250@
+1 WIFE @I0265@
+0 @F0093@ FAM
+1 HUSB @I0251@
+1 WIFE @I0269@
+1 CHIL @I0266@
+1 CHIL @I0267@
+1 CHIL @I0268@
+0 @F0094@ FAM
+1 HUSB @I0270@
+1 WIFE @I0271@
+1 CHIL @I0055@
+0 @F0095@ FAM
+1 HUSB @I0059@
+1 WIFE @I0272@
+0 @F0096@ FAM
+1 HUSB @I0193@
+1 WIFE @I0274@
+1 CHIL @I0279@
+1 CHIL @I0275@
+1 CHIL @I0280@
+1 CHIL @I1015@
+0 @F0097@ FAM
+1 HUSB @I0277@
+1 WIFE @I0194@
+1 MARR Y
+1 CHIL @I0278@
+0 @F0099@ FAM
+1 HUSB @I0195@
+1 WIFE @I0287@
+0 @F0101@ FAM
+1 HUSB @I0195@
+1 WIFE @I0289@
+0 @F0102@ FAM
+1 HUSB @I0291@
+1 WIFE @I0194@
+1 CHIL @I1@
+1 CHIL @I2@
+1 CHIL @I3@
+0 @F0103@ FAM
+1 HUSB @I0292@
+1 WIFE @I0194@
+1 MARR Y
+1 CHIL @I0293@
+1 CHIL @I1012@
+1 CHIL @X42@
+0 @F0104@ FAM
+1 HUSB @I0195@
+1 WIFE @I0295@
+1 MARR Y
+0 @F0105@ FAM
+1 HUSB @I0296@
+1 WIFE @I0298@
+1 MARR Y
+1 CHIL @I0299@
+1 CHIL @I1022@
+1 CHIL @I1023@
+0 @F0106@ FAM
+1 HUSB @I1022@
+1 WIFE @I0302@
+1 CHIL @I0303@
+0 @F0107@ FAM
+1 HUSB @I0304@
+1 WIFE @I0303@
+1 CHIL @I0305@
+0 @F0108@ FAM
+1 HUSB @I1023@
+1 WIFE @I0306@
+1 CHIL @I0307@
+0 @F0110@ FAM
+1 HUSB @I0309@
+1 WIFE @I0299@
+1 MARR Y
+1 CHIL @I0310@
+1 CHIL @I0311@
+1 CHIL @I0312@
+0 @F0112@ FAM
+1 HUSB @I0314@
+1 WIFE @I0315@
+1 MARR Y
+1 CHIL @I0070@
+1 CHIL @I0316@
+0 @F0113@ FAM
+1 HUSB @I0307@
+1 WIFE @I0317@
+1 MARR Y
+1 CHIL @I0318@
+0 @F0114@ FAM
+1 HUSB @I0293@
+1 WIFE @I0319@
+1 MARR Y
+0 @F0133@ FAM
+1 HUSB @I0000@
+1 WIFE @I0276@
+0 @F0134@ FAM
+1 HUSB @I0125@
+1 WIFE @I0211@
+1 CHIL @I0281@
+0 @F0135@ FAM
+1 HUSB @I0283@
+1 WIFE @I0276@
+1 CHIL @I0284@
+0 @F0136@ FAM
+1 HUSB @I0285@
+1 WIFE @I0080@
+1 CHIL @I0286@
+0 @F0137@ FAM
+1 HUSB @I0288@
+1 WIFE @I0086@
+1 CHIL @I0294@
+1 CHIL @X9@
+0 @F0138@ FAM
+1 HUSB @I0300@
+1 WIFE @I0184@
+1 CHIL @I0301@
+1 CHIL @I10@
+0 @F0139@ FAM
+1 HUSB @I0185@
+1 WIFE @I0308@
+1 CHIL @I0313@
+1 CHIL @I0321@
+0 @F1000@ FAM
+1 HUSB @I0064@
+1 WIFE @I1001@
+1 CHIL @I0245@
+0 @F1001@ FAM
+1 HUSB @I0195@
+1 WIFE @I1005@
+1 MARR Y
+0 @F1002@ FAM
+1 HUSB @I0195@
+1 WIFE @I1006@
+1 MARR Y
+0 @F1003@ FAM
+1 HUSB @I0195@
+1 WIFE @I1007@
+1 MARR Y
+0 @F1004@ FAM
+1 HUSB @I0195@
+1 WIFE @I1008@
+1 MARR Y
+1 CHIL @I1009@
+0 @F1008@ FAM
+1 HUSB @I1012@
+1 WIFE @I1017@
+1 MARR Y
+1 CHIL @I1109@
+1 CHIL @I1110@
+1 CHIL @I1111@
+0 @F1009@ FAM
+1 HUSB @I1018@
+1 WIFE @I1021@
+1 MARR Y
+1 CHIL @I1022@
+1 CHIL @I1023@
+0 @F1010@ FAM
+1 HUSB @I1023@
+1 WIFE @I1024@
+1 MARR Y
+1 CHIL @I1025@
+1 CHIL @I1026@
+0 @F1011@ FAM
+1 HUSB @I1025@
+1 WIFE @I1027@
+1 MARR Y
+1 CHIL @I1028@
+1 CHIL @I1098@
+1 CHIL @I1099@
+1 CHIL @I1100@
+0 @F1012@ FAM
+1 HUSB @I1022@
+1 WIFE @I1029@
+1 MARR Y
+1 CHIL @I1030@
+0 @F1013@ FAM
+1 HUSB @I1031@
+1 WIFE @I1030@
+1 MARR Y
+1 CHIL @I1032@
+0 @F1014@ FAM
+1 HUSB @I1033@
+1 WIFE @I1095@
+1 MARR Y
+1 CHIL @I1034@
+1 CHIL @I1035@
+1 CHIL @I1096@
+0 @F1015@ FAM
+1 HUSB @I1091@
+1 WIFE @I1090@
+1 MARR Y
+1 MARR Y
+1 CHIL @I0070@
+1 CHIL @I1038@
+0 @F1016@ FAM
+1 HUSB @I1064@
+1 WIFE @I0246@
+1 MARR
+2 DATE 19 JUL 1975
+1 CHIL @I1065@
+1 CHIL @I1066@
+1 CHIL @I1067@
+0 @F1017@ FAM
+1 HUSB @I1068@
+1 WIFE @I1069@
+1 MARR Y
+1 CHIL @I1000@
+0 @F1018@ FAM
+1 HUSB @I1065@
+1 WIFE @I1070@
+1 MARR Y
+1 CHIL @I1071@
+1 CHIL @I1072@
+1 CHIL @I1108@
+0 @F1019@ FAM
+1 HUSB @I1073@
+1 WIFE @I1066@
+1 MARR
+2 TYPE Partners
+1 CHIL @I1074@
+0 @F1020@ FAM
+1 HUSB @I1075@
+1 WIFE @I0133@
+1 MARR Y
+1 CHIL @I1076@
+0 @F1021@ FAM
+1 HUSB @I1077@
+1 WIFE @I0132@
+1 MARR Y
+1 CHIL @I1078@
+1 CHIL @I1079@
+1 CHIL @I1080@
+1 CHIL @I1097@
+0 @F1022@ FAM
+1 HUSB @I0071@
+1 WIFE @I1081@
+1 MARR Y
+1 CHIL @I1082@
+0 @F1023@ FAM
+1 HUSB @I0071@
+1 WIFE @I1083@
+1 MARR Y
+1 CHIL @I0089@
+1 CHIL @I0092@
+1 CHIL @I0093@
+1 CHIL @I0094@
+1 CHIL @I0095@
+1 CHIL @I0097@
+1 CHIL @I0098@
+0 @F1024@ FAM
+1 HUSB @I1039@
+1 WIFE @I1084@
+1 MARR Y
+1 CHIL @I1085@
+0 @F1026@ FAM
+1 HUSB @I1091@
+1 WIFE @I1092@
+1 MARR Y
+1 CHIL @I1039@
+1 CHIL @I1040@
+0 @F1027@ FAM
+1 HUSB @I0069@
+1 WIFE @I1093@
+1 MARR Y
+1 CHIL @I0195@
+0 @F1028@ FAM
+1 HUSB @I1094@
+1 WIFE @I1020@
+1 MARR Y
+1 CHIL @I1095@
+0 @F1029@ FAM
+1 HUSB @I0064@
+1 WIFE @I1101@
+1 MARR Y
+1 CHIL @I0199@
+0 @F1030@ FAM
+1 HUSB @I1102@
+1 WIFE @I1103@
+1 MARR Y
+1 CHIL @I0274@
+0 @F1031@ FAM
+1 HUSB @I0131@
+1 WIFE @I1104@
+1 MARR Y
+1 CHIL @I1105@
+0 @F1032@ FAM
+1 HUSB @I0071@
+1 WIFE @I1107@
+1 MARR Y
+1 CHIL @I0091@
+1 CHIL @I0090@
+1 CHIL @I0089@
+1 CHIL @I0096@
+0 @S0001@ SOUR
+1 TITL England & Wales Marriage Index (1984-2004)
+1 ABBR England & Wales Marriage Index (1984-2004)
+1 NOTE @N0773@
+1 NOTE @N0774@
+0 @N0001@ NOTE Brigitte, Louise, Lucienne DOBIGEON ?(Louise est le prénom de sa grand-mëre paternelle et Luci enne le prénom de sa mëre)?.
+1 CONT Le baptëme a eu lieu en l'église Notre-Dame à Vincennes, le 05 juin 1960.
+1 CONT Parrain : Marc DOBIGEON ?(oncle paternel)?, marraine : Denise PILJAN ?(tante maternelle)?.
+1 CONT Deux mariages avec Boubacar :
+1 CONT - le 31 août 1991, à l'ambassade du Mali à Paris
+1 CONT - le 07 avril 1992, à la mairie de Mont Saint Aignan...
+0 @N0004@ NOTE Les objets référencés par cette note ont été référencés mais sont absents, c'est pourquoi ils ont été créés quand vous avez utilisé la vérification et la réparation de l'arbre à la date du 12/08/2017 00:59:21.
+0 @N0006@ NOTE Claude, Pierre, Marcel DOBIGEON.
+1 CONT Documents disponibles :
+1 CONT - Cartes et tickets de rationnement
+1 CONT - Certificat de domicile, rue Compans à Paris.
+0 @N0009@ NOTE Pascal, Claude, Paul DOBIGEON.
+1 CONT Parrain : Henri GEISEN ?(frëre de Lucienne)?
+1 CONT Marraine : Berthe DOBIGEON ?(seconde épouse Marcel DOBIGEON, grand-përe paternel)?
+0 @N0011@ NOTE Marcel, Auguste, Valentin DOBIGEON.
+1 CONT 1m80 (d'aprës son fascicule de mobilisation...dans les documents d'Aclou)...Cheveux chatains clairs... Yeux bleus.
+1 CONT Il exercait le métier de mécanicien (il a travaillé pendant plus de 40 ans dans les établissements Reffé et a obtenu la médaille du travail). Il était passionné de voitures. Il aimait voyager avec sa famille sur les routes de France alors peu fré
+1 CONC quentées...(voir les grandes photos).
+1 CONT Il a fait un second mariage (aprës le décës de sa premiëre épouse) avec Berthe ( Georgette, Eglantine) MAILLET.
+1 CONT Il était appelé Pépé Dobigeon par ses petits enfants, Brigitte et Pascal Dobigeon...
+1 CONT Brigitte se souvient de la maison de Saint Sébastien sur Loire, entourée de ses grands palmiers poussant dans le sable, des clapiers, du jardin que le Grand-Përe entretenait, et surtout d'un incroyable garage, véritable repëre d'Alibaba pour l'en
+1 CONC fant qu'elle était : tout un tas d'outils, de piëces détachées de toutes sorte, de boîtes petites et grosses (avec une préférence pour les petites...). En visite là-bas pour quelques jours (généralement une semaine) elle et son frëre aimaient ces
+1 CONC lieux, leurs parents aussi bien sûr... C'était un bon bricoleur : on garde de lui des petits briquets en étain fabriqués en forme de minis livres (à Aclou)... Mais tous se souviennent surtout de sa gentillesse du Grand-Përe, toujours prêt à rendr
+1 CONC e service et à venir en aide si le besoin s'en faisait sentir...On se souvient aussi de ses visites à Aclou, car c'est Grand-Përe qui a introduit les lapins à Aclou (ils y étaient un moment en liberté!)...Imaginez leur transport!...Ah, Grand-Për
+1 CONC e et ses lapins! Il lui est même arrivé d'en envoyer par la poste!...
+1 CONT Documents disponibles :
+1 CONT - Fascicule de mobilisation de 1914
+1 CONT - Livret militaire
+1 CONT - Certificat de bonne conduite
+1 CONT - Livret de famille
+1 CONT - Succession de Gabrielle Dobigeon, sa cousine, du 16 août 1945 (acquisition de la maison rue Fabert à Nantes).
+0 @N0013@ NOTE Louise, Véronique, Pauline CHEVALIER.
+1 CONT Louise est fille unique, elle a un cousin : Francis Sandère, qui s'est marié et a eu deux enfants (fille et garçon, photos disponibles).
+1 CONT Elle est couturiëre lorsqu'elle s'est mariée (mention dans le livret de famille).
+1 CONT Documents disponibles :
+1 CONT - Livret de famille
+1 CONT - Livret travail des enfants
+1 CONT - Carte d'identité
+1 CONT - Carte de circulation
+1 CONT - Carte de rationnement
+1 CONT - Prix de rédaction
+1 CONT - Certificat de naissance de Serge.
+0 @N0015@ NOTE Serge, Paul, Henri DOBIGEON.
+1 CONT Il est décédé par noyade (hydrocution) à Pornic en août 1954...à l'âge de 32 ans, laissant son jeune fils Alain...
+1 CONT Documents :
+1 CONT - Livret de famille de ses parents
+1 CONT - Certificat de naissance
+1 CONT - Diverses photos
+0 @N0017@ NOTE Marc, Louis, Jean DOBIGEON.
+1 CONT Il a longtemps résidé à Menton, prës de Nice (années 60, 70), où il détenait une blanchisserie. La derniëre entrevue remonte à 1974, aprës le décës de Pépé Dobigeon (Marcel) en 1974. A l'écart de la famille, donnant peu de nouvelles, sa nouveller
+1 CONC ésidence était inconnue, jusqu'à ce que sa belle-soeur Lucienne Dobigeon le retrouve en faisant des recherches sur Minitel ...(à compléter avec les infos de Mamie)...Sa niëce, Brigitte (fille de Claude Dobigeon) se rappelle de colis (reçus à l'oc
+1 CONC casion de Noël ?) qui lui ont fait trës plaisir : de délicieux fruits confits (elle se souvient encore de leur finesse 40 ans aprës!...), joliment présentés dans un panier en osier tressé (qui lui sert encore de range-crayons...), à moins que c
+1 CONC e ne soit dans le beau coffret d'aspect velours marron (lui aussi encore en service !). Elle se souvient aussi de sa premiëre (et unique !) poupée mannequin Barbie (encore dans le "grenier aux merveilles" d'Aclou), et d'un polichinelle pour son f
+1 CONC rëre Pascal)...
+1 CONT Documments disponibles :
+1 CONT - Copie livret de famille de ses parents
+1 CONT - Photos
+0 @N0019@ NOTE Eliane travaillait dans le domaine de la photo.
+0 @N0020@ NOTE Claude, Léone, Mathilde, Juliette CORMERAIS
+0 @N0021@ NOTE Thérese est fille unique...Le lieu de naissance est à confirmé (cependant, Le Pecq était le lieu de résidance de ces parents lors de sa naissance...).
+1 CONT Quelques photos d'elle petite...
+1 CONT Faire-part concernant sa naissance.
+0 @N0023@ NOTE Alain, Serge, Marcel, Arthur DOBIGEON.
+1 CONT Il a vécu a Nantes, puis Brest, Vernon (où il avait restauré une belle maison...d'où il est parti sans laisser d'adresse !). Amateur d'objet anciens et de belles voitures anciennes (héritage du grand-përe ?), avec son épouse, il en a restauré que
+1 CONC lques-unes avec soin...
+0 @N0025@ NOTE Marie-France, Léa, Jeannine BEDUNEAU
+0 @N0026@ NOTE Paul, François, Henri GEISEN. Né au 35, rue des Frëres à Strasbourg.
+1 CONT Paul Geisen a été marié une premiëre fois (une photo), avec Marie-Louise SCHMITTLE, à Paris XVIIëme. Ils ont habité Claye-Souilly et ont loué Vincennes  à Jean Vaillant qui y ait resté jusqu'à sa mort (cf. bail). Paul et sa femme avaient donc deu
+1 CONC x maisons...
+1 CONT Paul a travaillé dans le négoce à Vincennes (cf. documents)
+1 CONT C'est avec sa seconde épouse, Jeanne Hoëflich, qu'il aura ses  trois enfants : Henri, Lucienne, Denise...Mariage du 03 septembre 1924, à Montreuil (Seine)
+1 CONT Documents :
+1 CONT - Copie acte de naissance (document Jean-Luc)
+1 CONT - Copie acte 1er mariage (document Jean-Luc)
+1 CONT - Copie certificat de mariage (document Jean-Luc)
+1 CONT - Bail avec Jean Vaillant
+1 CONT - Carte professionnelle
+1 CONT - Modële de facture
+1 CONT - Donnation entre époux entre Marie-Louise SCHMITTLE et Paul GEISEN
+1 CONT - Quelques photos.
+0 @N0028@ NOTE Jeanne Caroline (Johanna Karolina) est née Allemande et a été réintégrée Française en 1919.
+1 CONT Documents disponibles :
+1 CONT - Copie acte de naissance (document Jean-Luc)
+1 CONT - Extrait de naissance du 28 juin 1945
+1 CONT - Copie acte de mariage
+1 CONT - Certificat de nationnalité du 24 septembre 1945
+1 CONT - Trës peu de photos : Jeanne enfant avec son frëre et sa soeur, Jeanne avec un enfant (elle en gardait), et Jeanne âgée...
+0 @N0030@ NOTE Jean Baptiste Philippe GEISEN. Il est né le 26 novembre 1827, à 5H du matin, au  moulin à Tabac...
+1 CONT Lucienne Geisen a écrit à la mairie de Neudorf, mais aucun renseignement n'a pu être reccueilli.
+1 CONT Des recherches sur internet (cf. documents de familysearch.org) indiquent que Jean-Baptiste Philippe GEISEN s'est marié à Marie Apolline Antoinette SCHMITT le 07 juillet 1887, à Strasbourg...Information confirmée lors des recherches de Jean-Luc e
+1 CONC n Alsace !
+1 CONT Jean-Baptiste était fondé de pouvoir dans la manufacture de tabac alsacienne.
+1 CONT Documents disponibles :
+1 CONT - Legs du 12 mars 1921
+1 CONT - Copie de l'acte de naissance (document Jean-Luc)
+1 CONT - Copie acte de mariage (document Jean-Luc)
+1 CONT - Photos
+0 @N0032@ NOTE La recherche internet sur familysearch.org indique un mariage entre Marie Apolline Antoinette SCHMITT et Jean-Baptiste Philippe GEISEN, le 7 juillet, à Strasbourg...Cette information se trouve confirmée par l'acte de mariage retrouvé pa
+1 CONC rJean-Luc lors de ses recherches en Alsace.
+1 CONT Elle a fait hériter la moitié à sa fille, elle est décédée aprës Léon et aprës Charles...
+1 CONT Documents disponibles :
+1 CONT - Legs du 21 mars 1921
+1 CONT - Copie acte de naissance (document Jean-Luc)
+1 CONT - Copie acte de mariage (document Jean-Luc)
+1 CONT - Carte postale de Paul GEISEN du 16 mars 1914
+1 CONT - Photos
+1 CONT Adresse de la maison (5 ares) : section 25, nÀ34. Rue des Frëres, nÀ35
+1 CONT section 25, nÀ34. Rue du Ciel, nÀ3.
+0 @N0034@ NOTE Maria Antoinette Elisa.
+1 CONT Maria devait se marier à un officier allemand. Mais n'ayant pas la dote, elle n'a pu se marier. Elle ne s'est jamais mariée et n'a pas eu d'enfants...
+1 CONT En 1921, elle habitait Neudorf (Bas-Rhin).
+1 CONT Document :
+1 CONT - legs du 12 mars 1921.
+1 CONT - copie acte de naissance (document Jean-Luc)
+0 @N0036@ NOTE Charles GEISEN avait une activité commercante (négoce du vin).
+1 CONT Quand son épouse Berthe est décédée, Lucienne (sa fille la plus jeune) n'avait alors que 7 ans...
+1 CONT Documents disponibles :
+1 CONT - Legs du 12 mars 1921
+1 CONT - photos
+0 @N0038@ NOTE Jules, Marie, Léon  est né dans la maison familiale du 35, rue des Frëres à Strasbourg (à 11h du matin !).
+1 CONT Léon a été commissaire de police (cf. photo), sans enfants. Il s'est marié sur son lit de mort à la veuve d'un officier, en 1910...Renseignement venant de Mamie...
+1 CONT Document disponible :
+1 CONT - Copie de l'acte de naissance (document Jean-Luc)
+0 @N0040@ NOTE Berthe a été enterrée le 4 août 1908 (cf. carte postale Schmittlé).
+0 @N0043@ NOTE Renée et son mari ont résidés à Bois Colombe (Seine, 75)
+0 @N0045@ NOTE Le nom de famille n'est pas tout-à-fait certain : LOISON, mais aussi LOISIN figurent tous deux sur le legs.
+1 CONT Instituteur.
+0 @N0046@ NOTE Jean HOEFLICH est né le 19 décembre 1847...à 3h du Matin ! A Kesseldorf (arrondissement de Wissembourg).
+1 CONT Jean était pâgegetissier... Voir ses recettes (attention aux quantités !).
+1 CONT Documents disponibles :
+1 CONT - Copie de l'acte de naissance (document Jean-Luc)
+1 CONT - Copie acte de décës (document Jean-Luc)
+1 CONT - Extrait de naissance du 28 juin 1945
+1 CONT - Recettes de pâgegetisserie
+1 CONT - Photo
+0 @N0048@ NOTE Marie est sa fille aînée, vient ensuite son fils Henri, puis sa fille cadette Jeanne. A la suite de l'accouchement de Jeanne (par césarienne), Anne est restée paralysée...
+0 @N0049@ NOTE Marie HëEFLICH est l'aînée et  n'a pas eu d'enfant, mais avec son époux (nom incertain : HOCH ?), a adopté un enfant, celui-ci est parti un jour sans laisser de nouvelles....Ils ont habité 8, rue de l'Arc-en-Ciel à Strasbourg-Graffentad
+1 CONC e(Bas-Rhin)
+1 CONT Décës vers 1955.
+1 CONT Photo, avec son mari.
+0 @N0051@ NOTE Mort au cours de la guerre de 14-18.
+1 CONT Sans enfants...
+1 CONT Photos : enfant avec ses soeurs, militaire croix-rouge
+0 @N0053@ NOTE Henri est resté longtemps "vieux garçon", il s'est marié à Christiane mais n'a pas eu d'enfants.
+1 CONT Henri était quelqu'un qui n'aimait pas rester en place, il était toujours en "vadrouille" (cela d'ailleurs a été à l'origine de son décës...).
+1 CONT Il était amateur de voitures d'occasion (il en changeait trës fréquemment).
+1 CONT Dans son jardin, il élevait toute une basse-cour : poules, oies, canards, lapins, moutons, il lui est arrivé même d'avoir un cochon ! Il cultivait aussi un jardin... Il a, à un moment donné, investi dans un vieux tracteur ! Voir photos...
+1 CONT Il était trës apprécié par beaucoup de monde. A son enterrement, toutes les personnes venues lui rendre un dernier hommage n'ont pu entrer dans l'église...
+0 @N0066@ NOTE Henri, Joseph DOBIGEON exerca le métier de charpentier...
+0 @N0067@ NOTE Valentine, Eugénie, Marie Boyer
+0 @N0068@ NOTE Henri, Louis, Clément DOBIGEON.
+1 CONT Henri et Joséphine ont une fille dénommée Henriette,qui s'est mariée à  Henri Martinet (sont nées deux filles...).
+1 CONT Henri exerça le métier de menuisier...
+1 CONT Il a demeuré a Nantes (en 45, d'aprës les documents)
+1 CONT Documents disponibles :
+1 CONT - acte notarié du 16 août 1945 concernant la succession de Gabrielle DOBIGEON
+1 CONT - photos de la communion de la petite-fille de Joséphine et Henri
+1 CONT - diverses photos de mariages.
+0 @N0070@ NOTE Marguerite, Augustine, Germaine DOBIGEON, épouse BOURASSEAU.
+1 CONT Marguerite était appelée "tante Margot", son fils Marcel Bourasseau (junior) est décédé avant elle...
+1 CONT Margot a longtemps vécu à Saint Sébastien sur Loire, chemin de Bonne Garde (là où son neveu Claude et sa famille leur rendaient visite lorsqu'il se trouvaient chez Pépé DOBIGEON.
+1 CONT Elle détenait un registre avec les notes concernant la famille...
+1 CONT Elle était, avec Berthe sa belle-soeur ( seconde épouse de Marcel Dobigeon), dans le même établissement de retraite...
+1 CONT Documents disponibles :
+1 CONT - acte notarié du 16 août 1945 concernant la succession de Gabrielle DOBIGEON
+1 CONT - diverses photos
+0 @N0072@ NOTE Louis DOBIGEON s'est marié plusieurs fois (voir photos), mais est resté sans enfants...
+1 CONT Mécanicien, il a demeuré à Guérande, en 1945 d'aprës les documents.
+1 CONT "Veuf en premiëres noces de Mme Marguerite Louise AUSTRAYE, et en deuxiëmes noces de Mme Renée, Jeanne, Marie, Philomëne LECORNO".
+1 CONT Il a été mobilisé comme Maréchal des Logis à Fort-Lamy ( Afrique Equatoriale Française) en 1945.
+0 @N0074@ NOTE Joséphine était familliërement appelée tante Phiphine.
+1 CONT Elle a eu une fille (avec Henri Dobigeon) qui s'est mariée à un certain Martinet, d'où sont nées deux filles...Infos venant des renseignements collectés par Mamie...
+1 CONT Elle exerça dans le secrétariat...
+1 CONT Document disponible :
+1 CONT - acte notarié du 16 août 1945 concernant la succession de Gabrielle DOBIGEON
+1 CONT - photos de mariage
+1 CONT - photo de communion de sa petite-fille
+0 @N0075@ NOTE Pierre CHEVALIER exerca la profession de jardinier...
+1 CONT 1m67 !... Yeux gris... D'aprës son livert militaire délivré le 1er juillet 1880, disponible à Aclou.
+1 CONT Certificat de mariage à Aclou.
+1 CONT Une fille unique.
+1 CONT Documents disponibles :
+1 CONT - Fascicule de mobilisation établi en 1879, à Nantes
+1 CONT - Livret militaire, délivré le 1er juillet 1880
+1 CONT - Certificat de mariage, établi à Doulon-lës-Nantes, le 10 janvier 1880.
+0 @N0077@ NOTE Marie-Louise SANDERE a eu une fille unique.
+1 CONT Document disponible :
+1 CONT - Certificat de mariage du 10 janvier 1882, établi à Doulon lës Nantes (à Aclou)
+1 CONT - Carte d'identité pour la liquidation de la retraite(1914).
+0 @N0078@ NOTE François, Pierre CHEVALIER
+1 CONT François est mentionné dans le livret militaire de son fils.
+1 CONT Au moins un enfant...
+0 @N0079@ NOTE Marie-Louise est couturiëre et n'a plus ses parents lors de son mariage qui a lieu à Paris XVIIëme...(elle ignore même le lieu de leur décës ainsi que le dernier domicile de ses aiëuls...). Son frëre Emile Schmittlé sera témoin de maria
+1 CONC ge, il a vingt-cinq ans, est cuisinier et habite au 17 place Vendãome.
+1 CONT Marie-Louise et Paul ont habité Claye-Souilly et ont loué Vincennes (ils avaient deux maisons).
+1 CONT Documents :
+1 CONT - Copie acte de mariage (document Jean-Luc)
+1 CONT - Donnation entre époux (document Mamie)
+0 @N0081@ NOTE Le prénom n'est pas certain...
+1 CONT M. et Mme Martinet ont envoyé un faire-part de condoléances lors du décës de Papa (Claude DOBIGEON).
+0 @N0082@ NOTE Ils ont eu deux filles...Renseignements reccueillis par Mamie (lui demander de préciser ses sources...
+1 CONT M. et Mme Martinet ont envoyé un faire-part de condoléances lors du décës de Papa (Claude DOBIGEON).
+0 @N0083@ NOTE Marcel, Aristide, Alexandre BOURASSEAU.
+1 CONT Marcel est mort avant Grand-Përe Dobigeon, c'est-à-dire avant 1974...
+0 @N0084@ NOTE Marcel Bourasseau junior a divorsé de Paulette et s'est remarié (ou remis en ménage) par la suite. Marcel est décédé avant sa mëre Margot (Marguerite Dobigeon).
+0 @N0085@ NOTE Surnommée Mickette, elle est photographiée (elle a un chapeau) avec grands-parents...Son përe est décédé avant sa grand-mëre Margueritte DOBIGEON.
+0 @N0087@ NOTE Décès à 6 heures du matin
+0 @N0089@ NOTE Philomëne s'est tuée en triporteur (celui de son mari)...
+0 @N0090@ NOTE Roger SANDERE est photographié...
+0 @N0091@ NOTE Marcelle SANDERE est photographiée...
+0 @N0096@ NOTE Bintou DIARRA est appelée Baouba
+0 @N0103@ NOTE Alhousseëini est aussi appelé Fousseyni
+0 @N0105@ NOTE Sadio est aussi appelée Kia.
+0 @N0108@ NOTE Fatoumata est surnommée Fifi.
+0 @N0115@ NOTE Aissatou n'a pas d'enfants
+0 @N0119@ NOTE Fanta Maïga Tjini n'a pas d'enfants.
+0 @N0125@ NOTE Lassine est le frëre jumeau de Fousseëini
+0 @N0126@ NOTE Fousseëini est le frëre jumeau de Lassine
+0 @N0130@ NOTE Mamou est appelée aussi Mimi
+0 @N0132@ NOTE Mama DIARRA est connue aussi sous le nom de Mama Koroba
+0 @N0133@ NOTE Madinë a élevé sa niëce Fanta MAIGA, elles sont d'ailleurs photographiées ensemble alors que Fanta n'avait que deux ans...
+0 @N0140@ NOTE PIERRON est Breton
+0 @N0141@ NOTE Suzanne n'a pas d'enfants.
+0 @N0143@ NOTE Robert est gendarme en Bretagne ?
+0 @N0144@ NOTE BAKAry est le chef des chasseurs de Bamako
+0 @N0145@ NOTE Mamou Sidibé est connue sous le nom de Bleni
+0 @N0146@ NOTE Monique vit à New York.
+0 @N0147@ NOTE Dominique vit à Abidjan
+0 @N0149@ NOTE Jemil est libanais
+0 @N0150@ NOTE C'est son surnom ?
+0 @N0151@ NOTE AKAR est docteur.
+0 @N0152@ NOTE Ferdinand est (a été) co-pilote sur la ligne Abidjan-DAKAr
+0 @N0153@ NOTE Ami vit à Marseille.
+0 @N0155@ NOTE Abdoulaye est appelé Abou.
+0 @N0165@ NOTE Son beau-përe était le chef des pêcheurs de Gao et approvisionnait réguliërement la famille de son gendre (celle de Mahamane DIARRA qui a élevé son neveu Madou Tjinë) de ses plus belles prises de poissons...
+0 @N0167@ NOTE Aëissata est la fille du chef des pêcheurs de Gao, celui-çi approvisionnait réguliërement la famille de son gendre (celle de Mahamane DIARRA, l'oncle qui a élevé Madou Tjinë) de ses meilleurs prises de poissons...
+0 @N0171@ NOTE 9ème étage , Appt. 53, Métro: 4 Chemins
+0 @N0175@ NOTE Marie-Françoise est mentionnée dans le livret militaire de son fils Pierre (délivré le 1er juillet 1880).
+1 CONT Au moins un enfant...
+0 @N0176@ NOTE Né à Forst, prës de Bruxelles (cf. acte naissance de son fils Charles). Jean HOEFLICH avait 39 ans lors de la naissance de son fils Jean...
+1 CONT Il exerçait la profession de cordonnier, et était domicilié à Kesseldorf en 1847.
+1 CONT Documents disponibles :
+1 CONT - Extrait de naissance de son fils Jean
+1 CONT - Copies actes de naissance de ses fils René, Charles et Louis (documents Jean-Luc)
+0 @N0178@ NOTE Marie-Eve avait 34 lors de la naissance de son fils Jean...
+1 CONT Domiciliée à Kesseldorff (Bas-Rhin).
+1 CONT Documents disponibles :
+1 CONT - Extraits de naissance de ses fils Jean, René, Louis et Charles.
+0 @N0179@ NOTE Alphassine Sophie DIARRA
+1 CONT Certificat de décës des deux enfants Alphassine et Amadou DIARRA fait à Gao le 7 janvier 1972
+0 @N0181@ NOTE Certificat de décës des deux enfants fait à Gao le 7 janvier 1972.
+0 @N0190@ NOTE Louis Dobigeon est mentionné dans l'acte notarié du 16 août 1945 (legs concernant l'héritage de Gabrielle Dobigeon, cousine de Marcel Dobigeon)... Renseignement à prendre avec précaution car les actes notariés contiennent parfois des er
+1 CONC reurs ou des approximations, et sont parfois difficiles a interprêter !
+0 @N0191@ NOTE Auguste Dobigeon était jardinier. Document disponible : legs du 16 août 1945.
+1 CONT Gabrielle est sa fille unique.
+0 @N0193@ NOTE Claire Jouet a eu Gabrielle pour fille unique.
+1 CONT Document disponible : legs du 16 août 1945.
+0 @N0195@ NOTE Gabriële, Claire, Augustine Dobigeon était internée en hãopital spychiatrique, elle était fille unique. A son décës, ce sont ses cousins qui ont hérités (dont Marcel Dobigeon). Document disponible : legs du 16 août 1945.
+0 @N0197@ NOTE Jean Baptiste est né le 15 messidor An 9 (à 5h du matin). Il a été charpentier, puis contremaître à la manufacture de tabac. Domicilé à Illkirch et agé de 26 ans à la naissance de son fils Jean-Baptiste Philippe.
+1 CONT Document disponible :
+1 CONT -Copie de l'acte de naissance (document Jean-Luc)
+0 @N0199@ NOTE Copie acte de naissance (document Jean-Luc)
+0 @N0201@ NOTE Arbogaste Jules est né au moulin à tabac et est décédé à 1 mois et 7 jours (à 4h du matin, également au moulin à tabac)...
+1 CONT - Copies acte de naissance et acte de décës (documents Jean-Luc)
+0 @N0203@ NOTE Copie acte de naissance (document Jean-Luc)
+0 @N0205@ NOTE Domicilié à Molsheim (Bas-Rhin) à la naissance de son fils Jean-Batiste. Il était charpentier.
+1 CONT Documents disponibles :
+1 CONT - Copie acte de naissance de son fils Jean-Baptiste (document Jean-Luc)
+1 CONT - Copie acte de mariage de sa fille Marie Françoise (document Jean-Luc)
+0 @N0207@ NOTE L'orthographe de son nom de famille n'est pas identique dans tous les documents notemment dans l'acte de naissance de son fils Jean-Baptiste (graphie qui évoquerait plutãot Stiger...). Elle avait 73 ans lors du mariage de sa fille Mari
+1 CONC e Françoise, en décembre 1835.
+1 CONT Anne Marie est domiciliée à Molsheim à la naissance de son fils Jean-Baptiste.
+1 CONT - Copie acte de naissance de Jean-Baptiste  (document Jean-Luc)
+1 CONT - Copie acte de naissance de sa fille Marie Françoise (document Jean-Luc)
+1 CONT - Copie acte de décës de sa fille Elisabeth (document Jean-Luc)
+1 CONT - Copie acte de mariage de Marie Françoise (document Jean-Luc)
+0 @N0208@ NOTE François Antoine était comme son përe marchand de vins, il avait 29 ans à la naissance de sa fille Marie Apolline Antoinette et 39 ans à sa mort (pneumonie).
+1 CONT Documents disponibles :
+1 CONT - Acte de naissance (document Jean-Luc)
+1 CONT - Acte de décës (document Jean-Luc)
+0 @N0210@ NOTE Marie Madelaine
+0 @N0211@ NOTE François Antoine est décédé au 22, rue des Frëres alors qu'il avait 77 ans (son fils François Antoine est décédé 9 ans plus tãot, un autre fils François Joseph est décédé à l'âge d'à peine 7 mois)...A sa mort son fils Bernard avait 43 a
+1 CONC ns. Il avait un gendre fabricant de pipes Ferdinand GREYENBICHT (orthographe ?) mentionné dans l'acte de décës...Lui-même était marchand de vins et domicilié au 21, rue des Frëres (cf. acte de naissance de son fils François Joseph).
+1 CONT Documents disponibles :
+1 CONT - Déclaration de décës
+0 @N0213@ NOTE Anne Marie est décédée à l'âge de 48 ans 7 mois et 21 jours (anévrisme) avant son époux. Différentes orthographes selon les actes : GEBHART, GEBHARD, et GEBHARDT...Sa date de naissance a été calculée d'aprës la précision de son âge de d
+1 CONC écës (demande confirmation cependant).
+1 CONT Document disponible :
+1 CONT - Acte de décës (document Jean-Luc)
+0 @N0215@ NOTE François Joseph est décédé alors qu'il n'avait pas encore 7 mois...
+1 CONT Document disponible :
+1 CONT - copie acte de naissance (document Jean-Luc) sur lequel figure la date du décës...
+0 @N0217@ NOTE François Antoine était cordonnier
+0 @N0218@ NOTE Anne Marie
+0 @N0219@ NOTE Aubergiste (cf. acte de décës de sa fille Anne Marie GEBHART).
+0 @N0220@ NOTE Copie acte de naissance (document Jean-Luc)
+0 @N0222@ NOTE Bernard avait 35 au décës de son frëre François Antoine qui en avait 39...Il était serrurier.
+1 CONT document disponible : acte de décës de son përe François Antoine
+0 @N0223@ NOTE Epouse de Ferdinand GREYENBICHT, fabricant de pipes (cf. acte de décës de son përe François Antoine).
+0 @N0224@ NOTE Ferdinand était fazbricant de pipes (cf. copie acte de décës de son beau-përe François Antoine Koehl).
+0 @N0225@ NOTE Elisabeth est décédée à l'âge de 21 ans...Elle était célibataire.
+1 CONT - Copie acte de décës (document Jean-Luc)
+0 @N0227@ NOTE Marie Françoise est née le 9 Primaire An 8
+0 @N0229@ NOTE Mathieu Constant est né le 28 pluviose An 9 et avait 35 ans lors de son mariage...
+0 @N0231@ NOTE Agé de soixante ans lors du mariage de son fils Mathieu. Manouvrier.
+0 @N0233@ NOTE Victoria était âgée de 55 ans lors du mariage de son fils Mathieu.
+0 @N0237@ NOTE Alhassane Aimé Patrice est le 1er jumeau
+0 @N0239@ NOTE Alhousseëini Aimé Abraham
+0 @N0242@ NOTE Mahamane Valéry
+0 @N0244@ NOTE Maraima Mahamane
+0 @N0246@ NOTE Bamoussa (Alfred)
+0 @N0248@ NOTE Penda (Colette)
+0 @N0251@ NOTE Nana Souweba
+0 @N0255@ NOTE Farouk Omarou
+0 @N0256@ NOTE Mahamadou Fayçal
+0 @N0257@ NOTE Denise a une soeur jumelle Qui s'appelle Hélëne.
+0 @N0259@ NOTE Ibrahim Mahamane
+0 @N0260@ NOTE Khadija Mahamane
+0 @N0261@ NOTE Ayisha Mahamane
+0 @N0263@ NOTE Décédé au mariage de sa fille Marie-Louise (12 octobre 1889).
+0 @N0264@ NOTE Décédée au mariage de sa fille Marie-Louise (12 octobre 1889).
+0 @N0271@ NOTE Certificat de mariage disponible à Aclou.
+0 @N0275@ NOTE Lieu : Paris XVIIëme
+0 @N0313@ NOTE 9ème étage , Appt. 53, Métro: 4 Chemins
+0 @N0555@ NOTE 9ème étage , Appt. 53, Métro: 4 Chemins
+0 @N0773@ NOTE About England & Wales, Marriage Index: 1984-2004
+1 CONT This database is a searchable, digitized version of the indices of civil registrations in England and Wales, reported quarterly to the General Register Office (GRO) in London. This index spans the years between 1984 and 2000 You need the informat
+1 CONC ion found in an original index to request a copy of a marriage certificate for the individual referenced.
+1 CONT "On 1 July 1837, a civil registration system for BIRTHs, marriages, and deaths was introduced in England and Wales. Registration was undertaken by civil registrars who reported to the Registrar General at the General Register Office (GRO) in Lond
+1 CONC on, now part of the Office for National Statistics (ONS). Copies of anyone's BIRTH, marriage, or death certificates can be obtained by the public. They are vital to family historians because of the genealogical information that they include." (Ma
+1 CONC rk D. Herber, Ancestral Trails, Genealogical Publishing Company, Inc., 1998)
+1 CONT Since the original BIRTH, marriage and death registers are not open to the public, getting access to the information on one of these certificates is done by first searching the national BIRTH, marriage and death indexes, that have been created by
+1 CONC the GRO for this purpose. The indexes for the three events are divided into volumes by year following which entries are listed alphabetically. Once an entry in one of the indexes is found, you are then able to use that information to order of cop
+1 CONC y of a death, marriage or BIRTH certificate from the GRO/ONS. Information that can be obtained from the marriage index includes: full name of individual, surname of spouse, month and year of registration, registration district (each county in Eng
+1 CONC land and Wales was divided up into registration districts. Jurisdictions are organized and appear as they existed at the time the record was created), inferred county (the county is inferred based on what counties the registration district covere
+1 CONC d), volume number, and page number. Note: The district listed is the district where the event was registered, not necessarily the location where the event actually occurred.
+1 CONT This database contains only the index to the marriage registers of 1984-2004.
+0 @N0774@ NOTE General Register Office. England & Wales, Marriage Index: 1984-2004 [database on-line]. Provo, UT, USA: The Generations Network, Inc., 2006. Original data: General Register Office. England and Wales Civil Registration Indexes. London, E
+1 CONC ngland: General Register Office. CD-ROM of the England and Wales, Civil Registration Indexes created by the General Register Office, in London, England.
+1 CONT This database contains only the index to the marriage registers of 1984-2004.
+0 @SUBM@ SUBM
+1 NAME Boubacar Diarra
+1 ADDR 2, parc des Deux Bois
+2 CONT Mont-Saint-Aignan
+2 CONT Seine-Maritime
+2 CONT 76130
+2 CONT FRANCE
+2 ADR1 2, parc des Deux Bois
+2 CITY Mont-Saint-Aignan
+2 STAE Seine-Maritime
+2 POST 76130
+2 CTRY FRANCE
+1 PHON 0235763968
+1 EMAIL boubacar.diarra@@orange.fr
+0 @M4@ OBJE
+1 FILE souare_alexander.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M6@ OBJE
+1 FILE sadio_diarra.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M7@ OBJE
+1 FILE fanta_maiga.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M27@ OBJE
+1 FILE aurelie_diarra.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M30@ OBJE
+1 FILE fatimata_diawara.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M31@ OBJE
+1 FILE oumoumaiga.jpg
+2 FORM JPG
+3 TYPE PHOTO
+1 _UID 36E0A60D13D04B409C4265C934E0A8D9D8D1
+0 @M36@ OBJE
+1 FILE steven_obj.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M37@ OBJE
+1 FILE grace_obi.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M38@ OBJE
+1 FILE hannah_obi.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M39@ OBJE
+1 FILE abdoulaye_traore_3.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M40@ OBJE
+1 FILE mariam_traore_p.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M41@ OBJE
+1 FILE haby_traore_p.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M42@ OBJE
+1 FILE catherine_degras_p.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M43@ OBJE
+1 FILE moussa_traore_p.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M44@ OBJE
+1 FILE haby_trore_2.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M45@ OBJE
+1 FILE malick_traore_p.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M47@ OBJE
+1 FILE mireilla_attingli_2.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M48@ OBJE
+1 FILE sadio_attingli_2.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M49@ OBJE
+1 FILE nathan_attingl_pi.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M50@ OBJE
+1 FILE david_attingli_p.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M51@ OBJE
+1 FILE barou_maiga_p.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M52@ OBJE
+1 FILE diahara_haidara_p.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M53@ OBJE
+1 FILE boubacar_maiga.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M54@ OBJE
+1 FILE badji_diarra.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M55@ OBJE
+1 FILE mahamane_papen_diarra.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M56@ OBJE
+1 FILE adama_diarra_p.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M57@ OBJE
+1 FILE amadou_kouma.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M58@ OBJE
+1 FILE mohamed_champi_kouma.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M60@ OBJE
+1 FILE mareny_toure_xx.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M61@ OBJE
+1 FILE malick_toure_px.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M62@ OBJE
+1 FILE hawa_toure_px.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M63@ OBJE
+1 FILE biil_px.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M65@ OBJE
+1 FILE caylan_2_px.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M66@ OBJE
+1 FILE claude_diarra_xx.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M67@ OBJE
+1 FILE serge_diarra_xx.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M68@ OBJE
+1 FILE helene_cecille_xx.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M69@ OBJE
+1 FILE sadio_diallo_xx.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M70@ OBJE
+1 FILE alhassane_diarra_xx.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M71@ OBJE
+1 FILE papus_xx.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M72@ OBJE
+1 FILE ousmane_xx.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M73@ OBJE
+1 FILE natacha_xx.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M74@ OBJE
+1 FILE heleneberment_xx.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M75@ OBJE
+1 FILE malick_jr_xx.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M76@ OBJE
+1 FILE lia_1_xx.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M77@ OBJE
+1 FILE issack_xx.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M78@ OBJE
+1 FILE alessandro_xx.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M79@ OBJE
+1 FILE noliane_xx.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M80@ OBJE
+1 FILE alain_xx.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M81@ OBJE
+1 FILE ruffin_attingli_xx.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M82@ OBJE
+1 FILE franciane_xx.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M83@ OBJE
+1 FILE papa_xx.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M84@ OBJE
+1 FILE cheick_xx.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M85@ OBJE
+1 FILE mouy_xx.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M86@ OBJE
+1 FILE baisse_kamissoko_xx.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M87@ OBJE
+1 FILE femme_cheick_xx.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M90@ OBJE
+1 FILE yelena_yy.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M91@ OBJE
+1 FILE idrissa_yy.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M92@ OBJE
+1 FILE arnaud_xx.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M93@ OBJE
+1 FILE adama_diop_yy.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M94@ OBJE
+1 FILE hawacisse_xx.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M95@ OBJE
+1 FILE alfassine_xx.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M96@ OBJE
+1 FILE mama_xx.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M97@ OBJE
+1 FILE mimi_xx.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M98@ OBJE
+1 FILE pouli_xx.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M99@ OBJE
+1 FILE awa_xx.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @X39@ OBJE
+1 FILE Eleonore.jpg
+2 FORM JPG
+0 @X40@ OBJE
+1 FILE Sasha.jpg
+2 FORM JPG
+0 @X41@ OBJE
+1 FILE aguene.jpg
+2 FORM JPG
+0 @M100@ OBJE
+1 FILE gigla_xx.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M101@ OBJE
+1 FILE hawamaiga_xx.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M102@ OBJE
+1 FILE aymeric_xx.jpg
+2 FORM JPG
+3 TYPE PHOTO
+1 _UID 1F2E74353796418B808DE538D6CD5C1FD705
+0 @M103@ OBJE
+1 FILE Josiane_piljan_xx.jpg
+2 FORM jpeg
+3 TYPE photo
+0 @M166@ OBJE
+1 FILE Brigitte_31dec94_ra.jpg
+2 FORM jpeg
+2 TITL Brigitte Diarra Dobigeon
+0 @M174@ OBJE
+1 FILE Bou_30mar03_r2.jpg
+2 FORM jpeg
+2 TITL Bou_30mar03_r2.jpg
+0 @M185@ OBJE
+1 FILE 18_BoisAclou_Pascal_C_23oct96.jpg
+2 FORM jpeg
+2 TITL 18_BoisAclou_Pascal_C_23oct96.jpg
+0 @M189@ OBJE
+1 FILE id_Cl_DOBI_annees70_r.jpg
+2 FORM jpeg
+2 TITL id_Cl_DOBI_annees70_r.jpg
+0 @M195@ OBJE
+1 FILE LucienneGeisen1963.jpg
+2 FORM jpeg
+2 TITL LucienneGeisen1963.jpg
+0 @M201@ OBJE
+1 FILE Pascal_2002.jpg
+2 FORM jpeg
+3 TYPE photo
+2 TITL Pascal_2002.jpg
+0 @M202@ OBJE
+1 FILE Marcel3.jpg
+2 FORM jpeg
+2 TITL Marcel3.jpg
+0 @M203@ OBJE
+1 FILE Louise.jpg
+2 FORM jpeg
+2 TITL Louise.jpg
+0 @M207@ OBJE
+1 FILE Serge_r3.jpg
+2 FORM jpeg
+2 TITL Serge_r3.jpg
+0 @M208@ OBJE
+1 FILE Marc_r.jpg
+2 FORM jpeg
+2 TITL Marc_r.jpg
+0 @M209@ OBJE
+1 FILE Paul2_r2.jpg
+2 FORM jpeg
+2 TITL Paul2_r2.jpg
+0 @M210@ OBJE
+1 FILE Paul_r.jpg
+2 FORM JPG
+3 TYPE PHOTO
+2 TITL Paul_r.jpg
+0 @M212@ OBJE
+1 FILE Jeanne_chapeau_r2.jpg
+2 FORM jpeg
+2 TITL Jeanne_chapeau_r2.jpg
+0 @M214@ OBJE
+1 FILE J_Baptiste_r2.jpg
+2 FORM jpeg
+2 TITL J_Baptiste_r2.jpg
+0 @M215@ OBJE
+1 FILE Marie_Koehl_r.jpg
+2 FORM jpeg
+2 TITL Marie_Koehl_r.jpg
+0 @M216@ OBJE
+1 FILE Charles2_r.jpg
+2 FORM jpeg
+2 TITL Charles2_r.jpg
+0 @M217@ OBJE
+1 FILE Commissaire_r.jpg
+2 FORM jpeg
+2 TITL Commissaire_r.jpg
+0 @M218@ OBJE
+1 FILE CharlesEpouse_ra2.jpg
+2 FORM jpeg
+2 TITL CharlesEpouse_ra2.jpg
+0 @M219@ OBJE
+1 FILE Lucie.jpg
+2 FORM jpeg
+2 TITL Lucie.jpg
+0 @M220@ OBJE
+1 FILE Renee.jpg
+2 FORM jpeg
+2 TITL Renee.jpg
+0 @M221@ OBJE
+1 FILE JeanHOE_ra.jpg
+2 FORM jpeg
+2 TITL JeanHOE_ra.jpg
+0 @M222@ OBJE
+1 FILE MarieHOE_vers40_ra.jpg
+2 FORM jpeg
+2 TITL MarieHOE_vers40_ra.jpg
+0 @M223@ OBJE
+1 FILE Henri_Hoeflich_r.jpg
+2 FORM jpeg
+2 TITL Henri_Hoeflich_r.jpg
+0 @M225@ OBJE
+1 FILE Henri_27fev93_ra.jpg
+2 FORM jpeg
+2 TITL Henri_27fev93_ra.jpg
+0 @M227@ OBJE
+1 FILE Denise_Strasbourg_ra.jpg
+2 FORM jpeg
+2 TITL Denise_Strasbourg_ra.jpg
+0 @M230@ OBJE
+1 FILE Christiane_ete91_r.jpg
+2 FORM jpeg
+2 TITL Christiane_ete91_r.jpg
+0 @M231@ OBJE
+1 FILE PiljanJean_marie_r.jpg
+2 FORM jpeg
+2 TITL PiljanJean_marie_r.jpg
+0 @M232@ OBJE
+1 FILE Jean_Luc2_27fev93.jpg
+2 FORM jpeg
+2 TITL Jean_Luc2_27fev93.jpg
+0 @M233@ OBJE
+1 FILE Gwenaelle_27fev93.jpg
+2 FORM jpeg
+2 TITL Gwenaelle_27fev93.jpg
+0 @M235@ OBJE
+1 FILE Mathilde.jpg
+2 FORM jpeg
+2 TITL Mathilde.jpg
+0 @M236@ OBJE
+1 FILE Baptiste_2005_r.jpg
+2 FORM jpeg
+2 TITL Baptiste_2005_r.jpg
+0 @M237@ OBJE
+1 FILE MariageJosi_2_Guillaume_ra.jpg
+2 FORM jpeg
+2 TITL MariageJosi_2_Guillaume_ra.jpg
+0 @M239@ OBJE
+1 FILE Philemon.jpg
+2 FORM jpeg
+2 TITL Philemon.jpg
+0 @M241@ OBJE
+1 FILE DiarraMahamane.jpg
+2 FORM jpeg
+2 TITL DiarraMahamane.jpg
+0 @M252@ OBJE
+1 FILE baouba.jpg
+2 FORM jpeg
+2 TITL baouba.jpg
+0 @M253@ OBJE
+1 FILE madou.jpg
+2 FORM jpeg
+2 TITL madou.jpg
+0 @M255@ OBJE
+1 FILE mah.jpg
+2 FORM jpeg
+2 TITL mah.jpg
+0 @M264@ OBJE
+1 FILE Amidou_r.jpg
+2 FORM jpeg
+2 TITL Amidou_r.jpg
+0 @M268@ OBJE
+1 FILE Fousseyni_ra.jpg
+2 FORM jpeg
+2 TITL Fousseyni_ra.jpg
+0 @M271@ OBJE
+1 FILE DiarraSouare_95.jpg
+2 FORM jpeg
+2 TITL DiarraSouare_95.jpg
+0 @M277@ OBJE
+1 FILE kadi.jpg
+2 FORM jpeg
+2 TITL kadi.jpg
+0 @M281@ OBJE
+1 FILE FantaTjini_r.jpg
+2 FORM jpeg
+2 TITL FantaTjini_r.jpg
+0 @M282@ OBJE
+1 FILE Safiatou_r.jpg
+2 FORM jpeg
+2 TITL Safiatou_r.jpg
+0 @M283@ OBJE
+1 FILE roth_jules.jpg
+2 FORM jpeg
+2 TITL roth_jules.jpg
+0 @M284@ OBJE
+1 FILE tantiejeanne.jpg
+2 FORM jpeg
+2 TITL tantiejeanne.jpg
+0 @M285@ OBJE
+1 FILE MarieLouise_r.jpg
+2 FORM jpeg
+2 TITL MarieLouise_r.jpg
+0 @M290@ OBJE
+1 FILE atou.jpg
+2 FORM jpeg
+2 TITL atou.jpg
+0 @M307@ OBJE
+1 FILE madou_tjine_diarra.jpg
+2 FORM jpeg
+2 TITL madou_tjine_diarra.jpg
+0 @M308@ OBJE
+1 FILE peter.jpg
+2 FORM jpeg
+2 TITL peter.jpg
+0 @M316@ OBJE
+1 FILE fantany.jpg
+2 FORM jpeg
+2 TITL fantany.jpg
+0 @M317@ OBJE
+1 FILE alassane_aime_patrice.jpg
+2 FORM jpeg
+2 TITL alassane_aime_patrice.jpg
+0 @M318@ OBJE
+1 FILE diarra_alousseini_aime.jpg
+2 FORM jpeg
+2 TITL diarra_alousseini_aime.jpg
+0 @M319@ OBJE
+1 FILE ousmane_diarra.jpg
+2 FORM jpeg
+2 TITL ousmane_diarra.jpg
+0 @M320@ OBJE
+1 FILE mahamane_valery.jpg
+2 FORM jpeg
+2 TITL mahamane_valery.jpg
+0 @M321@ OBJE
+1 FILE bamoussa_diarra_alassane.jpg
+2 FORM jpeg
+2 TITL bamoussa_diarra_alassane.jpg
+0 @M322@ OBJE
+1 FILE penda_diarra_alassane.jpg
+2 FORM jpeg
+2 TITL penda_diarra_alassane.jpg
+0 @M323@ OBJE
+1 FILE amadou_diarra_alassane.jpg
+2 FORM jpeg
+2 TITL amadou_diarra_alassane.jpg
+0 @M325@ OBJE
+1 FILE sitandiarra.jpg
+2 FORM jpeg
+2 TITL sitandiarra.jpg
+0 @M326@ OBJE
+1 FILE EpouxMarieHOE_vers40_ra.jpg
+2 FORM jpeg
+2 TITL EpouxMarieHOE_vers40_ra.jpg
+0 @M327@ OBJE
+1 FILE FilsAdoptifMarieHOE_vers40_ra.jpg
+2 FORM jpeg
+2 TITL FilsAdoptifMarieHOE_vers40_ra.jpg
+0 TRLR

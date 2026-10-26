@@ -1,0 +1,6 @@
+**/.DS_Store
+**/*.exe
+**/*.a
+**/*.pkg
+**/*_debug*
+**/coverage*
