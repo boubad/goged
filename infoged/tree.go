@@ -54,12 +54,12 @@ func (t *Tree) Describe() (oMap map[string]int, err error) {
 	if t == nil {
 		return nil, errors.New("tree is nil")
 	}
-
 	if t.doc == nil {
 		return nil, errors.New("document is nil")
 	}
 	oMap = make(map[string]int)
-	for _, node := range t.doc.Nodes() {
+	nodes := t.doc.Nodes()
+	for _, node := range nodes {
 		if node == nil {
 			continue
 		}
@@ -105,114 +105,6 @@ func (t *Tree) String() string {
 	}
 	return t.doc.String()
 }
-func (t *Tree) IndivsCount() int {
-	if t == nil {
-		return 0
-	}
-	if t.doc == nil {
-		return 0
-	}
-	return len(t.doc.Individuals())
-}
-func (t *Tree) FamiliesCount() int {
-	if t == nil {
-		return 0
-	}
-	if t.doc == nil {
-		return 0
-	}
-	return len(t.doc.Families())
-}
-func (t *Tree) NotesCount() int {
-	if t == nil {
-		return 0
-	}
-	if t.doc == nil {
-		return 0
-	}
-	nret := 0
-	for _, node := range t.doc.Nodes() {
-		if node.Tag().Is(gedcom.TagNote) {
-			nret++
-		}
-	}
-	return nret
-} //NotesCount
-func (t *Tree) ObjectsCount() int {
-	if t == nil {
-		return 0
-	}
-	if t.doc == nil {
-		return 0
-	}
-	nret := 0
-	for _, node := range t.doc.Nodes() {
-		if node.Tag().Is(gedcom.TagObject) {
-			nret++
-		}
-	}
-	return nret
-} //ObjectsCount
-func (t *Tree) SourcesCount() int {
-	if t == nil {
-		return 0
-	}
-	if t.doc == nil {
-		return 0
-	}
-	nret := 0
-	for _, node := range t.doc.Nodes() {
-		if node.Tag().Is(gedcom.TagSource) {
-			nret++
-		}
-	}
-	return nret
-} //SourcesCount
-func (t *Tree) RepositoriesCount() int {
-	if t == nil {
-		return 0
-	}
-	if t.doc == nil {
-		return 0
-	}
-	nret := 0
-	for _, node := range t.doc.Nodes() {
-		if node.Tag().Is(gedcom.TagRepository) {
-			nret++
-		}
-	}
-	return nret
-} //RepositoriesCount
-func (t *Tree) SubmissionsCount() int {
-	if t == nil {
-		return 0
-	}
-	if t.doc == nil {
-		return 0
-	}
-	nret := 0
-	for _, node := range t.doc.Nodes() {
-		if node.Tag().Is(gedcom.TagSubmission) {
-			nret++
-		}
-	}
-	return nret
-} //ReferencesCount
-func (t *Tree) SubmittersCount() int {
-	if t == nil {
-		return 0
-	}
-	if t.doc == nil {
-		return 0
-	}
-	nret := 0
-	for _, node := range t.doc.Nodes() {
-		if node.Tag().Is(gedcom.TagSubmitter) {
-			nret++
-		}
-	}
-	return nret
-} //ReferencesCount
 func (t *Tree) GetNonExistingFiles(baseDir string) ([]string, error) {
 	if t == nil {
 		return nil, errors.New("tree is nil")
@@ -221,7 +113,8 @@ func (t *Tree) GetNonExistingFiles(baseDir string) ([]string, error) {
 		return nil, errors.New("document is nil")
 	}
 	oMap := map[string]string{}
-	for _, node := range t.doc.Nodes() {
+	nodes := t.doc.Nodes()
+	for _, node := range nodes {
 		findNotExistingFiles(&oMap, node, baseDir)
 	} // doc
 	lret := []string{}
@@ -238,12 +131,13 @@ func (t *Tree) GetAllFiles() (map[string]string, error) {
 		return nil, errors.New("document is nil")
 	}
 	oMap := map[string]string{}
-	for _, node := range t.doc.Nodes() {
+	nodes := t.doc.Nodes()
+	for _, node := range nodes {
 		findAllFiles(&oMap, node)
 	} // doc
 	return oMap, nil
 } // GetNonExistingFiles
-func (t *Tree) FixNodesUniqueness() (notuniques map[string][]string, err error) {
+func (t *Tree) CheckNodesUniqueness() (notuniques map[string][]string, err error) {
 	if t == nil {
 		return nil, errors.New("tree is nil")
 	}
@@ -252,93 +146,59 @@ func (t *Tree) FixNodesUniqueness() (notuniques map[string][]string, err error) 
 	}
 	notuniques = map[string][]string{}
 	oMap := map[string]string{}
-	for _, node := range t.doc.Nodes() {
+	nodes := t.doc.Nodes()
+	for _, node := range nodes {
 		id := node.Pointer()
 		if len(id) > 0 {
 			if _, ok := oMap[id]; ok {
 				if _, ok := notuniques[id]; !ok {
 					notuniques[id] = []string{}
 				}
-				notuniques[id] = append(notuniques[id], node.String())
+				notuniques[id] = append(notuniques[id], node.GEDCOMLine(gedcom.NoIndent))
 				continue
 			}
 			oMap[id] = id
 		} // id
 	} // doc
 	return notuniques, nil
-} // FixNodesUniqueness
-func (t *Tree) FilterChanges() error {
+} // CheckNodesUniqueness
+func (t *Tree) FilterDuplicates() error {
 	if t == nil {
 		return errors.New("tree is nil")
 	}
 	if t.doc == nil {
 		return errors.New("document is nil")
 	}
-	filterFunc := func(node gedcom.Node) (gedcom.Node, bool) {
-		if node == nil {
-			return nil, false
-		}
-		tag := node.Tag()
-		if !tag.IsOfficial() || tag.Is(gedcom.TagChange) {
-			return nil, false
-		}
-		initial_value := strings.TrimSpace(node.Value())
-		if tag.Is(gedcom.TagName) {
-			if strings.Contains(initial_value, "Mere") ||
-				strings.Contains(initial_value, "Mère") ||
-				strings.Contains(initial_value, "(") ||
-				strings.Contains(initial_value, "Fille") ||
-				strings.Contains(initial_value, "Fils") ||
-				strings.Contains(initial_value, "Mère") ||
-				strings.Contains(initial_value, "Pere") ||
-				strings.Contains(initial_value, "Père") {
-				return nil, false
-			}
-			value := strings.ToUpper(initial_value)
-			if strings.Contains(value, "??") ||
-				strings.Contains(value, "(INC)") ||
-				strings.Contains(value, "UNKNOWN") {
-				return nil, false
-			}
-		} // name
-		if tag.Is(gedcom.TagNote) && len(node.Pointer()) < 1 && len(initial_value) < 1 {
-			return nil, false
-		}
-		if len(node.Pointer()) == 0 && len(initial_value) == 0 && len(node.Nodes()) == 0 {
-			if !tag.Is(gedcom.TagTrailer) && !tag.Is(gedcom.TagHeader) {
-				return nil, false
-			}
-		}
-		if tag.Is(gedcom.TagPedigree) || tag.Is(gedcom.TagType) {
-			value := strings.ToUpper(initial_value)
-			if value == "PHOTO" {
-				return gedcom.NewNode(tag, "photo", ""), true
-			}
-			if value != initial_value {
-				return gedcom.NewNode(tag, value, ""), true
-			}
-		}
-		if tag.Is(gedcom.TagFormat) {
-			value := strings.ToUpper(initial_value)
-			if value == "JPG" {
-				return gedcom.NewNode(tag, "jpeg", ""), true
-			}
-		}
-		if tag.Is(gedcom.TagDestination) {
-			return gedcom.NewNode(tag, "ANY", ""), true
-		}
-		return node, true
-	} // filterFunc
 	newList := []gedcom.Node{}
-	for _, node := range t.doc.Nodes() {
-		xnode := gedcom.Filter(node, filterFunc)
+	nodes := t.doc.Nodes()
+	for _, node := range nodes {
+		xnode := gedcom.Filter(node, cleanDuplicatesFilter)
 		if xnode != nil {
 			newList = append(newList, xnode)
 		}
 	}
 	t.doc.SetNodes(newList)
 	return nil
-} // FilterChanges
+} // FilterDuplicates
+
+func (t *Tree) CleanNodes() error {
+	if t == nil {
+		return errors.New("tree is nil")
+	}
+	if t.doc == nil {
+		return errors.New("document is nil")
+	}
+	newList := []gedcom.Node{}
+	nodes := t.doc.Nodes()
+	for _, node := range nodes {
+		xnode := gedcom.Filter(node, cleanNodesFilter)
+		if xnode != nil {
+			newList = append(newList, xnode)
+		}
+	}
+	t.doc.SetNodes(newList)
+	return nil
+} // CleanNodes
 func (t *Tree) FilterOfficialTags() error {
 	if t == nil {
 		return errors.New("tree is nil")
@@ -348,7 +208,8 @@ func (t *Tree) FilterOfficialTags() error {
 	}
 
 	newList := []gedcom.Node{}
-	for _, node := range t.doc.Nodes() {
+	nodes := t.doc.Nodes()
+	for _, node := range nodes {
 		xnode := gedcom.Filter(node, gedcom.OfficialTagFilter())
 		if xnode != nil {
 			newList = append(newList, xnode)
@@ -366,6 +227,23 @@ func (t *Tree) FixReferences() (map[string]*RootNodeStats, error) {
 	}
 	return fixReferences(t.doc)
 } // FixReferences
+func (t *Tree) NormalizeIds() error {
+	if t == nil {
+		return errors.New("tree is nil")
+	}
+	if t.doc == nil {
+		return errors.New("document is nil")
+	}
+	xdoc, err := fixDocIDs(t.doc)
+	if err != nil {
+		return err
+	}
+	if xdoc == nil {
+		return errors.New("failed to fix IDs")
+	}
+	t.doc = xdoc
+	return nil
+} // NormalizeIds
 func (t *Tree) PrepareExport() error {
 	if t == nil {
 		return errors.New("tree is nil")
@@ -373,12 +251,15 @@ func (t *Tree) PrepareExport() error {
 	if t.doc == nil {
 		return errors.New("document is nil")
 	}
-	err := t.FilterChanges()
+	err := t.CleanNodes()
 	if err != nil {
 		return err
 	}
-	//
-	notuniques, err := t.FixNodesUniqueness()
+	err = t.FilterDuplicates()
+	if err != nil {
+		return err
+	}
+	notuniques, err := t.CheckNodesUniqueness()
 	if err != nil {
 		return err
 	}
@@ -396,6 +277,14 @@ func (t *Tree) PrepareExport() error {
 		return errors.New("failed to fix references")
 	}
 	//
+	xdoc, err := fixDocIDs(t.doc)
+	if err != nil {
+		return err
+	}
+	if xdoc == nil {
+		return errors.New("failed to fix document IDs")
+	}
+	t.doc = xdoc
 	return nil
 } // PrepareExport
 func (t *Tree) CleanAndExport(filePath string) error {
@@ -408,9 +297,3 @@ func (t *Tree) CleanAndExport(filePath string) error {
 	}
 	return t.WriteToFile(filePath)
 } // CleanAndExport
-func (t *Tree) ReplaceReferences(oldref string, newref string) error {
-	if t == nil {
-		return errors.New("tree is nil")
-	}
-	return replaceReference(t.doc, oldref, newref)
-}

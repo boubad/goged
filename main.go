@@ -30,6 +30,5 @@ func main() {
 	err = otree.CleanAndExport(*output)
 	if err != nil {
 		fmt.Println("Error writing to file:", err)
-		return
 	}
 }

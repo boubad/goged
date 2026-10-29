@@ -17,7 +17,7 @@
 2 SURN Diallo
 1 SEX M
 1 FAMC @F0102@
-2 PEDI BIRTH
+2 PEDI birth
 1 OBJE @M83@
 0 @I2@ INDI
 1 NAME Cheick /Diallo/
@@ -25,7 +25,7 @@
 2 SURN Diallo
 1 SEX M
 1 FAMC @F0102@
-2 PEDI BIRTH
+2 PEDI birth
 1 OBJE @M84@
 1 FAMS @F6@
 0 @I3@ INDI
@@ -34,12 +34,16 @@
 2 SURN Diallo
 1 SEX F
 1 FAMC @F0102@
-2 PEDI BIRTH
+2 PEDI birth
 1 OBJE @M85@
 0 @I4@ INDI
+1 NAME MereHawa //
+2 GIVN MereHawa
 1 SEX F
 1 FAMS @F1@
 0 @I5@ INDI
+1 NAME MereAurelie //
+2 GIVN MereAurelie
 1 SEX F
 1 FAMS @F2@
 0 @I6@ INDI
@@ -48,7 +52,7 @@
 2 SURN Diarra
 1 SEX F
 1 FAMC @F2@
-2 PEDI BIRTH
+2 PEDI birth
 1 OBJE @M27@
 0 @I7@ INDI
 1 NAME Bienvenu /Moulongui/
@@ -57,6 +61,9 @@
 1 SEX M
 1 FAMS @F3@
 0 @I8@ INDI
+1 NAME FilleBaissé /Moulongui/
+2 GIVN FilleBaissé
+2 SURN Moulongui
 1 SEX F
 1 FAMC @F3@
 0 @I9@ INDI
@@ -72,7 +79,7 @@
 1 FAMC @F0065@
 1 SEX F
 1 NAME Aminata /Diarra/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Aminata
 2 SURN Diarra
 1 BIRT
@@ -81,7 +88,7 @@
 1 FAMC @F0026@
 1 SEX F
 1 NAME Fanta /Diarra/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Fanta
 2 SURN Diarra
 1 BIRT
@@ -92,7 +99,7 @@
 0 @X3@ INDI
 1 SEX M
 1 NAME Ismael /Coulibaly/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Ismael
 2 SURN Coulibaly
 1 FAMS @X4@
@@ -101,7 +108,7 @@
 1 FAMC @X4@
 1 SEX F
 1 NAME Sarah Sadio /Coulibaly/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Sarah Sadio
 2 SURN Coulibaly
 1 BIRT
@@ -113,7 +120,7 @@
 1 FAMC @X7@
 1 SEX F
 1 NAME Awa /Kone/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Awa
 2 SURN Kone
 1 BIRT
@@ -122,7 +129,7 @@
 1 FAMC @F0137@
 1 SEX F
 1 NAME Aguène Fatoumata /SAMBOU/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Aguène Fatoumata
 2 SURN SAMBOU
 1 BIRT
@@ -160,7 +167,7 @@
 1 FAMC @F4@
 1 SEX F
 1 NAME Eléonore /Diarra/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Eléonore
 2 SURN Diarra
 1 BIRT
@@ -170,7 +177,7 @@
 1 FAMC @F4@
 1 SEX M
 1 NAME Sasha /Diarra/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Sasha
 2 SURN Diarra
 1 BIRT
@@ -180,7 +187,7 @@
 1 FAMC @F0049@
 1 SEX M
 1 NAME Oumar /Diarra/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Oumar
 2 SURN Diarra
 1 BIRT
@@ -190,31 +197,31 @@
 1 FAMC @F0049@
 1 SEX M
 1 NAME Abdoulaye /Diarra/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Abdoulaye
 2 SURN Diarra
 0 @X14@ INDI
 1 FAMC @F0049@
 1 SEX F
 1 NAME Saran /Diarra/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Saran
 2 SURN Diarra
 0 @X15@ INDI
 1 FAMC @F0049@
 1 SEX F
 1 NAME Fatoumata /Diarra/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Fatoumata
 2 SURN Diarra
 0 @X16@ INDI
 1 SEX F
 1 NAME Habibatou /Gueye/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Habibatou
 2 SURN Gueye
 1 NAME /Diarra/
-2 TYPE MARRIED
+2 TYPE married
 2 SURN Diarra
 1 BIRT
 2 DATE 08 FEB 1951
@@ -223,7 +230,7 @@
 1 FAMC @X17@
 1 SEX F
 1 NAME Aminata /Diarra/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Aminata
 2 SURN Diarra
 2 NICK Ami Fitini
@@ -234,7 +241,7 @@
 1 FAMC @X17@
 1 SEX F
 1 NAME Saran /Diarra/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Saran
 2 SURN Diarra
 1 BIRT
@@ -244,7 +251,7 @@
 1 FAMC @X17@
 1 SEX M
 1 NAME Diery /Diarra/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Diery
 2 SURN Diarra
 2 NICK Papy
@@ -254,11 +261,11 @@
 0 @X21@ INDI
 1 SEX F
 1 NAME Mary /Berthé/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Mary
 2 SURN Berthé
 1 NAME /Diarra/
-2 TYPE MARRIED
+2 TYPE married
 2 SURN Diarra
 1 BIRT
 2 DATE 04 MAY 1939
@@ -267,7 +274,7 @@
 1 FAMC @X22@
 1 SEX M
 1 NAME Nouhoun /Diarra/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Nouhoun
 2 SURN Diarra
 1 BIRT
@@ -277,7 +284,7 @@
 1 FAMC @X22@
 1 SEX M
 1 NAME Salif /Diarra/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Salif
 2 SURN Diarra
 1 BIRT
@@ -286,7 +293,7 @@
 1 FAMC @X22@
 1 SEX F
 1 NAME Mariam /Diarra/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Mariam
 2 SURN Diarra
 2 NICK Mamou
@@ -296,7 +303,7 @@
 1 FAMC @X22@
 1 SEX F
 1 NAME Khadi /Diarra/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Khadi
 2 SURN Diarra
 1 BIRT
@@ -305,7 +312,7 @@
 1 FAMC @X22@
 1 SEX M
 1 NAME Aliou /Diarra/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Aliou
 2 SURN Diarra
 1 BIRT
@@ -314,7 +321,7 @@
 1 FAMC @X22@
 1 SEX F
 1 NAME Nana /Diarra/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Nana
 2 SURN Diarra
 2 NICK Nanette (Lagare mondiale)
@@ -323,18 +330,18 @@
 0 @X29@ INDI
 1 SEX F
 1 NAME Mamou /Sangaré/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Mamou
 2 SURN Sangaré
 1 NAME /Diarra/
-2 TYPE MARRIED
+2 TYPE married
 2 SURN Diarra
 1 FAMS @X30@
 0 @X31@ INDI
 1 FAMC @X30@
 1 SEX F
 1 NAME Fatoumata /Diarra/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Fatoumata
 2 SURN Diarra
 1 BIRT
@@ -343,13 +350,13 @@
 1 FAMC @X30@
 1 SEX F
 1 NAME Mariétou /Diarra/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Mariétou
 2 SURN Diarra
 0 @X33@ INDI
 1 SEX M
 1 NAME Nelson /Shezi/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Nelson
 2 SURN Shezi
 1 BIRT
@@ -358,7 +365,7 @@
 0 @X35@ INDI
 1 SEX M
 1 NAME Jonathan /Walton/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Jonathan
 2 SURN Walton
 1 BIRT
@@ -368,7 +375,7 @@
 1 FAMC @X34@
 1 SEX M
 1 NAME Ryan /Shezi/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Ryan
 2 SURN Shezi
 1 BIRT
@@ -377,7 +384,7 @@
 1 FAMC @X36@
 1 SEX F
 1 NAME Tahani Eliana /Walton/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Tahani Eliana
 2 SURN Walton
 1 BIRT
@@ -386,7 +393,7 @@
 1 FAMC @F0103@
 1 SEX M
 1 NAME Ludovic /Attingli/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Ludovic
 2 SURN Attingli
 1 DEAT Y
@@ -394,7 +401,7 @@
 1 FAMC @F0057@
 1 SEX F
 1 NAME Aïda Leyla /Touré/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Aïda Leyla
 2 SURN Touré
 1 BIRT
@@ -404,7 +411,7 @@
 0 @X44@ INDI
 1 SEX M
 1 NAME Bilane Thékano /Traoré/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Bilane Thékano
 2 SURN Traoré
 1 FAMS @X45@
@@ -412,17 +419,17 @@
 1 FAMS @X45@
 1 SEX F
 1 NAME Fadimata /TALFI/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Fadimata
 2 SURN TALFI
 1 NAME /Traoré/
-2 TYPE MARRIED
+2 TYPE married
 2 SURN Traoré
 0 @X47@ INDI
 1 FAMC @F0058@
 1 SEX M
 1 NAME Broulaye /Kouma/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Broulaye
 2 SURN Kouma
 2 NICK Papy
@@ -431,7 +438,7 @@
 0 @X48@ INDI
 1 SEX M
 1 NAME Randy /Bekalé/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Randy
 2 SURN Bekalé
 1 BIRT
@@ -441,7 +448,7 @@
 1 FAMC @X49@
 1 SEX F
 1 NAME Madyna /Bekalé/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Madyna
 2 SURN Bekalé
 1 BIRT
@@ -450,7 +457,7 @@
 1 FAMC @X49@
 1 SEX F
 1 NAME Aïda /Bekalé/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Aïda
 2 SURN Bekalé
 1 BIRT
@@ -478,56 +485,56 @@
 1 EVEN
 2 NOTE Description: ?(33)? 02 35 76 39 68
 1 EVEN
-2 TYPE VOYAGE
+2 TYPE voyage
 2 DATE NOV 1983
 2 PLAC Burkhina-Faso, Ougadougou, Ougadougou, , Ougadougou, ,
 3 MAP
 4 LATI N12.385946
 4 LONG W1.529846
 1 EVEN
-2 TYPE VOYAGE
+2 TYPE voyage
 2 DATE NOV 1983
 2 PLAC Burkhina-Faso, , , , , ,
 3 MAP
 4 LATI N11.18918
 4 LONG W4.29187
 1 EVEN
-2 TYPE VOYAGE
+2 TYPE voyage
 2 DATE NOV 1983
 2 PLAC Mali, , , , Bamako, ,
 3 MAP
 4 LATI N12.666132
 4 LONG W7.99015
 1 EVEN
-2 TYPE VOYAGE
+2 TYPE voyage
 2 DATE JAN 1984
 2 PLAC Mali, , Mopti, , Hombori, ,
 3 MAP
 4 LATI N15.29412
 4 LONG W1.700134
 1 EVEN
-2 TYPE VOYAGE
+2 TYPE voyage
 2 DATE MAR 1984
 2 PLAC Mali, Gao, Gao, , Gao, ,
 3 MAP
 4 LATI N16.28587
 4 LONG W0.050124
 1 EVEN
-2 TYPE VOYAGE
+2 TYPE voyage
 2 DATE JAN 1984
 2 PLAC Mali, Gao, Gao, , Gao, ,
 3 MAP
 4 LATI N16.28587
 4 LONG W0.050124
 1 EVEN
-2 TYPE VOYAGE
+2 TYPE voyage
 2 DATE JUL 1981
 2 PLAC Grèce, , , , Athènes, ,
 3 MAP
 4 LATI N37.952861
 4 LONG E23.652878
 1 EVEN
-2 TYPE VOYAGE
+2 TYPE voyage
 2 DATE 1963
 2 PLAC Maroc, , , , Khouribga, ,
 1 RESI
@@ -1248,7 +1255,7 @@
 4 LATI N12.666132
 4 LONG W7.99015
 1 GRAD
-2 TYPE DIPLÔME DE MEDECIN AUXILLIAIRE
+2 TYPE diplôme de medecin auxilliaire
 2 DATE 23 OCT 1932
 2 PLAC Dakar, SEN
 3 MAP
@@ -1256,14 +1263,14 @@
 4 LONG W17.479935
 2 AGNC Ecole Africaine de Medecine et de Pharmacie
 1 EVEN
-2 TYPE MUTATION
+2 TYPE mutation
 2 DATE 1961
 2 PLAC Bougouni, Sikasso, MLI
 3 MAP
 4 LATI N11.426187
 4 LONG W7.485122
 1 EVEN
-2 TYPE MUTATION
+2 TYPE mutation
 2 DATE 1962
 2 PLAC Gao, Région de Gao, MLI
 3 MAP
@@ -1276,7 +1283,7 @@
 4 LATI N48.881086
 4 LONG E2.354336
 1 EVEN
-2 TYPE VOYAGE D'ETUDES
+2 TYPE voyage d'etudes
 2 DATE 1970
 2 PLAC Moscou, RUS
 3 MAP
@@ -1487,7 +1494,6 @@
 2 GIVN Sadio
 2 NICK Kia
 2 SURN Diarra
-2 NICK Kia
 1 SEX F
 1 BIRT
 2 DATE 20 AUG 1965
@@ -1535,7 +1541,6 @@
 2 GIVN Kadidia
 2 NICK Kadi
 2 SURN Traoré
-2 NICK Kadi
 1 SEX F
 1 BIRT
 2 DATE 10 JUN 1986
@@ -2471,7 +2476,6 @@
 1 SEX F
 1 BIRT
 2 DATE 30 MAY 1975
-1 EVEN
 1 ADOP Y
 1 ADOP Y
 1 RESI
@@ -2824,12 +2828,12 @@
 1 FAMS @F0087@
 0 @I0246@ INDI
 1 NAME Fanta /Diarra/
-2 TYPE BIRTH
+2 TYPE birth
 2 GIVN Fanta
 2 SURN Diarra
 2 NICK Fantany
 1 NAME Fanta /Traoré/
-2 TYPE MARRIED
+2 TYPE married
 2 GIVN Fanta
 2 SURN Traoré
 1 SEX F
@@ -3166,7 +3170,7 @@
 2 GIVN Adama
 2 SURN Diarra
 1 NAME Adama /Diarra/
-2 TYPE AKA
+2 TYPE aka
 2 GIVN Adama
 2 SURN Diarra
 2 NICK Damiss
@@ -3174,7 +3178,7 @@
 1 BIRT
 2 DATE 1 MAR 1971
 1 FACT I1004
-2 TYPE ID GRAMPS FUSIONNÉ
+2 TYPE id gramps fusionné
 1 FAMC @F0085@
 1 OBJE @M56@
 0 @I0283@ INDI
@@ -3217,6 +3221,9 @@
 1 BIRT
 2 DATE 08 DEC 1980
 0 @I0289@ INDI
+1 NAME Aminata (Beïni) /Traoré/
+2 GIVN Aminata (Beïni)
+2 SURN Traoré
 1 SEX F
 1 FAMS @F0101@
 0 @I0291@ INDI
@@ -3231,7 +3238,7 @@
 2 SURN Attingli
 1 SEX M
 1 FACT I1010
-2 TYPE ID GRAMPS FUSIONNÉ
+2 TYPE id gramps fusionné
 1 FAMS @F0103@
 0 @I0293@ INDI
 1 NAME Alain /Attingli/
@@ -3241,7 +3248,7 @@
 1 BIRT
 2 DATE 19 JAN 1963
 1 FACT I1011
-2 TYPE ID GRAMPS FUSIONNÉ
+2 TYPE id gramps fusionné
 1 FAMC @F0103@
 1 FAMS @F0114@
 1 OBJE @M80@
@@ -3343,7 +3350,7 @@
 2 GIVN Mariam
 2 SURN Savadogo
 1 NAME /Savadogo/
-2 TYPE AKA
+2 TYPE aka
 2 SURN Savadogo
 1 SEX F
 1 BIRT
@@ -3382,6 +3389,8 @@
 2 NOTE @N0004@
 1 FAMS @F0112@
 0 @I0315@ INDI
+1 NAME /(MèreHama)?/
+2 SURN (MèreHama)?
 1 SEX F
 1 BIRT
 2 NOTE @N0004@
@@ -3407,12 +3416,12 @@
 1 NAME Franciane
 2 GIVN Franciane
 1 NAME Franciane /Attingli/
-2 TYPE MARRIED
+2 TYPE married
 2 GIVN Franciane
 2 SURN Attingli
 1 SEX F
 1 FACT I1016
-2 TYPE ID GRAMPS FUSIONNÉ
+2 TYPE id gramps fusionné
 1 FAMS @F0114@
 1 OBJE @M82@
 0 @I0321@ INDI
@@ -3461,14 +3470,14 @@
 1 BIRT
 2 NOTE @N0004@
 1 FACT I0321
-2 TYPE ID GRAMPS FUSIONNÉ
+2 TYPE id gramps fusionné
 1 FAMS @F0085@
 0 @I1005@ INDI
 1 NAME Mariam /Coulibaly/
 2 GIVN Mariam
 2 SURN Coulibaly
 1 NAME Mariam /Diarra/
-2 TYPE MARRIED
+2 TYPE married
 2 GIVN Mariam
 2 SURN Diarra
 1 SEX F
@@ -3478,7 +3487,7 @@
 2 GIVN Aminata
 2 SURN Fofana
 1 NAME Aminata /Diarra/
-2 TYPE MARRIED
+2 TYPE married
 2 GIVN Aminata
 2 SURN Diarra
 1 SEX F
@@ -3488,12 +3497,12 @@
 2 GIVN Nana
 2 SURN Touré
 1 NAME Nana /Diarra/
-2 TYPE MARRIED
+2 TYPE married
 2 GIVN Nana
 2 SURN Diarra
 1 SEX F
 1 FACT I0288
-2 TYPE ID GRAMPS FUSIONNÉ
+2 TYPE id gramps fusionné
 1 FAMS @F1003@
 0 @I1008@ INDI
 1 NAME Mouye /Koureissi/
@@ -3518,7 +3527,7 @@
 1 BIRT
 2 DATE 13 JUN 1966
 1 FACT I0294
-2 TYPE ID GRAMPS FUSIONNÉ
+2 TYPE id gramps fusionné
 1 FAMC @F0103@
 1 FAMS @F1008@
 1 OBJE @M81@
@@ -3535,7 +3544,7 @@
 2 PLAC 77a Rue Henri Barbusse, 93 300 AUBERVILLIERS, FRANCE
 2 NOTE @N0555@
 1 FACT I0281
-2 TYPE ID GRAMPS FUSIONNÉ
+2 TYPE id gramps fusionné
 1 FAMC @F0096@
 1 OBJE @M98@
 0 @I1017@ INDI
@@ -3543,7 +3552,7 @@
 2 GIVN Mireille
 2 SURN Chadaré
 1 NAME Mireille /Attingli/
-2 TYPE MARRIED
+2 TYPE married
 2 GIVN Mireille
 2 SURN Attingli
 1 SEX F
@@ -3583,13 +3592,11 @@
 1 BIRT
 2 NOTE @N0004@
 1 FACT I0300
-2 TYPE ID GRAMPS FUSIONNÉ
+2 TYPE id gramps fusionné
 1 FAMC @F1009@
 1 FAMC @F0105@
 1 FAMS @F1012@
 1 FAMS @F0106@
-1 NAME
-2 NICK Thémoko
 0 @I1023@ INDI
 1 NAME Diabé /Diarra/
 2 GIVN Diabé
@@ -3598,7 +3605,7 @@
 1 BIRT
 2 NOTE @N0004@
 1 FACT I0301
-2 TYPE ID GRAMPS FUSIONNÉ
+2 TYPE id gramps fusionné
 1 FAMC @F1009@
 1 FAMC @F0105@
 1 FAMS @F1010@
@@ -3850,7 +3857,7 @@
 2 GIVN Catherine
 2 SURN Degras
 1 NAME Catherine /Traoré/
-2 TYPE MARRIED
+2 TYPE married
 2 GIVN Catherine
 2 SURN Traoré
 1 SEX F
@@ -3923,8 +3930,9 @@
 1 SEX M
 1 FAMC @F1021@
 0 @I1081@ INDI
-1 NAME
-2 NICK Baïni Sangou
+1 NAME Baïni /Sangou/
+2 SURN Sangou
+2 GIVN Baïni
 1 SEX F
 1 FAMS @F1022@
 0 @I1082@ INDI
@@ -3998,7 +4006,7 @@
 2 GIVN Kadidia
 2 SURN Coulibaly
 1 NAME Kadidia /Diarra/
-2 TYPE MARRIED
+2 TYPE married
 2 GIVN Kadidia
 2 SURN Diarra
 1 SEX F
@@ -4197,7 +4205,7 @@
 1 HUSB @I0002@
 1 WIFE @I0001@
 1 MARR
-2 TYPE CIVIL
+2 TYPE civil
 2 DATE 7 APR 1992
 2 PLAC Mont-Saint-Aignan, Seine-Maritime, Haute-Normandie, FRA
 3 MAP
@@ -4209,7 +4217,7 @@
 1 HUSB @I0005@
 1 WIFE @I0006@
 1 MARR
-2 TYPE RELIGIOUS
+2 TYPE religious
 2 DATE 9 OCT 1954
 2 PLAC Paris, FRA
 3 MAP
@@ -4574,7 +4582,7 @@
 1 DIV
 2 DATE 1996
 1 MARR
-2 TYPE CIVIL
+2 TYPE civil
 2 DATE 15 OCT 1977
 1 CHIL @I0184@
 1 CHIL @I0185@
@@ -4638,7 +4646,7 @@
 1 HUSB @I0088@
 1 WIFE @I0084@
 1 MARR
-2 TYPE CIVIL
+2 TYPE civil
 2 DATE FEB 2000
 2 PLAC Watford, Hertfordshire, ENG
 3 MAP
@@ -4727,13 +4735,13 @@
 1 HUSB @I0077@
 1 WIFE @I1003@
 1 MARR
-2 TYPE Y
+2 TYPE y
 1 CHIL @I0282@
 0 @F0086@ FAM
 1 HUSB @I0064@
 1 WIFE @I1000@
 1 EVEN
-2 TYPE TYPE
+2 TYPE type
 2 NOTE Description: Partners
 1 CHIL @I0246@
 0 @F0087@ FAM
@@ -4984,7 +4992,7 @@
 1 HUSB @I1073@
 1 WIFE @I1066@
 1 MARR
-2 TYPE PARTNERS
+2 TYPE partners
 1 CHIL @I1074@
 0 @F1020@ FAM
 1 HUSB @I1075@
@@ -5434,545 +5442,545 @@
 1 EMAIL boubacar.diarra@orange.fr
 0 @M4@ OBJE
 1 FILE souare_alexander.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M6@ OBJE
 1 FILE sadio_diarra.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M7@ OBJE
 1 FILE fanta_maiga.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M27@ OBJE
 1 FILE aurelie_diarra.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M30@ OBJE
 1 FILE fatimata_diawara.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M31@ OBJE
 1 FILE oumoumaiga.jpg
-2 FORM jpeg
+2 FORM JPG
 3 TYPE photo
 0 @M36@ OBJE
 1 FILE steven_obj.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M37@ OBJE
 1 FILE grace_obi.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M38@ OBJE
 1 FILE hannah_obi.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M39@ OBJE
 1 FILE abdoulaye_traore_3.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M40@ OBJE
 1 FILE mariam_traore_p.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M41@ OBJE
 1 FILE haby_traore_p.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M42@ OBJE
 1 FILE catherine_degras_p.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M43@ OBJE
 1 FILE moussa_traore_p.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M44@ OBJE
 1 FILE haby_trore_2.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M45@ OBJE
 1 FILE malick_traore_p.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M47@ OBJE
 1 FILE mireilla_attingli_2.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M48@ OBJE
 1 FILE sadio_attingli_2.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M49@ OBJE
 1 FILE nathan_attingl_pi.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M50@ OBJE
 1 FILE david_attingli_p.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M51@ OBJE
 1 FILE barou_maiga_p.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M52@ OBJE
 1 FILE diahara_haidara_p.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M53@ OBJE
 1 FILE boubacar_maiga.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M54@ OBJE
 1 FILE badji_diarra.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M55@ OBJE
 1 FILE mahamane_papen_diarra.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M56@ OBJE
 1 FILE adama_diarra_p.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M57@ OBJE
 1 FILE amadou_kouma.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M58@ OBJE
 1 FILE mohamed_champi_kouma.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M60@ OBJE
 1 FILE mareny_toure_xx.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M61@ OBJE
 1 FILE malick_toure_px.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M62@ OBJE
 1 FILE hawa_toure_px.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M63@ OBJE
 1 FILE biil_px.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M65@ OBJE
 1 FILE caylan_2_px.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M66@ OBJE
 1 FILE claude_diarra_xx.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M67@ OBJE
 1 FILE serge_diarra_xx.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M68@ OBJE
 1 FILE helene_cecille_xx.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M69@ OBJE
 1 FILE sadio_diallo_xx.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M70@ OBJE
 1 FILE alhassane_diarra_xx.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M71@ OBJE
 1 FILE papus_xx.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M72@ OBJE
 1 FILE ousmane_xx.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M73@ OBJE
 1 FILE natacha_xx.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M74@ OBJE
 1 FILE heleneberment_xx.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M75@ OBJE
 1 FILE malick_jr_xx.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M76@ OBJE
 1 FILE lia_1_xx.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M77@ OBJE
 1 FILE issack_xx.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M78@ OBJE
 1 FILE alessandro_xx.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M79@ OBJE
 1 FILE noliane_xx.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M80@ OBJE
 1 FILE alain_xx.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M81@ OBJE
 1 FILE ruffin_attingli_xx.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M82@ OBJE
 1 FILE franciane_xx.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M83@ OBJE
 1 FILE papa_xx.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M84@ OBJE
 1 FILE cheick_xx.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M85@ OBJE
 1 FILE mouy_xx.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M86@ OBJE
 1 FILE baisse_kamissoko_xx.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M87@ OBJE
 1 FILE femme_cheick_xx.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M88@ OBJE
 1 FILE idrissa_diop_xx.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M89@ OBJE
 1 FILE yelena_xx.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M90@ OBJE
 1 FILE yelena_yy.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M91@ OBJE
 1 FILE idrissa_yy.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M92@ OBJE
 1 FILE arnaud_xx.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M93@ OBJE
 1 FILE adama_diop_yy.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M94@ OBJE
 1 FILE hawacisse_xx.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M95@ OBJE
 1 FILE alfassine_xx.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M96@ OBJE
 1 FILE mama_xx.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M97@ OBJE
 1 FILE mimi_xx.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M98@ OBJE
 1 FILE pouli_xx.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M99@ OBJE
 1 FILE awa_xx.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @X39@ OBJE
 1 FILE Eleonore.jpg
-2 FORM jpeg
+2 FORM JPG
 0 @X40@ OBJE
 1 FILE Sasha.jpg
-2 FORM jpeg
+2 FORM JPG
 0 @X41@ OBJE
 1 FILE aguene.jpg
-2 FORM jpeg
+2 FORM JPG
 0 @M100@ OBJE
 1 FILE gigla_xx.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M101@ OBJE
 1 FILE hawamaiga_xx.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M102@ OBJE
 1 FILE aymeric_xx.jpg
-2 FORM jpeg
+2 FORM JPG
 3 TYPE photo
 0 @M103@ OBJE
 1 FILE Josiane_piljan_xx.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 0 @M166@ OBJE
 1 FILE Brigitte_31dec94_ra.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL Brigitte Diarra Dobigeon
 0 @M174@ OBJE
 1 FILE Bou_30mar03_r2.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL Bou_30mar03_r2.jpg
 0 @M185@ OBJE
 1 FILE 18_BoisAclou_Pascal_C_23oct96.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL 18_BoisAclou_Pascal_C_23oct96.jpg
 0 @M189@ OBJE
 1 FILE id_Cl_DOBI_annees70_r.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL id_Cl_DOBI_annees70_r.jpg
 0 @M195@ OBJE
 1 FILE LucienneGeisen1963.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL LucienneGeisen1963.jpg
 0 @M201@ OBJE
 1 FILE Pascal_2002.jpg
-2 FORM jpeg
+2 FORM jpg
 3 TYPE photo
 2 TITL Pascal_2002.jpg
 0 @M202@ OBJE
 1 FILE Marcel3.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL Marcel3.jpg
 0 @M203@ OBJE
 1 FILE Louise.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL Louise.jpg
 0 @M207@ OBJE
 1 FILE Serge_r3.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL Serge_r3.jpg
 0 @M208@ OBJE
 1 FILE Marc_r.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL Marc_r.jpg
 0 @M209@ OBJE
 1 FILE Paul2_r2.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL Paul2_r2.jpg
 0 @M210@ OBJE
 1 FILE Paul_r.jpg
-2 FORM jpeg
+2 FORM JPG
 3 TYPE photo
 2 TITL Paul_r.jpg
 0 @M212@ OBJE
 1 FILE Jeanne_chapeau_r2.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL Jeanne_chapeau_r2.jpg
 0 @M214@ OBJE
 1 FILE J_Baptiste_r2.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL J_Baptiste_r2.jpg
 0 @M215@ OBJE
 1 FILE Marie_Koehl_r.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL Marie_Koehl_r.jpg
 0 @M216@ OBJE
 1 FILE Charles2_r.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL Charles2_r.jpg
 0 @M217@ OBJE
 1 FILE Commissaire_r.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL Commissaire_r.jpg
 0 @M218@ OBJE
 1 FILE CharlesEpouse_ra2.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL CharlesEpouse_ra2.jpg
 0 @M219@ OBJE
 1 FILE Lucie.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL Lucie.jpg
 0 @M220@ OBJE
 1 FILE Renee.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL Renee.jpg
 0 @M221@ OBJE
 1 FILE JeanHOE_ra.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL JeanHOE_ra.jpg
 0 @M222@ OBJE
 1 FILE MarieHOE_vers40_ra.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL MarieHOE_vers40_ra.jpg
 0 @M223@ OBJE
 1 FILE Henri_Hoeflich_r.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL Henri_Hoeflich_r.jpg
 0 @M225@ OBJE
 1 FILE Henri_27fev93_ra.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL Henri_27fev93_ra.jpg
 0 @M227@ OBJE
 1 FILE Denise_Strasbourg_ra.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL Denise_Strasbourg_ra.jpg
 0 @M230@ OBJE
 1 FILE Christiane_ete91_r.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL Christiane_ete91_r.jpg
 0 @M231@ OBJE
 1 FILE PiljanJean_marie_r.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL PiljanJean_marie_r.jpg
 0 @M232@ OBJE
 1 FILE Jean_Luc2_27fev93.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL Jean_Luc2_27fev93.jpg
 0 @M233@ OBJE
 1 FILE Gwenaelle_27fev93.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL Gwenaelle_27fev93.jpg
 0 @M235@ OBJE
 1 FILE Mathilde.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL Mathilde.jpg
 0 @M236@ OBJE
 1 FILE Baptiste_2005_r.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL Baptiste_2005_r.jpg
 0 @M237@ OBJE
 1 FILE MariageJosi_2_Guillaume_ra.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL MariageJosi_2_Guillaume_ra.jpg
 0 @M239@ OBJE
 1 FILE Philemon.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL Philemon.jpg
 0 @M241@ OBJE
 1 FILE DiarraMahamane.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL DiarraMahamane.jpg
 0 @M252@ OBJE
 1 FILE baouba.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL baouba.jpg
 0 @M253@ OBJE
 1 FILE madou.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL madou.jpg
 0 @M255@ OBJE
 1 FILE mah.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL mah.jpg
 0 @M264@ OBJE
 1 FILE Amidou_r.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL Amidou_r.jpg
 0 @M268@ OBJE
 1 FILE Fousseyni_ra.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL Fousseyni_ra.jpg
 0 @M271@ OBJE
 1 FILE DiarraSouare_95.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL DiarraSouare_95.jpg
 0 @M277@ OBJE
 1 FILE kadi.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL kadi.jpg
 0 @M281@ OBJE
 1 FILE FantaTjini_r.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL FantaTjini_r.jpg
 0 @M282@ OBJE
 1 FILE Safiatou_r.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL Safiatou_r.jpg
 0 @M283@ OBJE
 1 FILE roth_jules.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL roth_jules.jpg
 0 @M284@ OBJE
 1 FILE tantiejeanne.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL tantiejeanne.jpg
 0 @M285@ OBJE
 1 FILE MarieLouise_r.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL MarieLouise_r.jpg
 0 @M290@ OBJE
 1 FILE atou.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL atou.jpg
 0 @M307@ OBJE
 1 FILE madou_tjine_diarra.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL madou_tjine_diarra.jpg
 0 @M308@ OBJE
 1 FILE peter.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL peter.jpg
 0 @M314@ OBJE
 1 FILE SP_A0077_049.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL NAISSANCE idrissa diop
 0 @M315@ OBJE
 1 FILE Idrissa_31mai04_2.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL Idrissa_31mai04_2.jpg
 0 @M316@ OBJE
 1 FILE fantany.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL fantany.jpg
 0 @M317@ OBJE
 1 FILE alassane_aime_patrice.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL alassane_aime_patrice.jpg
 0 @M318@ OBJE
 1 FILE diarra_alousseini_aime.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL diarra_alousseini_aime.jpg
 0 @M319@ OBJE
 1 FILE ousmane_diarra.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL ousmane_diarra.jpg
 0 @M320@ OBJE
 1 FILE mahamane_valery.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL mahamane_valery.jpg
 0 @M321@ OBJE
 1 FILE bamoussa_diarra_alassane.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL bamoussa_diarra_alassane.jpg
 0 @M322@ OBJE
 1 FILE penda_diarra_alassane.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL penda_diarra_alassane.jpg
 0 @M323@ OBJE
 1 FILE amadou_diarra_alassane.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL amadou_diarra_alassane.jpg
 0 @M325@ OBJE
 1 FILE sitandiarra.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL sitandiarra.jpg
 0 @M326@ OBJE
 1 FILE EpouxMarieHOE_vers40_ra.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL EpouxMarieHOE_vers40_ra.jpg
 0 @M327@ OBJE
 1 FILE FilsAdoptifMarieHOE_vers40_ra.jpg
-2 FORM jpeg
+2 FORM jpg
 2 TITL FilsAdoptifMarieHOE_vers40_ra.jpg
 0 TRLR

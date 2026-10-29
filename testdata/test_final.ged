@@ -30,7 +30,7 @@
 2 SURN Diallo
 1 SEX M
 1 FAMC @F0102@
-2 PEDI BIRTH
+2 PEDI birth
 1 OBJE @M84@
 1 FAMS @F6@
 0 @I3@ INDI
@@ -1499,7 +1499,6 @@
 2 GIVN Sadio
 2 NICK Kia
 2 SURN Diarra
-2 NICK Kia
 1 SEX F
 1 BIRT
 2 DATE 20 AUG 1965
@@ -3594,6 +3593,7 @@
 1 NAME Nafe /Diarra/
 2 GIVN Nafe
 2 SURN Diarra
+2 NICK Thiémokp
 1 SEX M
 1 BIRT
 2 NOTE @N0004@
@@ -3603,8 +3603,6 @@
 1 FAMC @F0105@
 1 FAMS @F1012@
 1 FAMS @F0106@
-1 NAME
-2 NICK Thémoko
 0 @I1023@ INDI
 1 NAME Diabé /Diarra/
 2 GIVN Diabé
@@ -3938,8 +3936,7 @@
 1 SEX M
 1 FAMC @F1021@
 0 @I1081@ INDI
-1 NAME
-2 NICK Baïni Sangou
+1 NAME Baïni /Sangou/
 1 SEX F
 1 FAMS @F1022@
 0 @I1082@ INDI

@@ -21,47 +21,15 @@ func TestNewTreeFromFile(t *testing.T) {
 	if !otree.IsValid() {
 		t.Fatalf("Document is nil in the parsed tree")
 	}
-	nIndivs := otree.IndivsCount()
-	if nIndivs < 1 {
-		t.Fatalf("Failed to parse GEDCOM file: %s", testGedcomFile)
-	}
-	nFamilies := otree.FamiliesCount()
-	if nFamilies < 1 {
-		t.Fatalf("Failed to parse GEDCOM file: %s", testGedcomFile)
-	}
-	nNotes := otree.NotesCount()
-	if nNotes < 1 {
-		t.Fatalf("Failed to parse GEDCOM file: %s", testGedcomFile)
-	}
-	nObjects := otree.ObjectsCount()
-	if nObjects < 1 {
-		t.Fatalf("Failed to parse GEDCOM file: %s", testGedcomFile)
-	}
-	nSources := otree.SourcesCount()
-	if nSources < 1 {
-		t.Fatalf("Failed to parse GEDCOM file: %s", testGedcomFile)
-	}
-	nRepositories := otree.RepositoriesCount()
-	if nRepositories < 0 {
-		t.Fatalf("Failed to parse GEDCOM file: %s", testGedcomFile)
-	}
 	dataString := otree.String()
 	if dataString == "" {
-		t.Fatalf("Failed to parse GEDCOM file: %s", testGedcomFile)
-	}
-	nSubmissions := otree.SubmissionsCount()
-	if nSubmissions < 0 {
-		t.Fatalf("Failed to parse GEDCOM file: %s", testGedcomFile)
-	}
-	nSubmitters := otree.SubmittersCount()
-	if nSubmitters < 1 {
 		t.Fatalf("Failed to parse GEDCOM file: %s", testGedcomFile)
 	}
 } // TestNewTreeFromFile
 func TestNewFromSting(t *testing.T) {
 	fixture := NewTestFixture()
 	testGedcomFile := fixture.TestGedcomFilePath
-	data,err := os.ReadFile(testGedcomFile)
+	data, err := os.ReadFile(testGedcomFile)
 	if err != nil {
 		t.Fatalf("Error parsing GEDCOM file: %v", err)
 	}
@@ -75,7 +43,7 @@ func TestNewFromSting(t *testing.T) {
 	if !otree.IsValid() {
 		t.Fatalf("Document is nil in the parsed tree")
 	}
-}// TestNewFromSting
+} // TestNewFromSting
 func TestDescribe(t *testing.T) {
 	fixture := NewTestFixture()
 	testGedcomFile := fixture.TestGedcomFilePath
@@ -118,7 +86,7 @@ func TestFixNodesUniqueness(t *testing.T) {
 	if otree == nil {
 		t.Fatalf("Failed to parse GEDCOM file: %s", fixture.TestGedcomFilePath)
 	}
-	notuniques, err := otree.FixNodesUniqueness()
+	notuniques, err := otree.CheckNodesUniqueness()
 	if err != nil {
 		t.Fatalf("Error fixing nodes uniqueness: %v", err)
 	}
@@ -128,13 +96,13 @@ func TestFixNodesUniqueness(t *testing.T) {
 		}
 	}
 } // TestFixNodesUniqueness
-func TestFilterChanges(t *testing.T) {
+func TestCleanNodes(t *testing.T) {
 	fixture := NewTestFixture()
 	otree := fixture.GetTree()
 	if otree == nil {
 		t.Fatalf("Failed to parse GEDCOM file: %s", fixture.TestGedcomFilePath)
 	}
-	err := otree.FilterChanges()
+	err := otree.CleanNodes()
 	if err != nil {
 		t.Fatalf("Error filtering changes: %v", err)
 	}
@@ -142,7 +110,7 @@ func TestFilterChanges(t *testing.T) {
 	if err != nil {
 		t.Fatalf("Error writing to file: %v", err)
 	}
-} // TestFilterChanges
+} // TestCleanNodes
 func TestFixReferences(t *testing.T) {
 	fixture := NewTestFixture()
 	otree := fixture.GetTree()
@@ -179,6 +147,7 @@ func TestCleanAndExport(t *testing.T) {
 	}
 	fmt.Printf("Final map: %v\n", oMapFinal)
 }
+
 func TestGetAllFiles(t *testing.T) {
 	fixture := NewTestFixture()
 	otree := fixture.GetTree()

@@ -4,3 +4,5 @@
 **/*.pkg
 **/*_debug*
 **/coverage*
+testdata/test_final*
+testdata/test_go_2*
